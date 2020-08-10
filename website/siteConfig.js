@@ -6,10 +6,8 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
-// Replace 'project-blueprint' with {project name}
-const projectName = 'project-blueprint'
-// Replace 'FINOS' with {name of copyright owner}
-const copyrightOwner = 'FINOS'
+const projectName = 'glue'
+const copyrightOwner = 'EPAM Systems, Inc.'
 
 const siteConfig = {
   title: `FINOS ${projectName}`,

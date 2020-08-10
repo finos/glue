@@ -19,8 +19,8 @@ $ npm -v
 2. Install and run Docusaurus locally
 
 ```sh
-$ git clone git@github.com:<your fork>/{project name}.git
-$ cd {project name}
+$ git clone git@github.com:<your fork>/glue.git
+$ cd glue
 
 # Download dependencies
 $ yarn --cwd website install

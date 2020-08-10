@@ -1,6 +1,6 @@
 ---
 id: home
-title: {project name} docs
+title: glue docs
 ---
 
 ## Getting started
