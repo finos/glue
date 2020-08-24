@@ -11,7 +11,7 @@ List the roadmap steps; alternatively link the Confluence Wiki page where the pr
 
 1. Item 1
 2. Item 2
-3. ....
+3. ..
 
 ## Contributing
 
