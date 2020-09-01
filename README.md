@@ -3,12 +3,12 @@
 
 # glue
 
-Business Problem
+Business Problem:
 Banks are struggling to leverage their existing  data residing in heterogeneous ledger systems.
 Traditional Data-Warehouse solutions do not provide the  performance needed for modern analytical solutions exposed to the end-client.
 Banks are in need of a mid & front- office platform allowing them to leverage their data for real time analytical solutions such as Portfolio Risk Management, Performance Analytics forming the basis for the digital Transformation.
 
-Proposed Solution
+Proposed Solution:
 EPAM GLUE is an enterprise data model for the buy side, tailored for Wealth and Asset Managers and covering key entities such as Party, Business Relationship, Investment Strategy, Instruments, Portfolios and more.
 The model has been designed for strong security, client data protection and GDPR compliance with clear separation of sensitive data, late enrichment and anonymized analytical patterns.
 How the model can be used:
