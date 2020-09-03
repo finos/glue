@@ -1,22 +1,28 @@
 [![FINOS - Forming](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Incubating)
 ![website build](https://github.com/finos/glue/workflows/Docusaurus-website-build/badge.svg)
 
-# glue
+# Glue
 
-Business Problem:
-Banks are struggling to leverage their existing  data residing in heterogeneous ledger systems.
+## Business Problem:
+Banks are struggling to leverage their existing data residing in heterogeneous ledger systems.
+
 Traditional Data-Warehouse solutions do not provide the  performance needed for modern analytical solutions exposed to the end-client.
-Banks are in need of a mid & front- office platform allowing them to leverage their data for real time analytical solutions such as Portfolio Risk Management, Performance Analytics forming the basis for the digital Transformation.
 
-Proposed Solution:
-EPAM GLUE is an enterprise data model for the buy side, tailored for Wealth and Asset Managers and covering key entities such as Party, Business Relationship, Investment Strategy, Instruments, Portfolios and more.
+Banks are in need of a mid & front-office platform allowing them to leverage their data for real time analytical solutions such as Portfolio Risk Management, Performance Analytics forming the basis for the digital transformation.
+
+## Proposed Solution:
+Glue is an enterprise data model for the buy side, tailored for Wealth and Asset Managers and covering key entities such as Party, Business Relationship, Investment Strategy, Instruments, Portfolios and more.
+
 The model has been designed for strong security, client data protection and GDPR compliance with clear separation of sensitive data, late enrichment and anonymized analytical patterns.
-How the model can be used:
-It supports high-performance analytical application with appropriate platform implementation and these analytic layers have been implemented in a reference environment with large-scale parallelisation, distributed memory stores and cloud native deployment. This reference implementation is not part the data model itself. The model and implementations like the above support fault tolerance and continuity. This forms the basis of modern, data driven hybrid advisory platforms for clients and advisors with next generation digital experiences.
+
+## How the model can be used:
+Glue supports high-performance analytical application with appropriate platform implementation and these analytic layers have been implemented in a reference environment with large-scale parallelisation, distributed memory stores and cloud native deployment. 
+
+This reference implementation is not part the data model itself. 
+
+The model and implementations like the above support fault tolerance and continuity. This forms the basis of modern, data driven hybrid advisory platforms for clients and advisors with next generation digital experiences.
 
 ## Roadmap
-
-List the roadmap steps; alternatively link the Confluence Wiki page where the project roadmap is published.
 
 1. Multilanguage support
 2. DB independent scripts
@@ -31,7 +37,11 @@ List the roadmap steps; alternatively link the Confluence Wiki page where the pr
 5. Push to the branch (`git push origin feature/fooBar`)
 6. Create a new Pull Request
 
-_NOTE:_ Commits and pull requests to FINOS repositories will only be accepted from those contributors with an active, executed Individual Contributor License Agreement (ICLA) with FINOS OR who are covered under an existing and active Corporate Contribution License Agreement (CCLA) executed with FINOS. Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS Clabot tool. Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA.
+_NOTE:_ Commits and pull requests to FINOS repositories will only be accepted from those contributors with an active, executed Individual Contributor License Agreement (ICLA) with FINOS OR who are covered under an existing and active Corporate Contribution License Agreement (CCLA) executed with FINOS. 
+
+Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS CLA Bot. 
+
+Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA.
 
 *Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org)*
 
