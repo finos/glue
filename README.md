@@ -39,7 +39,7 @@ The model and implementations like the above support fault tolerance and continu
 
 _NOTE:_ Commits and pull requests to FINOS repositories will only be accepted from those contributors with an active, executed Individual Contributor License Agreement (ICLA) with FINOS OR who are covered under an existing and active Corporate Contribution License Agreement (CCLA) executed with FINOS. 
 
-Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS CLABot. 
+Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS CLA Bot. 
 
 Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA.
 
