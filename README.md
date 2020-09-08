@@ -18,7 +18,7 @@ The model has been designed for strong security, client data protection and GDPR
 ## How the model can be used:
 Glue supports high-performance analytical application with appropriate platform implementation and these analytic layers have been implemented in a reference environment with large-scale parallelisation, distributed memory stores and cloud native deployment. 
 
-This reference implementation is not part the data model itself. 
+This reference implementation is not part of the data model itself. 
 
 The model and implementations like the above support fault tolerance and continuity. This forms the basis of modern, data driven hybrid advisory platforms for clients and advisors with next generation digital experiences.
 
