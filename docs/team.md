@@ -1,8 +1,8 @@
 ---
 id: team
 title: glue Team
-id: team2
-title: glue Team2
+id2: team2
+title2: glue Team2
 ---
 
 ....
