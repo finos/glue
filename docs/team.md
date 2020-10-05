@@ -1,6 +1,8 @@
 ---
-id: team: 2
-title: glue Team: 3
+id: team
+title: glue Team
+id: team2
+title: glue Team2
 ---
 
 ....
