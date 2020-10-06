@@ -27,7 +27,6 @@ jobs:
         mysql root password: ${{ test123 }}
 
     - name: run our scripts
-      uses: github/finos/glue
       env: 
         DEFAULT_BRANCH: master
       run: glue/model/Glue_Scripts.sql
