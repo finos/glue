@@ -1,4 +1,11 @@
+---
+id: Dictionary
+title: Data Dictionary
+---
 
+## Data Dictionary
+		
+		
 		| Create Table if NOT EXISTS| Primary Key ('id')|.|ENGINE = InnoDB|.|
 		|---|---|---|---|---|
 		|Table Name | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|.|
