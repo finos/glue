@@ -22,6 +22,7 @@ jobs:
     - name: Set up MySQL
       uses: mirromutth/mysql-action@master
       with: 
+          host port: 3800 # Optional, default value is 3306. The port of host
           mysql version: '8.0' # Optional, default value is "latest". The version of the MySQL
           mysql database: 'test' # Optional, default value is "test". The specified database which will be create
           mysql root password: 'root' # Required if "mysql user" is empty, default is empty. The root superuser password
@@ -29,6 +30,6 @@ jobs:
     - name: checkout our repo
       uses: actions/checkout@v1
     - name: run our scripts
-      run: mysql --host=localhost --user=root --password=root -e glue/model/Glue_Scripts.sql
+      run: mysql --host=localhost --port=3800 --user=root --password=root -e glue/model/Glue_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
