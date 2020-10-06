@@ -34,6 +34,7 @@ jobs:
     - name: run our scripts
       run: |
        sleep 30
+       cat glue/model/Glue2_Scripts.sql
        mysql --host=localhost --port=3800 --user=root --password=root -e glue/model/Glue2_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
