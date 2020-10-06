@@ -3,10 +3,10 @@ name: test
 on:
   push:
     branches:
-    - feature/mirrormouth
+    - master
   pull_request:
     branches:
-    - feature/mirrormouth
+    - master
 
 jobs:
   build:
@@ -33,8 +33,8 @@ jobs:
       run: sudo service mysql start
     - name: run our scripts
       run: |
-       sleep 30
-       cat glue/model/Glue2_Scripts.sql
+       pwd
+       ls -laR /
        mysql --host=localhost --port=3800 --user=root --password=root -e glue/model/Glue2_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
