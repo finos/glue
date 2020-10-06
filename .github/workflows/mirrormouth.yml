@@ -24,7 +24,7 @@ jobs:
       with:
         mysql version: 5.7
         mysql database: test
-        mysql root password: ${{ test123 }}
+        mysql root password:  ${{ secrets.DatabasePassword }}
 
     - name: run our scripts
       env: 
