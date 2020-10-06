@@ -33,6 +33,6 @@ jobs:
       run: sudo service mysql start
     - name: run our scripts
       run: 
-       mysql --host=localhost --port=3800 --user=root --password=root -e /home/runner/work/glue/glue/model/Glue_Scripts.sql
+       mysql --host=localhost --port=3800 --user=root --password=root -e /home/runner/work/glue/glue/model/Glue2_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
