@@ -21,15 +21,18 @@ jobs:
       run: sudo service mysql stop
     - name: Set up MySQL 5.7
       uses: mirromutth/mysql-action@master
-      with:
-        mysql version: 5.7
-        mysql database: test
-        mysql root password:  ${{ secrets.DatabasePassword }}
-
+        with:
+          host port: 3800 # Optional, default value is 3306. The port of host
+          container port: 3307 # Optional, default value is 3306. The port of container
+          character set server: 'utf8' # Optional, default value is 'utf8mb4'. The '--character-set-server' option for mysqld
+          collation server: 'utf8_general_ci' # Optional, default value is 'utf8mb4_general_ci'. The '--collation-server' option for mysqld
+          mysql version: '8.0' # Optional, default value is "latest". The version of the MySQL
+          mysql database: 'test' # Optional, default value is "test". The specified database which will be create
+          mysql root password: 'root' # Required if "mysql user" is empty, default is empty. The root superuser password
+          mysql password: 'root' # Required if "mysql user" exists. The password for the "mysql user
+    - name: checkout our repo
+      uses: actions/checkout@v1
     - name: run our scripts
-      env: 
-        DEFAULT_BRANCH: master
-      run: glue/model/Glue_Scripts.sql
-
+      run: mysql --host=localhost --user=root --password=root -e glue/model/Glue_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
