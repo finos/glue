@@ -1,0 +1,36 @@
+name: test
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    strategy:
+      matrix:
+        node-version: ['10.x']
+
+    steps:
+    - name: Shutdown Ubuntu MySQL (SUDO)
+      run: sudo service mysql stop
+    - name: Set up MySQL 5.7
+      uses: mirromutth/mysql-action@master
+      with:
+        mysql version: 5.7
+        mysql database: test
+        mysql root password: ${{ test123 }}
+
+    - name: run our scripts
+      uses: github/finos/glue
+      env: 
+        DEFAULT_BRANCH: master
+      run: glue/model/Glue_Scripts.sql
+
+    - name: collect outcomes
+      run: "echo $?"
