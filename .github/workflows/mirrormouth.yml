@@ -29,9 +29,11 @@ jobs:
           mysql password: 'root' # Required if "mysql user" exists. The password for the "mysql user
     - name: checkout our repo
       uses: actions/checkout@v1
+    - name: start mysql
+      run: sudo service mysql start
     - name: run our scripts
       run: |
-       sleep 60
+       sleep 30
        mysql --host=localhost --port=3800 --user=root --password=root -e glue/model/Glue_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
