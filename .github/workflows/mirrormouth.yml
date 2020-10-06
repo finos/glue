@@ -32,8 +32,7 @@ jobs:
     - name: start mysql
       run: sudo service mysql start
     - name: run our scripts
-      run: |
-       ls -laR /
-       mysql --host=localhost --port=3800 --user=root --password=root -e glue/model/Glue2_Scripts.sql
+      run: 
+       mysql --host=localhost --port=3800 --user=root --password=root -e /home/runner/work/glue/glue/model/Glue_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
