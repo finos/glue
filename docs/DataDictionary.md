@@ -5,7 +5,12 @@ title: Data Dictionary
 
 ## Data Dictionary
 		
-		
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
+
 		| Create Table if NOT EXISTS| Primary Key ('id')|.|ENGINE = InnoDB|.|
 		|---|---|---|---|---|
 		|Table Name | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|.|
