@@ -33,12 +33,12 @@ jobs:
       run: sudo service mysql start
     - name: run our scripts
       run: |
-       create directory
-       sudo mkdir -p /var/run
+       # create directory
+       sudo /bin/mkdir -p /var/run
        # touch file which is needed
-       sudo touch /var/run/mysqld,chmod 777 /var/run/mysqld
+       sudo /bin/touch /var/run/mysqld,chmod 777 /var/run/mysqld
        # stop to change rights
-       sudo service mysql stop
+       sudo /bin/service mysql stop
        # use “--skip-grant-tables” to restart mysql and connect without password
        sudo mysqld_safe --skip-grant-tables
        # cd to our script location  
