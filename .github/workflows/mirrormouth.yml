@@ -34,7 +34,7 @@ jobs:
     - name: run our scripts
       run: |
        cd /home/runner/work/glue/glue/model/
-       mysql --host=localhost --port=3800 --user=root --password=root
+       mysql -u root -h localhost --port=3800 -p root
        show databases;
        source Glue2_Scripts.sql
     - name: collect outcomes
