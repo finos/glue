@@ -37,6 +37,8 @@ jobs:
        sudo /bin/mkdir -p /var/run/mysqld
        # assign rights to mysql
        sudo /bin/chown mysql:mysql /var/run/mysqld
+       # check if exists or not
+       ls -ld /var/run/mysqld
        # stop to change rights
        sudo /usr/sbin/service mysql stop
        # use “--skip-grant-tables” to restart mysql and connect without password
@@ -49,6 +51,7 @@ jobs:
        show databases;
        # run finally what we have
        source Glue2_Scripts.sql
+       cat /var/log/mysql/error.log
     - name: collect outcomes
       run: |
        sudo mysql -u root
