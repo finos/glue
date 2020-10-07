@@ -22,8 +22,10 @@ jobs:
     - name: Set up MySQL
       uses: mirromutth/mysql-action@master
       with: 
+          host port: 3306 # Optional, default value is 3306. The port of host
           mysql version: '8.0' # Optional, default value is "latest". The version of the MySQL
           mysql database: 'test' # Optional, default value is "test". The specified database which will be create
+          mysql root password: 'root'
           mysql user: 'developer'
           mysql password: 'developer'
     - name: checkout our repo
