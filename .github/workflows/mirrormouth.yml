@@ -50,5 +50,7 @@ jobs:
        # run finally what we have
        source Glue2_Scripts.sql
     - name: collect outcomes
-      run:
-      echo 'this is the end of it'
+      run: |
+      sudo mysql -u root
+      show databases;
+      
