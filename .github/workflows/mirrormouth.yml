@@ -39,10 +39,14 @@ jobs:
        sudo /bin/chown mysql:mysql /var/run/mysqld
        # check if exists or not
        ls -ld /var/run/mysqld
+       # add right for all to this dir
+       chmod 777 /var/run/mysqld
        # stop to change rights
        sudo /usr/sbin/service mysql stop
+       cat /var/log/mysql/error.log
        # use “--skip-grant-tables” to restart mysql and connect without password
        sudo mysqld_safe --skip-grant-tables
+       cat /var/log/mysql/error.log
        # cd to our script location  
        cd /home/runner/work/glue/glue/model/
        # connect as root
@@ -51,7 +55,6 @@ jobs:
        show databases;
        # run finally what we have
        source Glue2_Scripts.sql
-       cat /var/log/mysql/error.log
     - name: collect outcomes
       run: |
        sudo mysql -u root
