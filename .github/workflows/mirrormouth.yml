@@ -38,7 +38,7 @@ jobs:
        # touch file which is needed
        sudo /bin/touch /var/run/mysqld,chmod 777 /var/run/mysqld
        # stop to change rights
-       sudo /bin/service mysql stop
+       sudo /usr/bin/service mysql stop
        # use “--skip-grant-tables” to restart mysql and connect without password
        sudo mysqld_safe --skip-grant-tables
        # cd to our script location  
