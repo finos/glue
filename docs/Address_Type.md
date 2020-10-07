@@ -1,3 +1,8 @@
+---
+id: Address_Type
+title: Address_Type
+---
+
 ## Data Dictionary : Entity Table Address_Type
 
 Under the table: Address_Type and column: Name, cannot exceed 45 characters in length. 
