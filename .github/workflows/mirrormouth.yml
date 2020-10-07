@@ -35,4 +35,4 @@ jobs:
       run: | 
        cd /home/runner/work/glue/glue/model/
        sleep 15
-       /usr/bin/mysql -h 127.0.0.1 -P 3800 -uroot -proot test < Glue2_Scripts.sql
+       /usr/bin/mysql -h 127.0.0.1 -P 3800 -uroot -proot test < Glue_Scripts.sql
