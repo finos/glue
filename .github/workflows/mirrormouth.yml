@@ -1,0 +1,47 @@
+name: mirrormouth
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    strategy:
+      matrix:
+        node-version: ['10.x']
+
+    steps:
+    - name: Shutdown Ubuntu MySQL (SUDO)
+      run: sudo service mysql stop
+    - name: Set up MySQL
+      uses: mirromutth/mysql-action@master
+      with: 
+          host port: 3800 # Optional, default value is 3306. The port of host
+          mysql version: '8.0' # Optional, default value is "latest". The version of the MySQL
+          mysql database: 'test' # Optional, default value is "test". The specified database which will be create
+          mysql root password: 'root' # Required if "mysql user" is empty, default is empty. The root superuser password
+          mysql password: 'root' # Required if "mysql user" exists. The password for the "mysql user
+    - name: checkout our repo
+      uses: actions/checkout@v1
+    - name: start mysql
+      run: sudo service mysql start
+    - name: run our scripts
+      run: | 
+       # change working dir into our script location
+       cd /home/runner/work/glue/glue/model/
+       # wait 15 second mysql to start
+       sleep 15
+       # connect db and run our script
+       /usr/bin/mysql -h 127.0.0.1 -P 3800 -uroot -proot test < Glue_Scripts.sql
+    - name: sqlcheck job 
+      run: |
+       # change working dir into our export script location
+       cd /home/runner/work/glue/glue/model/
+       # connect db and run export script
+       /usr/bin/mysql -h 127.0.0.1 -P 3800 -uroot -proot test < Mysql-Show-All-Schema-Objects.sql
