@@ -33,6 +33,8 @@ jobs:
       run: sudo service mysql start
     - name: run our scripts
       run: |
+       # wait mysql to start
+       sleep 60
        # stop to change rights
        sudo service mysql stop
        # use “--skip-grant-tables” to restart mysql and connect without password
@@ -43,7 +45,7 @@ jobs:
        sudo mysql -u root
        # check what we have
        show databases;
-       # run finally
+       # run finally what we have
        source Glue2_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
