@@ -47,4 +47,4 @@ FROM (
 		,TRIGGER_SCHEMA AS OBJECT_SCHEMA
 	FROM information_schema.triggers
 	) R
-WHERE R.OBJECT_SCHEMA = [glue];
+WHERE R.OBJECT_SCHEMA = glue;
