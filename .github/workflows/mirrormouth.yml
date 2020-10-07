@@ -37,6 +37,6 @@ jobs:
        source Glue2_Scripts.sql
     - name: collect outcomes
       run: |
-       sudo mysql -u root
+       sudo mysql -uroot -proot -e test
        show databases;
       
