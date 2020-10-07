@@ -1,4 +1,4 @@
-name: test_mirrormouth
+name: mirrormouth
 
 on:
   push:
