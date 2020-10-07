@@ -22,38 +22,18 @@ jobs:
     - name: Set up MySQL
       uses: haltuf/mysql-action@master
       with: 
-          host port: 3800 # Optional, default value is 3306. The port of host
           mysql version: '8.0' # Optional, default value is "latest". The version of the MySQL
           mysql database: 'test' # Optional, default value is "test". The specified database which will be create
-          mysql user: 'developer'
-          mysql password: 'developer'
     - name: checkout our repo
       uses: actions/checkout@v1
     - name: start mysql what we installed
       run: sudo service mysql start
     - name: run our scripts
       run: |
-       # create directory
-       sudo /bin/mkdir -p /var/run/mysqld
-       # assign rights to mysql
-       sudo /bin/chown mysql:mysql /var/run/mysqld
-       # check if exists or not
-       ls -ld /var/run/mysqld
-       # add right for all to this dir
-       chmod 777 /var/run/mysqld
-       # stop to change rights
-       sudo /usr/sbin/service mysql stop
-       cat /var/log/mysql/error.log
-       # use “--skip-grant-tables” to restart mysql and connect without password
-       sudo mysqld_safe --skip-grant-tables
-       cat /var/log/mysql/error.log
        # cd to our script location  
        cd /home/runner/work/glue/glue/model/
        # connect as root
-       sudo mysql -u root
-       # check what we have
-       show databases;
-       # run finally what we have
+       sudo mysql -uroot -proot
        source Glue2_Scripts.sql
     - name: collect outcomes
       run: |
