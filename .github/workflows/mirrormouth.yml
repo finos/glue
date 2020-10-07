@@ -33,6 +33,16 @@ jobs:
       run: sudo service mysql start
     - name: run our scripts
       run: | 
+       # change working dir into our script location
        cd /home/runner/work/glue/glue/model/
+       # wait 15 second mysql to start
        sleep 15
+       # connect db and run our script
        /usr/bin/mysql -h 127.0.0.1 -P 3800 -uroot -proot test < Glue_Scripts.sql
+    - name: sqlcheck job 
+      uses: actions/checkout@master
+      uses: yokawasa/action-sqlcheck@v1.1.0
+      with:
+        post-comment: true
+        risk-level: 3
+        verbose: true
