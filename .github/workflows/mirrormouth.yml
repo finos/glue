@@ -1,4 +1,4 @@
-name: test
+name: test_mirrormouth
 
 on:
   push:
@@ -22,25 +22,18 @@ jobs:
     - name: Set up MySQL
       uses: mirromutth/mysql-action@master
       with: 
-          host port: 3306 # Optional, default value is 3306. The port of host
+          host port: 3800 # Optional, default value is 3306. The port of host
           mysql version: '8.0' # Optional, default value is "latest". The version of the MySQL
           mysql database: 'test' # Optional, default value is "test". The specified database which will be create
-          mysql root password: 'root'
-          mysql user: 'developer'
-          mysql password: 'developer'
+          mysql root password: 'root' # Required if "mysql user" is empty, default is empty. The root superuser password
+          mysql password: 'root' # Required if "mysql user" exists. The password for the "mysql user
     - name: checkout our repo
       uses: actions/checkout@v1
-    - name: start mysql what we installed
+    - name: start mysql
       run: sudo service mysql start
     - name: run our scripts
-      run: |
-       # cd to our script location  
+      run: | 
        cd /home/runner/work/glue/glue/model/
-       # connect as root
-       sudo mysql -uroot -proot
+       mysql --host=localhost --port=3800 --user=root --password=root
        source Glue2_Scripts.sql
     - name: collect outcomes
-      run: |
-       sudo mysql -uroot -proot -e test
-       show databases;
-      
