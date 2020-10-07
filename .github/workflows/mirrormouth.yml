@@ -35,6 +35,7 @@ jobs:
       run: |
        cd /home/runner/work/glue/glue/model/
        mysql --host=localhost --port=3800 --user=root --password=root
+       show databases;
        source Glue2_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
