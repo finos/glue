@@ -33,9 +33,17 @@ jobs:
       run: sudo service mysql start
     - name: run our scripts
       run: |
+       # stop to change rights
+       sudo service mysql stop
+       # use “--skip-grant-tables” to restart mysql and connect without password
+       sudo mysqld_safe --skip-grant-tables
+       # cd to our script location  
        cd /home/runner/work/glue/glue/model/
-       mysql -u developer -h localhost --port=3800 -pdeveloper
+       # connect as root
+       sudo mysql -u root
+       # check what we have
        show databases;
+       # run finally
        source Glue2_Scripts.sql
     - name: collect outcomes
       run: "echo $?"
