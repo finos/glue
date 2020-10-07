@@ -50,4 +50,6 @@ jobs:
        # run finally what we have
        source Glue2_Scripts.sql
     - name: collect outcomes
-      run: "echo $?"
+      run: |
+      echo "this is the end of it"
+      echo "test"
