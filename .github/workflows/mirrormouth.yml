@@ -34,9 +34,9 @@ jobs:
     - name: run our scripts
       run: |
        # create directory
-       sudo /bin/mkdir -p /var/run
-       # touch file which is needed
-       sudo /bin/touch /var/run/mysqld,chmod 777 /var/run/mysqld
+       sudo /bin/mkdir -p /var/run/mysqld
+       # assign rights to mysql
+       sudo /bin/chown mysql:mysql /var/run/mysqld
        # stop to change rights
        sudo /usr/sbin/service mysql stop
        # use “--skip-grant-tables” to restart mysql and connect without password
