@@ -33,8 +33,8 @@ jobs:
       run: sudo service mysql start
     - name: run our scripts
       run: |
-       # wait mysql to start
-       sleep 60
+       # touch file which is needed
+       sudo touch /var/run/mysqld,chmod 777 /var/run/mysqld
        # stop to change rights
        sudo service mysql stop
        # use “--skip-grant-tables” to restart mysql and connect without password
