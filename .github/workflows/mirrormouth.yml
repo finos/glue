@@ -33,7 +33,8 @@ jobs:
       run: sudo service mysql start
     - name: run our scripts
       run: | 
-       /usr/bin/sudo /bin/ln -s /usr/local/mysql/bin/mysql /usr/local/bin/mysql
+       which mysql
+       whereis mysql
        cd /home/runner/work/glue/glue/model/
        /usr/local/bin/mysql --host=localhost --port=3800 --user=root --password=root
        source Glue2_Scripts.sql
