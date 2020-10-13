@@ -6,4 +6,4 @@ title: glue docs
 ## Getting started
 
 ....
-[image](assets/Businesspartner.jpg)  
+[image](assets/Businesspartner.JPG)  
