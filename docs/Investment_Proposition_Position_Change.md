@@ -5,7 +5,7 @@ title: Investment_Proposition_Position_Change
 ---
 
 ## Data Dictionary - Entity Table: Investment_Proposition_Position_Change
-Enter information for the investment proposition, position change
+Enter information for the investment proposition, position change.
 
 | Create Table if NOT EXISTS|Primary Key ('id')|.|ENGINE = InnoDB|.|
 |---|---|---|---|---|
