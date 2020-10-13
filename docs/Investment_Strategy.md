@@ -9,7 +9,7 @@ title: Investment_Strategy
 
 Enter information for the Investment Strategy.
 
-Types of Investment Strategy: Value Investing, Income Investing, Growth Investing, Small Cap Investing, Socially Responsible Investing
+Types of Investment Strategy: Value Investing, Income Investing, Growth Investing, Small Cap Investing, Socially Responsible Investing.
 
 | Create Table if NOT EXISTS| Primary Key ('id')|.|ENGINE = InnoDB|.|
 |---|---|---|---|---|
