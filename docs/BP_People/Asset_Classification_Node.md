@@ -16,15 +16,16 @@ This is a hierarchical view depending on the regional classification schema. Sev
 The GICS - Global Industry Classification Standard. GICS structure consists of 11 sectors, 24 industry groups, 69 industries, 158 sub-industries into which S&P has categorized all major public companies. 
  
 
-| Primary Key ('id')|.|ENGINE = InnoDB|.|.|
-|---|---|---|---|---|
+
 | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example|Comment|
+|---|---|---|---|---|
+| Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 ||
 |`id`|BIGINT(12)|PK, NN|.|PrimaryKey-ID, Not Null (auto creates)|
 |`Node_Name`|VARCHAR(45)|NULL|Mid-cap equity|Asset class names i.e: Automotive, Mid-cap equity, Govn't bonds developed countries, Commodities, Energy|
 |`Regime`|BIGINT(12)|NULL|.|Type of classification id|
 |`Asset_Classification_Regime_Structurecol`|BIGINT(12)|NULL|.|.|
-|`Benchmark`|BIGINT(12)|NULL|<span style="color:blue">some *blue* text</span>|.|
+|`Benchmark`|BIGINT(12)|NULL|.|.|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|.|
 | `Regime`|(`Regime`)|Asset_Classification_Regime (`id`)|NO ACTION| NO ACTION|.|
