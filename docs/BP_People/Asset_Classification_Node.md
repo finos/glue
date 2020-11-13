@@ -17,14 +17,14 @@ The GICS - Global Industry Classification Standard. GICS structure consists of 1
  
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
-|---|---|---|---|---|
 | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example|Comment|
+|---|---|---|---|---|
 ||
 |`id`|BIGINT(12)|PK, NN|.|PrimaryKey-ID, Not Null (auto creates)|
 |`Node_Name`|VARCHAR(45)|NULL|Mid-cap equity|Asset class names i.e: Automotive, Mid-cap equity, Govn't bonds developed countries, Commodities, Energy|
 |`Regime`|BIGINT(12)|NULL|.|Type of classification id|
 |`Asset_Classification_Regime_Structurecol`|BIGINT(12)|NULL|.|.|
-|`Benchmark`|BIGINT(12)|NULL|.|.|
+|`Benchmark`|BIGINT(12)|NULL|<span style="color:blue">some *This is Blue italic.* text</span>|.|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|.|
 | `Regime`|(`Regime`)|Asset_Classification_Regime (`id`)|NO ACTION| NO ACTION|.|
