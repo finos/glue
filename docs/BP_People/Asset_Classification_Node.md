@@ -23,9 +23,7 @@ The GICS - Global Industry Classification Standard. GICS structure consists of 1
 |`Node_Name`|VARCHAR(45)|NULL|Mid-cap equity|Asset class names i.e: Automotive, Mid-cap equity, Govn't bonds developed countries, Commodities, Energy|
 |`Regime`|BIGINT(12)|NULL|.|Type of classification id|
 |`Asset_Classification_Regime_Structurecol`|BIGINT(12)|NULL|.|.|
-|`Benchmark`|BIGINT(12)|NULL|.|<div class="bg-blue-light mb-2">
-  .text-gray-dark on .bg-blue-light
-</div>|
+|`Benchmark`|BIGINT(12)|NULL|.|<div class="bg-blue-light mb-2">.text-gray-dark on .bg-blue-light</div>|
 ||
 | Primary Key ('id') |
 ||
