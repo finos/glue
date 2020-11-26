@@ -20,7 +20,6 @@ This table does not contain PII, so only BP nickname is displayed here. Actual n
 |`id`| BIGINT(12)|PK,NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Internal_ID`| VARCHAR(45)| NULL|1995|enter internal id|
 |`Nickname`| VARCHAR(45)| NULL|Albus Dumbledore|Nickname of business partner|
-|`Currency`| BIGINT(12)| NULL|GBP|enter currency|
 |`Business_Partner_Type` |BIGINT(12)|NULL|1|id of Business Partner|
 ||
 | CONSTRAINT|FOREIGN KEY|REFERENCES |ON DELETE|ON UPDATE|.|
