@@ -6,9 +6,11 @@ title: Citizenship
 
 ## Data Dictionary - Entity Table: `Citizenship`
 
-A Person's citizenship. Citizenship of an individual person that impacts the relationships between advisor and their clients.
+A Person's citizenship of an individual person that impacts the relationships between advisor and their clients. 
 
- E.g., citizenship can set additional rules on how to cooperate. i.e: some types of assets or advertisement tools might be forbidden in some countries.
+E.g.: citizenship can set additional rules on how to manage, i.e: some types of assets or advertisement tools might be forbidden in some countries.
+
+Please Note: A person can have more than one citizenship.
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
