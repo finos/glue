@@ -11,6 +11,10 @@ Together with organisational entity, these non client Employee help to model the
 
 They show who is responsible for different client-specific relationship.
 
+If the organisational structure drives data access security, the Job Function, which models an employee, 
+
+it will be linked to the user through which this employee logs into the system.
+
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
  | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example| Comment|
