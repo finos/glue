@@ -14,7 +14,7 @@ One person can have multiple business partner objects.
 
 The Account Owner is the legal owner of the business partner.
 
-A Beneficial Owner is a person who benefits from Business Partner objects that represent customers.
+A Beneficial Owner is a person who benefits from the Business Partner Relationship that represents customers.
 
 An authority is not a business partner ownership such as the registered ownership or the account ownership. 
 
