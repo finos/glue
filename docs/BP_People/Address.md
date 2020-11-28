@@ -5,9 +5,9 @@ title: Address
 
 ## Data Dictionary- Table: Address
 
-Address is attached to a person (private persons, Business Partners and organizations). Multiple addresses allowed.
+Address is attached to a person (private persons, Business Partners and organizations). Only one address can be marked as primary 
 
-Only one Primary Address, which will be used to drive regulatory checks, used for tax purposes, etc. 
+and that will be used to drive regulatory checks, used for tax purposes, etc." Multiple addresses allowed.
 
 This table should belong to the list of tables that contain PII- personally identifiable information.
 
