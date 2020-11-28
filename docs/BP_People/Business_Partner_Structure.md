@@ -18,7 +18,7 @@ Hierarchical structure of business partners. Moving top-down, clients are aggreg
  The next drill-down level after business partner are the portfolios of clients.
 
  These can have hierarchical structure that is described in the table Portfolio_Structure.
-
+Please see page: Domain Group for Business Partner/ People, for information on Hierarchial Structure. 
 
 |Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
