@@ -5,7 +5,11 @@ title: Bank_Employee
 
 ## Data Dictionary - Entity Table: Bank_Employee
 
-For Bank Employee information. Their Job Function, Rank, Person
+Within the organisational structure, employees of the bank are modeled as a Person under the subtype employee (Job Function).
+
+Together with organisational entity, these non client Employee help to model the different responsibilities within a banking organisation. 
+
+They show who is responsible for different client-specific relationship.
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
