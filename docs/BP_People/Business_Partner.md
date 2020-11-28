@@ -5,7 +5,7 @@ title: Business_Partner
 
 ## Data Dictionary - Entity Table: Business_Partner
 
-Business Partner also represents the business relationship. 
+Business Partner represents the business relationship. 
 
 A business partner can only exist within the system if a person (individual, legal or person association, etc)
 
