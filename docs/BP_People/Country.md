@@ -6,7 +6,9 @@ title: Country
 
 ## Data Dictionary - Entity Table: `Country`
 
-Country of the client or Business address
+Enter the Name of the Country that your Business Partners, Organisations and Individual person has in their address.
+
+An ID for that Country will be automatically created.
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
