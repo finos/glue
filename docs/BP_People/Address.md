@@ -9,13 +9,7 @@ Address is attached to a person (private persons, Business Partners and organiza
 
 Only one Primary Address, which will be used to drive regulatory checks, used for tax purposes, etc. 
 
-The table contains two fields: longitude and latitude. They can be left "blank" or used to confirm a login of a user on a smartphone.
-
-Also, credentials themselves can not guarantee that some PII is used within specific country jurisdiction. 
-
-For example; A client advisor may be on business trip in the country where PII should not be available but, 
-longitude and latitude will help to cope with this case. 
-This table should belong to the list of tables that contain personally identifiable information.
+This table should belong to the list of tables that contain PII- personally identifiable information.
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
@@ -31,8 +25,6 @@ This table should belong to the list of tables that contain personally identifia
 |`City` |BIGINT(12) |NULL|Guildford|City Name|
 |`Country`| BIGINT(12)| NULL|UK|Country Name|
 |`Region` |BIGINT(12)| NULL|Herts|Region,County,Provence if Applicable|
-|`Latitude`| DECIMAL| NULL|55.7348|Latitude coordinate, define position of address point. use decimal degrees. Can be used for PII data. For APP user Logins, enables geolocator on smartphone to determine coordinates. e.g.If in EU then only data on EU citizens available|
-|`Longitude`| DECIMAL |NULL|9.1225|Longitude coordinate (as above)|
 |`Person` |BIGINT(12)| NULL|18009|Person id that uniquely identifies person (private person or organisation)|
 |`Address_Type`| BIGINT(12)| NULL|2|Home, Business, etc|
 ||
