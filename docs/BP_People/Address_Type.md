@@ -9,7 +9,7 @@ This table allows to distinguish between multiple address types (assigned to one
  
 that can be further used for different purposes, e.g. business, home address, mailing address, secondary,
 
-address for tax purposes and so on.
+address for tax purposes, etc.  (Please populate with your address type values.)
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
