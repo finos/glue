@@ -5,7 +5,7 @@ title: `Business_Partner_Type`
 
 ## Data Dictionary - Entity Table: `Business_Partner_Type`
 
-Name of the business partner types. There are three types of business partners:
+Name of the business partner types. Here are an example of three types of business partners:
 
  internal (owned by the bank, these can be sundries or internal custodians), 
  
