@@ -6,9 +6,9 @@ title: Business_Partner_To_Person
 
 ## Data Dictionary - Entity Table: Business_Partner_To_Person
 
-Relationship between business partner and person. The Business partner is connected with a person. 
+Relationship between BP- business partner and person. The Business partner is connected with a person. 
 
-One person can have multiple business partner objects.
+One person can have multiple business partners.
 
  Every business partner must have one registered owner.
 
@@ -19,6 +19,8 @@ A Beneficial Owner is a person who benefits from the Business Partner Relationsh
 An authority is not a business partner ownership such as the registered ownership or the account ownership. 
 
 The holder of an authority can initiate certain transactions on the business partner and its allocated containers and money accounts.
+
+Please see table Business_Partner for BP definition.
 
 
 |Primary Key ('id')|.|ENGINE = InnoDB|.|.|
