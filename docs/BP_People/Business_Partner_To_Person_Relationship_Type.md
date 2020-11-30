@@ -1,11 +1,15 @@
 ---
 id: Business_Partner_To_Person_Relationship_Type
+
 title: Business_Partner_To_Person_Relationship_Type
 ---
 
 ## Data Dictionary - Entity Table: Business_Partner_To_Person_Relationship_Type`
 
-This table stores the "Type of the Relationships" between business partner and person.
+This table stores the type of the relationships between business partner and person. 
+
+It is lookup table with relationship names. Their meanings are described in the respective transaction table Business_Partner_To_Person_Relationship_Type.
+
 
 
 |Primary Key ('id')|.|ENGINE = InnoDB|.|.|
