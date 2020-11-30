@@ -6,11 +6,13 @@ title: BP-Relationship_Type
 
 ## Data Dictionary - Entity Table: BP-Relationship_Type
 
-BP-Business Partner Relationship Type. Name of the relationship between business partner and associated business partner.
+This is lookup table for the column Relationship_Type of the table Business_Partner_Structure.
 
- Is used to define types of relationships between organisation BPs. 
- 
- E.g: business person is a head of associated department as well as between advisor and client (each of them is also a BP)
+It contains the names of the relationship between BP-business partner and associated business partner.
+
+E.g: business person is a head of associated department or the relationship between advisor and client (each of them is separate BP) like client advisor.
+
+
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
