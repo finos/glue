@@ -1,5 +1,6 @@
 ---
 id: Business_Partner_Structure
+
 title: Business_Partner_Structure
 ---
 
@@ -7,20 +8,18 @@ title: Business_Partner_Structure
 
 Hierarchical structure of business partners. Moving top-down, clients are aggregated into different groups:
 
- first by country, e.g: Switzerland can have multiple booking centers as its cities, next is the split by 
+first by country, e.g: Switzerland can have multiple booking centers as its cities, next is the split by 
  
- mandate type (CH Wealth Advisory, CH Discretionary, CH ExecutionOnly, CH Custody), then clients of the teams, 
+mandate type (CH Wealth Advisory, CH Discretionary, CH ExecutionOnly, CH Custody), then clients of the teams, 
  
- then individual clients. This structure can support different use cases e.g: "I want to find my largest/ smallest clients" 
- 
- clients or groups of clients at some level shown in the table with the names, the user can sort by AUM. 
- 
- The next drill-down level after business partner are the portfolios of clients.
+then individual clients. This structure can support different use cases 
 
- These can have hierarchical structure that is described in the table Portfolio_Structure.
- 
-Please see page: Domain Group for Business Partner/ People, for information on Hierarchial Structure. 
+e.g: "I want to see largest booking centers by AUM". Clients or groups of clients at some hierarchical level shown in the table with the names and the user can sort by AUM. 
 
+The next drill-down level after business partner are portfolios. They can also have hierarchical structure that is described in the table Portfolio_Structure.
+
+Please see page Domain Group for Party / Business Relationships for more information. 
+ 
 |Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
 | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
