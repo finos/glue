@@ -5,15 +5,13 @@ title: Bank_Employee
 
 ## Data Dictionary - Entity Table: Bank_Employee
 
-Within the organisational structure, employees of the bank are modeled as a Person under the subtype employee (Job Function).
 
-Together with organisational entity, these non client Employee help to model the different responsibilities within a banking organisation. 
+Within the organisational structure, employee of the bank is modeled as a person.
+
+Together with the organisational entity, an employee helps to model the different responsibilities within a banking organisation. 
 
 They show who is responsible for different client-specific relationship.
 
-If the organisational structure drives data access security, the Job Function, which models an employee, 
-
-it will be linked to the user through which this employee logs into the system.
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
