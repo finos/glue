@@ -6,9 +6,10 @@ title: Citizenship_Type
 
 ## Data Dictionary - Entity Table: `Citizenship_Type
 
-There could be different types of the citizenships e.g: by birth, Naturalized, by marriage etc.
+This is a lookup table Citizenship_Type of the table Citizenship. There could be different types of citizenships.
 
- Investments imposes different regulatory rules on the clients and their portfolios.
+For example, by birth, naturalized, by marriage, by investment, etc. They impose different regulatory rules on the clients and their portfolios.
+
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
