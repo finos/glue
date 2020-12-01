@@ -1,5 +1,6 @@
 ---
 id: Address
+
 title: Address
 ---
 
@@ -9,7 +10,7 @@ Address is attached to a person (private persons, Business Partners and organiza
 
 and that will be used to drive regulatory checks, used for tax purposes, etc." Multiple addresses allowed.
 
-This table should belong to the list of tables that contain PII- personally identifiable information.
+Under cergain jurisdictions, this table can belong to the list of tables that contains PII- Personally Identifiable Information. 
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
