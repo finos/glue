@@ -6,7 +6,9 @@ title: Employee_To_OE_Type
 
 ## Data Dictionary - Entity Table: Employee_To_OE_Type
 
-Enter the Name of the Relationship Types of the Employee to Organizational Entity.
+This is a lookup table for the Employee to OE Relationship Type column in the table Employee to OE Table.
+
+Enter the Name of the Relationship Type of the Employee to OE - Organizational Entity.
 
 e.g: Member, Supervisor, etc.
 
