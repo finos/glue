@@ -11,7 +11,7 @@ Enter Legal Identification documents of the person. Column Person is the Person 
 
 | Primary Key ('idLegal_Identification')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
-|Table Name |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
+|Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
 |`idLegal_Identification`|INT|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Identification`|VARCHAR(45)|NULL|national passport: AA 11 111|name of the id|
