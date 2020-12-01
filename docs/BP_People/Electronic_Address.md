@@ -8,7 +8,7 @@ title: Electronic_Address
 
 Enter the Electronic_Address
 
-(e.g: email) belonging to the Person ID that you enter. 
+(e.g: email) belonging to the Person or organization.  
 
 It can also contain an email or other electronic address.
 
