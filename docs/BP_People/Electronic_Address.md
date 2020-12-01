@@ -7,11 +7,12 @@ title: Electronic_Address
 ## Data Dictionary - Entity Table: Electronic_Address
 
 Enter the Electronic_Address
-An electronic address will generally contain a URI pointing to the object being described.
+
+(e.g: email) belonging to the Person ID that you enter. 
 
 It can also contain an email or other electronic address.
 
-Types e.g: email (Email address)
+Types: email (Email address)
 
 other (Other electronic address)
 
