@@ -1,15 +1,17 @@
 ---
 id: Address_Type
+
 title: Address_Type
 ---
 
 ## Data Dictionary : Entity Table Address_Type
 
-This table allows to distinguish between multiple address types (assigned to one person)
- 
-that can be further used for different purposes, e.g. business, home address, mailing address, secondary,
+This is a lookup table for the Address_type column in the table Address.
 
-address for tax purposes, etc.  (Please populate with your address type values.)
+This table allows us to distinguish different address types (assigned to one person or organization) that can be used for different purposes, 
+
+e.g: business, home address, mailing address, secondary, address for tax purposes etc.
+
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
