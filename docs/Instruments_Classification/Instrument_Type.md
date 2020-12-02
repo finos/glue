@@ -6,7 +6,7 @@ title: Instrument_Type
 
 ## Data Dictionary - Entity Table: `Instrument_Type`
 
-**This is a lookup table for the Instrument Type column in the Instrument Table.** 
+**This is a lookup table for the Instrument Type column in the Instrument Table and in the Instrument__Attribute_Definition Table.** 
 
 List of instrument types used for view of client portfolio(s) by different asset classes. 
 
