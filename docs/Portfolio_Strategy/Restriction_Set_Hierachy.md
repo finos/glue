@@ -24,5 +24,6 @@ Restriction sets are hierarchical items and user can drill-down across them in h
 |`RestrictionSetChild`|(`Child`)|`Restriction_Set` (`id`)| NO ACTION|NO ACTION|
 ||
 |CREATE INDEX|ON|ASC|VISABLE|.|
+|`Parent_idx`|`Restriction_Set_Hierachy`|(`Parent` ASC)| VISIBLE|.|
 |`Child_idx`|`Restriction_Set_Hierachy`|(`Child` ASC)| VISIBLE|.|
 ||
