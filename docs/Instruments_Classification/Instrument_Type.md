@@ -6,19 +6,13 @@ title: Instrument_Type
 
 ## Data Dictionary - Entity Table: `Instrument_Type`
 
-**List of instrument types used for view of client portfolio(s) by different asset classes**
+**This is a lookup table for the Instrument Type column in the Instrument Table.** 
 
-Financial instruments may be divided into two types: cash instruments and derivative instruments.
+List of instrument types used for view of client portfolio(s) by different asset classes. 
 
-example:
+Can be also combined into complex filter like advisor can see municipal bonds for the United states
 
-|Asset class|.|Instrument type
-|---|---|---|
-|Debt (long term) > 1 year |Bonds	|Loans|
-|Debt (short term) ≤ 1 year |Bills, e.g. T-bills Commercial paper| Deposits Certificates of deposit|
-|Equity	|Stock|	N/A|
-|Foreign exchange	|N/A	|Spot foreign exchange|
-
+(regional classification present in Asset Classification table).	
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
