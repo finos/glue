@@ -19,5 +19,5 @@ Can be also combined into complex filter like advisor can see municipal bonds fo
 |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comment|
 ||
 |`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
-|`Name`|VARCHAR(45)|NULL|Municipal bonds, cash account, real estate|Name of the Instrument_Type|
+|`Name`|VARCHAR(45)|NULL|Municipal bonds, cash account, real estate|Name of the Instrument_Type. Used to identify money account to counterbook trades|
 ||
