@@ -6,7 +6,9 @@ title: Transaction_Meta_Type
 
 ## Data Dictionary - Entity Table: Transaction_Meta_Type
 
-Transaction metatype showing the direction of the transaction.
+This is a lookup table for the transaction_meta_type_id column in the Transactions Table. 
+
+Transaction metatype showing the direction of the transaction.			
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
