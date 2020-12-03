@@ -6,10 +6,7 @@ title: Financial_Account_Type
 
 ## Data Dictionary - Entity Table: Financial_Account_Type
 
-Enter the Name ofFinancial Account types: Assets, Liabilities, Equity, Revenue and Expenses. 
-
-( cash management account, brokerage, deposit , etc.) the Financial_Account_Type 
-
+Types of the financial accounts: cash management account, brokerage, deposit, etc.
 
 |  Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
