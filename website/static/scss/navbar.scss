@@ -1,0 +1,21 @@
+@import 'primary_theme.scss';
+
+.navigationSlider .slidingNav ul {
+    /* DO NOT CHANGE - THIS IS THE NAVIGATION BACKGROUND - SHOULD STAY FINOS BLUE */
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.navigationSlider .slidingNav ul li a:hover {
+  background: #0033A0;  /* DO NOT CHANGE - THIS IS THE NAVIGATION BACKGROUND - SHOULD STAY FINOS BLUE */
+
+}
+
+.fixedHeaderContainer {
+    background-color: $white;
+}
