@@ -23,11 +23,11 @@ title: Financial_Account
 ||
 |`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Type`|BIGINT(12)|NULL|1| Classify the type of financial account|
-|`Name`|VARCHAR(45)|NULL|ADV.1657|.|
+|`Name`|VARCHAR(45)|NULL|ADV.1657|Financial account name|
 |`IBAN`|VARCHAR(45)|NULL|DE89 1000 0000 0000 0000 00|The IBAN account number|
-|`Ex-Custody`|TINYINT |NULL|1|Ex-custody refers to positions of an accounting area that are not banked by the bank itself, but where the bank takes over administrative custody and reporting tasks for the principal bankof ex-custody|
+|`Ex-Custody`|TINYINT |NULL|1|Ex-custody is a position where the bank only conducts administrative custody and reporting tasks for the position (business partner) owner|
 |`Custodian`|BIGINT(12)|NULL|1|Custodian account is managed by fiduciarily responsible party on behalf of a beneficiary|
-|`Portfolio`|BIGINT(12)|NULL|1|.|
+|`Portfolio`|BIGINT(12)|NULL|1|Portfolio Id|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`Portfolio`|(`Portfolio`)|`Portfolio` (`id`)| NO ACTION|NO ACTION|
@@ -36,3 +36,4 @@ title: Financial_Account
 |CREATE INDEX|ON|ASC|VISABLE|.|
 |`Portfolio_idx`|`Financial_Account`| (`Portfolio` ASC)| VISIBLE|.|
 |`Type_idx`|`Financial_Account`| (`Type` ASC)| VISIBLE|.|
+||
