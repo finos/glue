@@ -6,6 +6,7 @@ title: User
 
 ## Data Dictionary - Entity Table: User
 
+Enter the User credentials and their current instance.
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
