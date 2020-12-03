@@ -6,8 +6,9 @@ title: Financial_Account_Type
 
 ## Data Dictionary - Entity Table: Financial_Account_Type
 
-Types of the financial accounts: cash management account, brokerage, deposit, etc.
+This is a lookup table for the Financial_Account Type column in the table Financial_Account. 
 
+Types of the financial accounts: cash management account, brokerage, deposit, etc.				
 
 |  Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
