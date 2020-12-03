@@ -25,7 +25,7 @@ Position table is frequentry shown at the bottom of different views (client port
 |`currency_id`|BIGINT(12)|NOT NULL|1|'ID of the position reference currency'|
 |`create_datetime`|DATETIME(3)|NOT NULL|1/1/2020  12:30:00 PM|'Date when the position was created'|
 |`market_value_percentage_modifiable`|TINYINT|NOT NULL|1|'Determines if user (client advisor) can modify position share (in percentages) and trigger a new proposal/trade or not. They can modify only the quantity or total value. Flag whether the market value percentage is modifiable'|
-|||CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
+|CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`currency_id`|(`currency_id`)|`Currency` (`id`)| NO ACTION|NO ACTION|
 |`fk_position_financial_account1`|(`financial_account_id`)|`Financial_Account` (`id`)| NO ACTION|NO ACTION|
 |`Instrument`|(`instrument_id`)|`Instrument` (`id`)| NO ACTION|NO ACTION|
@@ -34,3 +34,4 @@ Position table is frequentry shown at the bottom of different views (client port
 |`currency_id_idx`|`Position`|(`currency_id` ASC) | VISIBLE|.|
 |`fk_position_financial_account1_idx`|`Position `|(`financial_account_id` ASC) | VISIBLE|.|
 |`Instrument_idx`|`Position `|(`instrument_id` ASC)| VISIBLE|.|  
+||
