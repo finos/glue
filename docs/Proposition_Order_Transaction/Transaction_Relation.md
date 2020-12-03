@@ -21,7 +21,7 @@ and sell stock Y. These two transactions could be marked as related.
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`Source`|(`Source`)|`Transactions` (`id`)| NO ACTION|NO ACTION|
 |`Associated`|(`Associated`)|`Transactions` (`id`)| NO ACTION|NO ACTION|
-|For Table: `Transaction_Relation`|
+||
 |CREATE INDEX|ON|ASC|VISABLE|.|
 |`Source_idx` |`Transaction_Relation`|(`Source` ASC) | VISIBLE|.|
 |`Associated_idx` |`Transaction_Relation`|(`Associated` ASC)| VISIBLE|.| 
