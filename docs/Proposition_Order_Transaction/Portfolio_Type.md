@@ -6,7 +6,7 @@ title: Portfolio_Type
 
 ## Data Dictionary - Entity Table: Portfolio_Type
 
-There are four types of portfolios: Real, Simulated, Source, External. 
+This is a lookup table for the Portfolio type_id column in the table Portfolio. There are four types of portfolios: Real, Simulated, Source, External. 
 Wealth managers may want to create an investment proposition / proposal in order to simulate trades and investigate the impact 
 upon their client portfolios. In such case, the engine copies the existing portfolio (called Source portfolio)
  and create a Simulated portfolio. Changes are then applied on the Simulated portfolio and compared with the Source portfolio.
@@ -22,5 +22,5 @@ upon their client portfolios. In such case, the engine copies the existing portf
 |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
 |`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID,(auto creates)'Contains the financial account type (internal use only- no dictionary)'|
-|`Name`|VARCHAR(45)|NULL|Real|.|
+|`Name`|VARCHAR(45)|NULL|Real|example:  four types of portfolios: Real, Simulated, Source, External|
 ||
