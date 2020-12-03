@@ -12,7 +12,7 @@ Portfolio table that contains key characteristics of every portfolio including i
 |---|---|---|---|---|
 |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
-|`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)`Contains the portfolio objects` Unique Portfolio ID|
+|`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates) Contains the Unique Portfolio ID|
 |`business_partner_id`|BIGINT(12)|NOT NULL|1|Related BP ID (business partner)|
 |`reference_currency_id`|BIGINT(12)|NOT NULL|1|Reference currency id: portfolio performance (accounting of gains and losses) is measured in reference currency. If investment currency is different from reference one, then currency risk arises|
 |`type_id`|BIGINT(12)|NOT NULL|1|`Type of the portfolio`|
