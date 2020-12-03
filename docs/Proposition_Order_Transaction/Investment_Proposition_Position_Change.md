@@ -9,7 +9,7 @@ title: Investment_Proposition_Position_Change
 
 Investment proposition implies that some changed to the existing portoflio should be made,
  e.g. but or sell new assets (instruments). 
- This table describes these changes in terms of respective instrument market value and quantity
+ This table describes these changes in terms of respective instrument market value and quantity.
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
