@@ -6,6 +6,11 @@ title: Transaction_Type
 
 ## Data Dictionary - Entity Table: Transaction_Type
 
+This is a lookup table for the Transaction_type_id Column in the table Transactions.
+
+Transaction type related to the order execution type.			
+
+
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
 |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comment|
