@@ -51,11 +51,11 @@ function Footer(props) {
   return (
     <footer className="nav-footer" id="footer">
       <section className="sitemap">
-        <a href={this.config.baseUrl} className="nav-home">
-          {this.config.footerIcon && (
+        <a href={config.baseUrl} className="nav-home">
+          {config.footerIcon && (
             <img
-              src={this.config.baseUrl + this.config.footerIcon}
-              alt={this.config.title}
+              src={config.baseUrl + config.footerIcon}
+              alt={config.title}
             />
           )}
         </a>
@@ -97,8 +97,8 @@ function Footer(props) {
           <div className="social">
             <a
               className="github-button" // part of the https://buttons.github.io/buttons.js script in siteConfig.js
-              href={this.config.repoUrl}
-              data-count-href={`${this.config.repoUrl}/stargazers`}
+              href={config.repoUrl}
+              data-count-href={`${config.repoUrl}/stargazers`}
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">
@@ -108,9 +108,9 @@ function Footer(props) {
           {config.twitterUsername && (
             <div className="social">
               <a
-                href={`https://twitter.com/${this.config.twitterUsername}`}
+                href={`https://twitter.com/${config.twitterUsername}`}
                 className="twitter-follow-button">
-                Follow @{this.config.twitterUsername}
+                Follow @{config.twitterUsername}
               </a>
             </div>
           )}
@@ -131,7 +131,7 @@ function Footer(props) {
 
       </section>
 
-      <section className="copyright">{this.config.copyright}</section>
+      <section className="copyright">{config.copyright}</section>
 
     </footer>
   );
