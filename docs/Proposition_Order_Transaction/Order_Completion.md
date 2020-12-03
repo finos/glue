@@ -13,10 +13,10 @@ This table shows how many units of the order is filled and what the remaining it
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
-|Table Name |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
+|Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
-|`id`|BIGINT(12)|PK, NN|PrimaryKey-ID, Not Null (auto creates)|
-|`Date`|DATETIME|NULL|10/10/2020  12:30:00 PM|Date Time Completed|
+|`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
+|`Date`|DATETIME|NULL|10/10/2020  12:30:00 PM|Order completion date/time|
 |`Status`|VARCHAR(42)|NULL|filled;working;cancelled;rejected;completed;expired|Order status. NOT same status as in table Order|
 |`Filled_Quantity`|DECIMAL|NULL|243|Filled quantity of the order|
 |`Remaining_Quantity`|DECIMAL|NULL|546|Remaining unfilled quantity of the order|
@@ -34,3 +34,4 @@ This table shows how many units of the order is filled and what the remaining it
 |CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Currency_idx`|`Order_Completion`|(`Currency` ASC) | VISIBLE|.|
 |`Charge_Currency_idx`|`Order_Completion`|(`ChargeCurrency` ASC) | VISIBLE|.|
+||
