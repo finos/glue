@@ -19,7 +19,7 @@ Changes are then applied on the simulated portfolio and compared with the source
 |`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`name`|VARCHAR(32)|NULL|epam|Name of the proposal|
 |`description`|VARCHAR(1024)|NULL|increase exposure to tech stocks|Short proposal description|
-|`presentation_currency_id`|BIGINT(12)|NULL|1|This is the currency in which proposal is presented to the client|
+|`presentation_currency_id`|BIGINT(12)|NULL|1|This is the currency in which proposal is presented to the client. See Currency Table|
 |`real_portfolio_id`|BIGINT(12)|NOT NULL|1|Actual portfolio id|
 |`source_portfolio_id`|BIGINT(12)|NOT NULL|2|Parent portfolio id that is copied and used as a starting point for new simulated portfolio|
 |`simulated_portfolio_id`|BIGINT(12)|NOT NULL|3|Simulated portfolio id that contains this investment proposition|
@@ -35,3 +35,4 @@ Changes are then applied on the simulated portfolio and compared with the source
 |`fk_investment_proposition_portfolio1_idx`|`Investment_Proposition`| (`real_portfolio_id` ASC)| VISIBLE|.|
 |`fk_investment_proposition_portfolio2_idx`|`Investment_Proposition`| (`source_portfolio_id` ASC)| VISIBLE|.|
 |`fk_investment_proposition_portfolio3_idx`|`Investment_Proposition`| (`simulated_portfolio_id` ASC) | VISIBLE|.|
+||
