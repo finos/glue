@@ -124,12 +124,6 @@ module.exports = {
     sidebarCollapsible: true,
   },
 
-  // plugins: [
-  //   [
-  //     '@docusaurus/plugin-client-redirects',
-  //     {
-  //       fromExtensions: ['html'],
-  //     },
-  //   ],
-  // ]
+  plugins: ['docusaurus-plugin-sass']
+  // ...
 };
