@@ -1,0 +1,68 @@
+@import '../primary_theme.scss';
+
+.usageSection {
+    width: 100%;
+    padding: 35px 10px 10px 10px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    h3.howItWorks {
+        font-size: 40px;
+        color: $glue-white;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    p {
+        margin: 0 auto;
+        width: 500px;
+
+        font-size: 20px;
+        color: $glue-grey-light;
+
+        @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+
+    h4 {
+        color: $glue-grey-dark;
+    }
+
+    strong {
+        color:$glue-primary;
+    }  
+
+    .exampleUseCases {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+
+        background-color: $glue-white;
+
+        @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+            flex-direction: column;
+        }
+    }
+
+    .useCase {
+        flex: 5;
+        p {
+            display: inline-block;
+            color: $glue-grey-dark;
+            @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+                width: 100%;
+                font-size: 15px;
+            }
+
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                width: 100%;
+                font-size: 20px;
+            }
+        }
+    }
+
+}

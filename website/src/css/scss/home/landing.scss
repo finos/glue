@@ -1,0 +1,77 @@
+@import '../primary_theme.scss';
+
+@import '../home/whatis.scss';
+@import '../home/usage.scss';
+@import '../home/examples.scss';
+
+    :local(.landingSection) {
+        width: 90%;
+        margin: 0 auto;
+        padding: 35px 10px 10px 10px;
+
+        .projectMissionText, .businessDomain {
+            margin-top: 15px;
+        }
+
+        .projectMissionText {
+            font-size: 40px;
+            color:$glue-white;
+            strong {
+                color: $glue-primary-lightest;
+            }
+
+            @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+                width: 100%;
+                font-size: 20px;
+            }
+
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                width: 100%;
+                font-size: 35px;
+                margin: 15px auto;
+                text-align: center;
+                // margin: 20px auto;
+            }
+        }
+
+        :local(.buttonWrapper) {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            :local(a.getStarted) {
+                display: inline-block;
+                margin: 0 auto;            
+                border: 3px solid $glue-white;  
+                color: $glue-white;
+                font-size: 30px;
+                border-radius: 5px;
+                padding: 4px;
+                text-decoration: none;
+            }
+        }
+
+        .businessDomain {
+            font-size: 25px;
+            width: 33%;
+            margin: 40px 33%;
+            color: $glue-primary-lightest;
+            strong {
+                color: $glue-white;
+            }
+            text-align:center;
+
+            @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+                width: 100%;
+                font-size: 20px;
+                margin: 20px auto;
+            }
+
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                width: 100%;
+                font-size: 30px;
+                margin: 20px auto;
+            }
+        }
+    }

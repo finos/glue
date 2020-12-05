@@ -72,7 +72,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.json'),
         },
         theme: {
-          customCss: [require.resolve('./src/css/custom.css')],
+          customCss: [require.resolve('./src/css/custom.scss')],
         },
         blog: {
           postsPerPage: 10,

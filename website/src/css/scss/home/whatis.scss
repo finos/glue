@@ -1,0 +1,40 @@
+@import '../primary_theme.scss';
+
+.whatisSection{
+    width: 100%;
+    padding: 30px 10%;
+
+    background-color: $glue-white;
+    text-align: center;
+
+    h3 {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 25px;
+        
+        @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+            width: 100%;
+            font-size: 20px;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        color: $glue-grey-dark;
+        @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+
+    color: $glue-grey;
+
+    h3 {
+        color: $glue-primary-dark;
+    }
+
+    strong {
+        color:$glue-primary;
+    }   
+}

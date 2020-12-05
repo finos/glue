@@ -1,0 +1,62 @@
+@import '../primary_theme.scss';
+
+.examplesSection {
+    width: 100%;
+    padding: 35px 10px 10px 10px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    h3 {
+        font-size: 40px;
+        color: $glue-white;
+    }
+
+    h4 {
+        font-size: 20px;
+        color: $glue-white;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: space-between;
+
+        @media only screen and (max-width: 426px) {
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+    .copyRightImage {
+        flex: 3;
+
+        width: 33%;
+        height: 400px;
+
+        @media only screen and (max-width: 426px) {
+            flex: 12;
+            width: 66%;
+            height: 270px;
+            margin: 0 auto;
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            width: 30%;
+            height: 300px;
+            margin: 0 auto;
+        }
+    }
+
+    p {
+        margin: 15px 0;
+        background-color: $glue-white;
+        color: $glue-grey;
+        strong {
+            color: $glue-primary;
+        }
+
+        @media only screen and (min-width: 1024px) {
+            font-size: 25px;
+        }
+    }
+}

@@ -5,15 +5,18 @@
  * LICENSE file in the root directory of this source tree.
  */
 import React, { Component } from 'react';
+import styles from '../../src/css/scss/styles.module.scss';
 import HomeScreen from './home';
 
 class Index extends Component {
   constructor(props) {
     super(props);
   }
-  render () {
+  render() {
     return (
-      <HomeScreen siteConfig={this.props.siteConfig} language={this.props.language} />
+      <div className={styles.mainWrapper}>
+        <HomeScreen siteConfig={this.props.siteConfig} language={this.props.language}/>
+      </div>
     );
   }
 };
