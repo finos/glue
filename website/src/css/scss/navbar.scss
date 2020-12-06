@@ -1,7 +1,6 @@
 @import 'primary_theme.scss';
 
 .navigationSlider .slidingNav ul {
-    /* DO NOT CHANGE - THIS IS THE NAVIGATION BACKGROUND - SHOULD STAY FINOS BLUE */
   box-sizing: border-box;
   color: #fff;
   display: flex;
@@ -12,10 +11,6 @@
 }
 
 .navigationSlider .slidingNav ul li a:hover {
-  background: #0033A0;  /* DO NOT CHANGE - THIS IS THE NAVIGATION BACKGROUND - SHOULD STAY FINOS BLUE */
+  background: #0033A0; 
 
 }
-
-// .fixedHeaderContainer {
-//     background-color: $glue-white;
-// }

@@ -15,7 +15,7 @@ class Index extends Component {
   render() {
     return (
       <div className={styles.mainWrapper}>
-        <HomeScreen siteConfig={this.props.siteConfig} language={this.props.language}/>
+        <HomeScreen/>
       </div>
     );
   }

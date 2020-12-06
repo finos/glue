@@ -10,11 +10,27 @@
     h3 {
         font-size: 40px;
         color: $glue-white;
+
+        @media only screen and (max-width: 426px) {
+            font-size: 30px;
+        }
+
+        @media only screen and (min-width: 426px) and (max-width: 768px) {
+            font-size: 35px;
+        }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 38px;
         color: $glue-white;
+
+        @media only screen and (max-width: 426px) {
+            font-size: 25px;
+        }
+
+        @media only screen and (min-width: 426px) and (max-width: 768px) {
+            font-size: 30px;
+        }
     }
 
     .imageContainer {
@@ -53,6 +69,15 @@
         color: $glue-grey;
         strong {
             color: $glue-primary;
+        }
+
+        @media only screen and (max-width: 426px) {
+            font-size: 15px;
+        }
+
+        
+        @media only screen and (min-width: 426px) and (max-width: 1024px) {
+            font-size: 20px;
         }
 
         @media only screen and (min-width: 1024px) {

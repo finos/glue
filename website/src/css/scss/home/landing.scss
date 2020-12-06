@@ -16,21 +16,46 @@
         .projectMissionText {
             font-size: 40px;
             color:$glue-white;
+
             strong {
                 color: $glue-primary-lightest;
+                font-size: 40px;
+
+                @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+                    width: 100%;
+                    font-size: 15px;
+                }
+    
+                @media only screen and (min-device-width: 425px) and (max-device-width: 768px) {
+                    width: 100%;
+                    font-size: 20px;
+                }
+    
+                @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                    width: 100%;
+                    margin: 15px auto;
+                    text-align: center;
+    
+                    font-size: 35px;
+                }
             }
 
-            @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+            @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+                width: 100%;
+                font-size: 10px;
+            }
+
+            @media only screen and (min-device-width: 425px) and (max-device-width: 768px) {
                 width: 100%;
                 font-size: 20px;
             }
 
             @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
                 width: 100%;
-                font-size: 35px;
                 margin: 15px auto;
                 text-align: center;
-                // margin: 20px auto;
+
+                font-size: 35px;
             }
         }
 
@@ -45,20 +70,70 @@
                 margin: 0 auto;            
                 border: 3px solid $glue-white;  
                 color: $glue-white;
-                font-size: 30px;
+                font-size: 40px;
                 border-radius: 5px;
                 padding: 4px;
                 text-decoration: none;
+        
+                @media only screen and (max-width: 425px) {
+                    font-size: 20px;
+                }
+                
+                @media only screen and (min-width: 425px) and (max-width: 1024px) {
+                    font-size: 30px;
+                }
             }
         }
 
         .businessDomain {
-            font-size: 25px;
             width: 33%;
             margin: 40px 33%;
             color: $glue-primary-lightest;
+
+            @media only screen and (max-width: 425px) {
+                font-size: 12px;
+            }
+
+            @media only screen and (min-width: 425px) and (max-width: 768px) {
+                font-size: 17px;
+            }
+            
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                font-size: 22px;
+            }
+
+            @media only screen and (min-width: 1024px) {
+                font-size: 30px;
+            }
+        
+            @media only screen and (min-width: 1440px) {
+                font-size: 35px;
+            }
+
+            
+            @media only screen and (max-width: 768px) {
+                width: 100%;
+                margin: 10px auto;
+            }
+
             strong {
                 color: $glue-white;
+
+                @media only screen and (max-width: 426px) {
+                    font-size: 15px;
+                }
+    
+                @media only screen and (min-width: 426px) and (max-width: 768px) {
+                    font-size: 20px;
+                }
+                
+                @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                    font-size: 25px;
+                }
+    
+                @media only screen and (min-width: 1024px) {
+                    font-size: 30px;
+                }
             }
             text-align:center;
 

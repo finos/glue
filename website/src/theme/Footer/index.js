@@ -1,140 +1,110 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-import React from 'react';
-// import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import {useThemeConfig} from '@docusaurus/theme-common';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-// import styles from './styles.module.css';
-
-function FooterLink({to, href, label, prependBaseUrlToHref, ...props}) {
-  const toUrl = useBaseUrl(to);
-  const normalizedHref = useBaseUrl(href, {
-    forcePrependBaseUrl: true,
-  });
-  return (
-    <Link
-      className="footer__link-item"
-      {...(href
-        ? {
-            target: '_blank',
-            rel: 'noopener noreferrer',
-            href: prependBaseUrlToHref ? normalizedHref : href,
-          }
-        : {
-            to: toUrl,
-          })}
-      {...props}>
-      {label}
-    </Link>
-  );
+import React, { Component } from 'react';
+import styles from '../../css/scss/styles.module.scss';
+import config from '../../../docusaurus.config';
+class Footer extends Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <footer className={styles.footer} id="footer">
+        <section>
+          <div className={styles.footerLogoContainer}>
+            <FooterLink url={config.baseUrl}>
+              <img src={config.baseUrl + config.footerIcon}
+                alt={config.title}
+              />
+            </FooterLink>
+          </div>
+          <div className={styles.finosLogoContainer}>
+            <div className={styles.logoContainer}>
+              <FooterLink url="https://www.finos.org">
+                <img id="finosicon" src={`img/finos_wordmark.svg`} height='75px' alt="FINOS" title="FINOS" />
+                <h2 id="proud">Proud member of the Fintech Open Source Foundation</h2>
+              </FooterLink>
+            </div>
+          </div>
+          {/* <div>
+            <h5>Docs</h5>
+            <a href={docUrl('home')}>
+              Getting Started
+              </a>
+            <a href={docUrl('team')}>
+              Team
+              </a>
+            <a href={docUrl('roadmap')}>
+              Roadmap
+              </a>
+          </div> */}
+          <div>
+            {/* <h5>FINOS</h5> */}
+            {/* <a
+              href="https://www.finos.org/"
+              target="_blank"
+              rel="noreferrer noopener">
+              FINOS Website
+              </a>
+            <a
+              href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook"
+              target="_blank"
+              rel="noreferrer noopener">
+              Community Handbook
+              </a>
+            <a
+              href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530783/Community+Governance"
+              target="_blank"
+              rel="noreferrer noopener">
+              Community Governance
+              </a> */}
+          </div>
+          {/* <div className={styles.socialContainer}>
+            <TwitterLink></TwitterLink>
+            <LinkedinLink></LinkedinLink>
+            <GithubLink></GithubLink>
+          </div> */}
+        </section>
+        {/* <section className="copyright">{config.copyright}</section> */}
+      </footer >
+    );
+  }
 }
 
-const FooterLogo = ({url, alt}) => (
-  <img className="footer__logo" alt={alt} src={url} />
+const FooterLink = ({ children, url }) => (
+  <a href={url} className={styles.footerLink} target="_blank">{children}</a>
 );
 
-function Footer(props) {
-  const config = props || {};
-  const {footer} = useThemeConfig();
-  const {copyright, links = [], logo = {}} = footer || {};
-  const logoUrl = useBaseUrl(logo.src);
+const TwitterLink = () => (
+  <div className="social">
+    <FooterLink
+      url={`https://twitter.com/${config.twitterUsername}`}
+      className={styles.twitterLink}>
+      Follow {config.twitterUsername}
+    </FooterLink>
+  </div>
+);
 
-  if (!footer) {
-    return null;
-  }
+const LinkedinLink = () => (
+  <div className="social">
+    <FooterLink
+      url={`https://www.linkedin.com/company/finosfoundation`}
+      className={styles.linkedinLink}>
+      FINOS on LinkedIn
+    </FooterLink>
+  </div>
+);
 
-  return (
-    <footer className="nav-footer" id="footer">
-      <section className="sitemap">
-        <a href={config.baseUrl} className="nav-home">
-          {config.footerIcon && (
-            <img
-              src={config.baseUrl + config.footerIcon}
-              alt={config.title}
-            />
-          )}
-        </a>
-        <div>
-          <h5>Docs</h5>
-          <a href={useBaseUrl('home')}>
-            Getting Started
-              </a>
-          <a href={useBaseUrl('team')}>
-            Team
-              </a>
-          <a href={useBaseUrl('roadmap')}>
-            Roadmap
-              </a>
-        </div>
-        <div>
-          <h5>FINOS</h5>
-          <a
-            href="https://www.finos.org/"
-            target="_blank"
-            rel="noreferrer noopener">
-            FINOS Website
-              </a>
-          <a
-            href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook"
-            target="_blank"
-            rel="noreferrer noopener">
-            Community Handbook
-              </a>
-          <a
-            href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530783/Community+Governance"
-            target="_blank"
-            rel="noreferrer noopener">
-            Community Governance
-              </a>
-        </div>
-        <div>
-          <h5>More</h5>
-          <div className="social">
-            <a
-              className="github-button" // part of the https://buttons.github.io/buttons.js script in siteConfig.js
-              href={config.repoUrl}
-              data-count-href={`${config.repoUrl}/stargazers`}
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              {config.projectName}
-            </a>
-          </div>
-          {config.twitterUsername && (
-            <div className="social">
-              <a
-                href={`https://twitter.com/${config.twitterUsername}`}
-                className="twitter-follow-button">
-                Follow @{config.twitterUsername}
-              </a>
-            </div>
-          )}
-          <div className="social">
-            <a
-              href={`https://www.linkedin.com/company/finosfoundation`}
-              className="linkedin-follow-button">
-              FINOS on LinkedIn
-                </a>
-          </div>
-        </div>
-      </section>
-      <section className="finos finosBanner">
-        <a href="https://www.finos.org">
-          <img id="finosicon" src={`img/finos_wordmark.svg`} height='75px' alt="FINOS" title="FINOS" />
-          <h2 id="proud">Proud member of the Fintech Open Source Foundation</h2>
-        </a>
-
-      </section>
-
-      <section className="copyright">{config.copyright}</section>
-
-    </footer>
-  );
-}
+const GithubLink = () => (
+  <div className="social">
+    <FooterLink
+      className={styles.githubLink} // part of the https://buttons.github.io/buttons.js script in siteConfig.js
+      url={config.repoUrl}
+      data-count-href={`${config.repoUrl}/stargazers`}
+      data-show-count="true"
+      data-count-aria-label="# stargazers on GitHub"
+      aria-label="Star this project on GitHub">
+      {config.projectName}
+    </FooterLink>
+  </div>
+)
 
 export default Footer;

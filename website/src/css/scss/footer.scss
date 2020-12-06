@@ -1,0 +1,58 @@
+@import './primary_theme.scss';
+footer {
+    display: flex;
+    flex-direction: column;
+
+    .footerLogoContainer,
+    .finosLogoContainer {
+        width: 500px;
+        margin: 20px auto;
+        flex: 12;
+
+        @media only screen and (max-width: 426px) {
+            width: 100%;
+        }
+
+        .logoContainer {
+            display: flex;
+            img {
+                display: block;
+                margin: 0 auto;
+                flex: 12;
+            }
+
+            h2 {
+                margin-top: 20px;
+                text-align: center;
+                color: $glue-white;
+            }
+        }
+    }
+    
+
+    .footerLink {
+        flex: 3;
+    }
+
+    .socialContainer {
+        margin: 0 auto;
+        display: flex;
+        
+        flex-direction: column;
+        .social {
+            flex: 3;
+
+            .twitterLink {
+                color: $glue-white;
+            }
+
+            .linkedinLink {
+                color: $glue-white;
+            }
+
+            .githubLink {
+                color: $glue-white;
+            }
+        }
+    }
+}

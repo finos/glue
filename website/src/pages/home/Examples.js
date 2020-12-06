@@ -3,6 +3,7 @@ import styles from '../../css/scss/styles.module.scss';
 
 const services = [{
     title: "Portflio Health Monitoring Service Tool",
+    id: "1",
     images: [
         `../../../static/img/exampleusecases/glue_example_1.png`,
         `../../../static/img/exampleusecases/glue_example_3.png`,
@@ -25,6 +26,7 @@ const services = [{
     `
 }, {
     title: "Asset Exposure Reporting Service Tool",
+    id: "2",
     images: [
         `../../../static/img/exampleusecases/glue_example_4.jpg`,
         `../../../static/img/exampleusecases/glue_example_5.jpg`,
@@ -45,7 +47,7 @@ const services = [{
     <strong>Book Analysis Service</strong>: Clients and client advisor require <strong>full transparency on 
     holdings</strong> and underlying <strong>risk drivers</strong>. These <strong>drivers come from multiple 
     dimensions</strong>, e.g: asset classes, product types, regional, currency or industry exposure.
-    This <strong>service allows for multidimensional exposure and book analytics</strong>.     `
+    This <strong>service allows for multidimensional exposure and book analytics</strong>.`
     }];
 
 
@@ -62,7 +64,7 @@ function ExamplesSection() {
 
 const Services = ({ services }) => (
     <div>
-        {services.map(service => <ExampleService service={service}></ExampleService>)}
+        {services.map(service => <ExampleService key={service.id} service={service}></ExampleService>)}
     </div>
 );
 
