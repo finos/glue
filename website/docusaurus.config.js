@@ -5,7 +5,6 @@ module.exports = {
   tagline: `FINOS ${projectName}`,
   title: `FINOS ${projectName}`,
   url: `https://finos.github.io/${projectName}`,
-  footerIcon: 'img/glue-main-logo.svg',
   favicon: 'img/favicon/favicon-finos.ico',
   organizationName: 'FINOS',
   projectName: projectName,

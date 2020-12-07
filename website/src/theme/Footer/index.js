@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styles from '../../css/scss/styles.module.scss';
 import config from '../../../docusaurus.config';
+
+const footerIconUrl = 'img/glue-main-logo.svg';
 class Footer extends Component {
   constructor(props) {
     super(props);
@@ -11,7 +13,7 @@ class Footer extends Component {
         <section>
           <div className={styles.footerLogoContainer}>
             <FooterLink url={config.baseUrl}>
-              <img src={config.baseUrl + config.footerIcon}
+              <img src={config.baseUrl + footerIconUrl}
                 alt={config.title}
               />
             </FooterLink>
