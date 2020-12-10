@@ -15,12 +15,23 @@ module.exports = {
   presets: [
     [
       '@docusaurus/preset-classic',
-      { //TODO: CHECK IF ARRAY/OBJECT structure works this way
+      {
         docs: {
           // Docs folder path relative to website dir.
-          path: '../docs',
+          path: 'docs',
           // Sidebars file relative to website dir.
-          sidebarPath: require.resolve('./sidebars.json'),
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Equivalent to `editUrl` but should point to `website` dir instead of `website/docs`.
+          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website',
+          // Equivalent to `docsUrl`.
+          routeBasePath: 'docs',
+          // Remark and Rehype plugins passed to MDX. Replaces `markdownOptions` and `markdownPlugins`.
+          remarkPlugins: [],
+          rehypePlugins: [],
+          // Equivalent to `enableUpdateBy`.
+          showLastUpdateAuthor: true,
+          // Equivalent to `enableUpdateTime`.
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: [require.resolve('./src/css/custom.scss')],
@@ -51,8 +62,8 @@ module.exports = {
         src: 'img/finos_wordmark_blue.svg',
       },
       items: [
-        {to: 'docs/doc1', label: 'Getting Started', position: 'left'},
-        {to: 'help', label: 'Help', position: 'left'},
+        {to: 'docs/home', label: 'Getting Started', position: 'left'},
+        {to: 'docs/help', label: 'Help', position: 'left'},
         {
           href: 'https://github.com/',
           label: 'GitHub',
