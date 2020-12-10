@@ -3,7 +3,6 @@ import styles from '../../css/scss/styles.module.scss';
 
 const services = [{
     title: "Portflio Health Monitoring Service Tool",
-    id: 1,
     images: [
         `../../../static/img/exampleusecases/glue_example_1.png`,
         `../../../static/img/exampleusecases/glue_example_3.png`,
@@ -26,7 +25,6 @@ const services = [{
     `
 }, {
     title: "Asset Exposure Reporting Service Tool",
-    id: 2,
     images: [
         `../../../static/img/exampleusecases/glue_example_4.jpg`,
         `../../../static/img/exampleusecases/glue_example_5.jpg`,
@@ -64,7 +62,7 @@ function ExamplesSection() {
 
 const Services = ({ services }) => (
     <div>
-        {services.map(service => <ExampleService key={service.id} service={service}></ExampleService>)}
+        {services.map((service, index) => (<ExampleService key={index} service={service}></ExampleService>))}
     </div>
 );
 

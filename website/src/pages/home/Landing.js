@@ -8,7 +8,7 @@ function LandingSection({ siteConfig = { title: "" }, language = '' }) {
         <Logo img_src="../../../static/img/glue-main-logo.svg"></Logo>
         <PromoSection>
           <ProjectMission><strong>Enterprise data model</strong> for <strong>buy-side firms</strong>, tailored for the needs of <strong>Wealth and Asset Managers</strong></ProjectMission>
-          <Button href=''>Get Started</Button>
+          <Button href='/glue/docs/home'>Get Started</Button>
           <BusinessDomain>Covers <strong>key entity domains</strong> including <strong>Business Relationship, Portfolio</strong> / <strong>Investment Strategy, Asset Classification</strong> / <strong>Instruments and Proposal, Orders and Positions.</strong> </BusinessDomain>
         </PromoSection>
       </SplashContainer>

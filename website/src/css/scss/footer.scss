@@ -2,9 +2,13 @@
 footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
+    background-color: $glue-primary;
 
     .footerLogoContainer,
-    .finosLogoContainer {
+    .finosLogoContainer,
+    .githubLogoContainer {
         width: 500px;
         margin: 20px auto;
         flex: 12;
@@ -28,7 +32,10 @@ footer {
             }
         }
     }
-    
+
+    .githubLogoContainer {
+        text-align: center;
+    }
 
     .footerLink {
         flex: 3;
@@ -49,10 +56,16 @@ footer {
             .linkedinLink {
                 color: $glue-white;
             }
+        }
+    }
 
-            .githubLink {
-                color: $glue-white;
-            }
+    .githubLink {
+        color: $glue-white;
+        
+        img.githubLogo, 
+        img.githubLogo * {
+            width: 40px;
+            height: 40px;
         }
     }
 }

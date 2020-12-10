@@ -21,11 +21,12 @@ class Footer extends Component {
           <div className={styles.finosLogoContainer}>
             <div className={styles.logoContainer}>
               <FooterLink url="https://www.finos.org">
-                <img id="finosicon" src={`img/finos_wordmark.svg`} height='75px' alt="FINOS" title="FINOS" />
+                <img id="finosicon" src={`../../../static/img/finos_wordmark.svg`} height='75px' alt="FINOS" title="FINOS" />
                 <h2 id="proud">Proud member of the Fintech Open Source Foundation</h2>
               </FooterLink>
             </div>
           </div>
+          <GithubLink></GithubLink>
           {/* <div>
             <h5>Docs</h5>
             <a href={docUrl('home')}>
@@ -62,7 +63,6 @@ class Footer extends Component {
           {/* <div className={styles.socialContainer}>
             <TwitterLink></TwitterLink>
             <LinkedinLink></LinkedinLink>
-            <GithubLink></GithubLink>
           </div> */}
         </section>
         {/* <section className="copyright">{config.copyright}</section> */}
@@ -96,15 +96,15 @@ const LinkedinLink = () => (
 );
 
 const GithubLink = () => (
-  <div className="social">
+  <div className={styles.githubLogoContainer}>
     <FooterLink
       className={styles.githubLink} // part of the https://buttons.github.io/buttons.js script in siteConfig.js
-      url={config.repoUrl}
-      data-count-href={`${config.repoUrl}/stargazers`}
+      url={config.githubHost}
+      data-count-href={`${config.githubHost}`}
       data-show-count="true"
       data-count-aria-label="# stargazers on GitHub"
       aria-label="Star this project on GitHub">
-      {config.projectName}
+      <img src={"../../../static/img/github-alt.svg"} height='75px' className={styles.githubLogo} />
     </FooterLink>
   </div>
 )
