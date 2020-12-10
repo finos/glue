@@ -1,6 +1,8 @@
 module.exports = {
     docs:  [
         "home",
+        "Asset_Classification_Node",
+        "DataDictionary",
         {
             type: 'category',
             label: 'Portfolio Strategy',
@@ -71,6 +73,46 @@ module.exports = {
                 "BP_People/User",
                 "BP_People/User_To_Role"
             ]
+        },
+        {
+            type: 'category',
+            label: 'Instruments Classification',
+            items: [
+                "Instruments_Classification/Asset_Classification_Node",
+                "Instruments_Classification/Asset_Classification_Regime",
+                "Instruments_Classification/Asset_Classification_Structure",
+                "Instruments_Classification/Benchmark",
+                "Instruments_Classification/Benchmark_Constituent",
+                "Instruments_Classification/Instrument",
+                "Instruments_Classification/Instrument__Attribute_Definition",
+                "Instruments_Classification/Instrument__Attribute_Value",
+                "Instruments_Classification/Instrument_Type_Hierachy"
+            ]
+        },
+        {
+            type:'category',
+            label: "Proposition Order Transaction",
+            items: [
+                "Proposition_Order_Transaction/Currency",
+                "Proposition_Order_Transaction/Currency_Identifier",
+                "Proposition_Order_Transaction/Currency_Identifier_Type",
+                "Proposition_Order_Transaction/Fill",
+                "Proposition_Order_Transaction/Financial_Account",
+                "Proposition_Order_Transaction/Financial_Account_Type",
+                "Proposition_Order_Transaction/Investment_Proposition",
+                "Proposition_Order_Transaction/Investment_Proposition_Position_Change",
+                "Proposition_Order_Transaction/Order",
+                "Proposition_Order_Transaction/Order_Completion",
+                "Proposition_Order_Transaction/Portfolio",
+                "Proposition_Order_Transaction/Portfolio_Type",
+                "Proposition_Order_Transaction/Position",
+                "Proposition_Order_Transaction/Transaction_Meta_Type",
+                "Proposition_Order_Transaction/Transaction_Relation",
+                "Proposition_Order_Transaction/Transaction_Type",
+                "Proposition_Order_Transaction/Transactions",
+            ]
         }
+
+        
     ]
 }
