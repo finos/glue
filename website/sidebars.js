@@ -3,7 +3,7 @@ module.exports = {
         "home",
         {
             type: 'category',
-            label: 'Portfolio_Strategy',
+            label: 'Portfolio Strategy',
             items: [
                 "Portfolio_Strategy/Asset_Classification_Node",
                 "Portfolio_Strategy/Asset_Classification_Regime",
@@ -31,6 +31,45 @@ module.exports = {
                 "Portfolio_Strategy/Restriction_to_Set",
                 "Portfolio_Strategy/Restriction_Type",
                 "Portfolio_Strategy/Risk_Profile"
+            ]
+        },
+        {
+            type: 'category',
+            label: 'BP People',
+            items: [
+                "BP_People/Address",
+                "BP_People/Address_Type",
+                "BP_People/Bank_Employee",
+                "BP_People/BP-Relationship_Type",
+                "BP_People/Business_Partner",
+                "BP_People/Business_Partner_Structure",
+                "BP_People/Business_Partner_To_Person",
+                "BP_People/Business_Partner_To_Person_Relationship_Type",
+                "BP_People/Business_Partner_Type",
+                "BP_People/Citizenship",
+                "BP_People/Citizenship_Type",
+                "BP_People/City",
+                "BP_People/Country",
+                "BP_People/Electronic_Address",
+                "BP_People/Electronic_Address_Type",
+                "BP_People/Employee_To_OE",
+                "BP_People/Employee_To_OE_Type",
+                "BP_People/Language",
+                "BP_People/Legal_Identification",
+                "BP_People/OE_To_BP",
+                "BP_People/OE_TO_BP_TYPE",
+                "BP_People/Organization_Structure",
+                "BP_People/Organizational_Entitiy",
+                "BP_People/Person",
+                "BP_People/Person_PII",
+                "BP_People/Person_Relation_Type",
+                "BP_People/Person_Relationship",
+                "BP_People/Person_Type",
+                "BP_People/Region",
+                "BP_People/Role",
+                "BP_People/Title",
+                "BP_People/User",
+                "BP_People/User_To_Role"
             ]
         }
     ]
