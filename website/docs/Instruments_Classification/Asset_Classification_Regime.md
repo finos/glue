@@ -1,7 +1,7 @@
 ---
 id: Asset_Classification_Regime
-
 title: Asset Classification Regime
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary- Table: Asset_Classification_Regime

@@ -1,6 +1,7 @@
 ---
 id: Restriction_Set
 title: Restriction Set
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Restriction_Set

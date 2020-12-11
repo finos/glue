@@ -2,6 +2,7 @@
 id: Investment_Proposition
 
 title: Investment_Proposition
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Investment_Proposition

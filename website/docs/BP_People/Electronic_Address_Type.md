@@ -1,7 +1,7 @@
 ---
 id: Electronic_Address_Type
-
 title: Electronic Address Type
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Electronic_Address_Type

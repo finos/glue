@@ -1,6 +1,7 @@
 ---
 id: Currency_Identifier
 title: Currency Identifier
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Currency_Identifier

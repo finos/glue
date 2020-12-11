@@ -1,6 +1,7 @@
 ---
 id: Book
 title: Book
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Book

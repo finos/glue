@@ -1,7 +1,7 @@
 ---
 id: Instrument_Type_Hierachy
-
 title: InstrumentType Hierachy
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Instrument_Type_Hierachy

@@ -1,6 +1,7 @@
 ---
 id: Investment_Strategy
 title: Investment Strategy
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Investment_Strategy

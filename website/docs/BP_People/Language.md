@@ -1,7 +1,7 @@
 ---
 id: Language
-
 title: Language
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Language

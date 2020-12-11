@@ -1,6 +1,7 @@
 ---
 id: Portfolio_Type
 title: Portfolio Type
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Portfolio_Type

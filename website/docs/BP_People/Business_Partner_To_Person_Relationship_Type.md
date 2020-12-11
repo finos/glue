@@ -1,7 +1,7 @@
 ---
 id: Business_Partner_To_Person_Relationship_Type
-
 title: Business Partner To Person RelationshipType
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Business_Partner_To_Person_Relationship_Type`

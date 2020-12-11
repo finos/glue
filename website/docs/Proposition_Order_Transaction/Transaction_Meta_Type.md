@@ -2,6 +2,7 @@
 id: Transaction_Meta_Type
 
 title: Transaction_Meta_Type
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Transaction_Meta_Type

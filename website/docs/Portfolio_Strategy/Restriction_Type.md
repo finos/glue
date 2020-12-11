@@ -1,6 +1,7 @@
 ---
 id: Restriction_Type
 title: Restriction Type
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Restriction_Type

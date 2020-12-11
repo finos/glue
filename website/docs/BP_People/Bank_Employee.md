@@ -1,6 +1,7 @@
 ---
 id: Bank_Employee
 title: Bank Employee
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Bank_Employee

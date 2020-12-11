@@ -1,7 +1,7 @@
 ---
 id: Legal_Identification
-
 title: Legal Identification
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Legal_Identification

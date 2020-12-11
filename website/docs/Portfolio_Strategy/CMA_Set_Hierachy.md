@@ -1,6 +1,7 @@
 ---
 id: CMA_Set_Hierachy
 title: CMA Set Hierachy
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: CMA_Set_Hierachy

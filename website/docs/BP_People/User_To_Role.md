@@ -1,7 +1,7 @@
 ---
 id: User_To_Role
-
 title: User To Role
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: User_To_Role

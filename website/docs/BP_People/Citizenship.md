@@ -1,7 +1,7 @@
 ---
 id: Citizenship
-
 title: Citizenship
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: `Citizenship`

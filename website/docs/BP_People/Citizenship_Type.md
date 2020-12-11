@@ -1,6 +1,7 @@
 ---
 id: Citizenship_Type
 title: Citizenship Type
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: `Citizenship_Type

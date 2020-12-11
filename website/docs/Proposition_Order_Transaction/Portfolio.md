@@ -2,6 +2,7 @@
 id: Portfolio
 
 title: Portfolio
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Portfolio

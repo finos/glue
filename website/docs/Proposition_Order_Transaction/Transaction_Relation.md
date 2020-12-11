@@ -2,6 +2,7 @@
 id: Transaction_Relation
 
 title: Transaction_Relation
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Transaction_Relation

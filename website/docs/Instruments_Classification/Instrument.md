@@ -1,7 +1,7 @@
 ---
 id: Instrument
-
 title: Instrument
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: `Instrument` 

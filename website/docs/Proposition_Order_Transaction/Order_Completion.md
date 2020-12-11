@@ -2,6 +2,7 @@
 id: Order_Completion
 
 title: Order_Completion
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Order_Completion

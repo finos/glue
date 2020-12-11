@@ -1,6 +1,7 @@
 ---
 id: Restriction_Definition
 title: Restriction Definition
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Restriction_Definition

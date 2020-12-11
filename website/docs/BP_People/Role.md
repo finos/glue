@@ -1,7 +1,7 @@
 ---
 id: Role
-
 title: Role 
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Role

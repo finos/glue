@@ -1,6 +1,7 @@
 ---
 id: Asset_Classification_Node
 title: Asset Classification Node
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Asset_Classification_Node

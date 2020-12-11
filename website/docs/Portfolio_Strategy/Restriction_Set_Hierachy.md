@@ -1,7 +1,7 @@
 ---
 id: Restriction_Set_Hierachy
-
 title: Restriction Set Hierachy
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Restriction_Set_Hierachy

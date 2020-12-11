@@ -1,7 +1,7 @@
 ---
 id: Instrument__Attribute_Value
-
 title: Instrument__Attribute Value
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Instrument__Attribute_Value

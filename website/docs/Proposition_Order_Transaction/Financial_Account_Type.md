@@ -2,6 +2,7 @@
 id: Financial_Account_Type
 
 title: Financial_Account_Type
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Financial_Account_Type

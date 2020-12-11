@@ -1,7 +1,7 @@
 ---
 id: Organizational_Entitiy
-
 title: Organizational Entity
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Organizational_Entitiy

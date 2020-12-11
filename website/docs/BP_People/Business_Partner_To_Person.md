@@ -1,7 +1,7 @@
 ---
 id: Business_Partner_To_Person
-
 title: Business Partner To Person
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Business_Partner_To_Person

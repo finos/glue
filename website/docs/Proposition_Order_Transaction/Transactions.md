@@ -2,6 +2,7 @@
 id: Transactions
 
 title: Transactions
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Transactions

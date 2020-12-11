@@ -1,7 +1,7 @@
 ---
 id: Employee_To_OE
-
 title: Employee To OE
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: `Employee_To_OE`

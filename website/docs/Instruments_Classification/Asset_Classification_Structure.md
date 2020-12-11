@@ -1,6 +1,7 @@
 ---
 id: Asset_Classification_Structure
 title: Asset Classification Structure
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary- Table: Asset_Classification_Structure

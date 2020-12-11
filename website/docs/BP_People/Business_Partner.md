@@ -1,6 +1,7 @@
 ---
 id: Business_Partner
 title: Business Partner
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Business_Partner

@@ -1,6 +1,7 @@
 ---
 id: Title
 title: Title 
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Title

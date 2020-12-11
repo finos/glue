@@ -1,6 +1,7 @@
 ---
 id: Instrument__Attribute_Definition
 title: Instrument__Attribute Definition
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Instrument__Attribute_Definition

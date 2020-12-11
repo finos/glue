@@ -1,7 +1,7 @@
 ---
 id: OE_TO_BP_TYPE
-
 title: OE TO BP TYPE
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: OE_TO_BP_TYPE

@@ -1,7 +1,7 @@
 ---
 id: Region
-
 title: Region
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Region

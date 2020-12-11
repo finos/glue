@@ -1,6 +1,7 @@
 ---
 id: Portfolio_Structure
 title: Portfolio Structure
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Portfolio_Structure

@@ -1,7 +1,7 @@
 ---
 id: OE_To_BP
-
 title: OE To BP
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: OE_To_BP

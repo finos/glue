@@ -1,6 +1,7 @@
 ---
 id: Currency
 title: Currency
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: `Currency`

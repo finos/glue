@@ -1,7 +1,7 @@
 ---
 id: Organization_Structure
-
 title: Organization Structure
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Organization_Structure

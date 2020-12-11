@@ -1,6 +1,7 @@
 ---
 id: Financial_Account
 title: Financial Account
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Financial_Account

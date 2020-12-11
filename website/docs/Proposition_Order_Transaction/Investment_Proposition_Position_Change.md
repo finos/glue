@@ -2,6 +2,7 @@
 id: Investment_Proposition_Position_Change
 
 title: Investment_Proposition_Position_Change
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Investment_Proposition_Position_Change

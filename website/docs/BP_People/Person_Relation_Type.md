@@ -1,7 +1,7 @@
 ---
 id: Person_Relation_Type
-
 title: Person Relation Type
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: Person_Relation_Type

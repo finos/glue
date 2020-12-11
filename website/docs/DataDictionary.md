@@ -1,5 +1,8 @@
-
-
+---
+id: DataDictionary
+title: Data Dictionary
+hide_table_of_contents: true
+---
 ## Data Dictionary- Table: Address
 Entity / Table :Address
 This suite of data dictionaries is not limited to a specific data collection. The aim is to enable data developers to select appropriate data elements to use in meeting the needs of their data collection. 

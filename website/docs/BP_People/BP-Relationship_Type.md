@@ -1,6 +1,7 @@
 ---
 id: BP-Relationship_Type
 title: BP-Relationship Type
+hide_table_of_contents: true
 ---
 
 ## Data Dictionary - Entity Table: BP-Relationship_Type
