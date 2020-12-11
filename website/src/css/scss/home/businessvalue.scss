@@ -1,8 +1,84 @@
 .businessValueSection {
     padding: 10px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    img {
-        width: 100%;
+    background-color: #98daec;
+
+    .businessDomainImpact,
+    .businessDomainList {
+        flex: 2;
     }
+
+    .businessDomainImpact img {
+        display: block;
+        margin: 0 auto;
+
+        @media screen and (min-device-width: 1440px) {
+            height: 650px;    
+        }
+        
+        @media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+            height: 150px;    
+        }
+
+        @media screen and (min-device-width: 425px) and (max-device-width: 768px) {
+            height: 250px;    
+        }
+
+        @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+            height: 350px;    
+        }
+
+        @media screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
+            height: 600px;    
+        }
+    }
+
+
+    .businessDomainList{
+        div {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            a {
+                display: block;
+                margin-top: 40px;
+                margin-left: 10px;
+                width: 100%;
+
+                @media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+                    margin-top: 5px;
+                    margin-left: 0;
+                }
+        
+                @media screen and (min-device-width: 425px) and (max-device-width: 768px) {
+                    margin-top: 15px;
+                    margin-left: 5px;
+                }
+        
+                @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                    width: 95%;
+                    margin-top: 15px;    
+                }
+
+                @media screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
+                    width: 100%;
+                    margin-top: 20px;    
+                }
+
+                @media screen and (min-device-width: 1440px) {
+                    width: 100%;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../css/scss/styles.module.scss';
 
-function LandingSection({ siteConfig = { title: "" }, language = '' }) {
+function LandingSection() {
   return (
     <section className={styles.landingSection}>
       <SplashContainer>

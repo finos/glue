@@ -1,10 +1,29 @@
 import React from 'react';
 import styles from '../../css/scss/styles.module.scss';
+import {baseUrl} from '../../../docusaurus.config';
 
 function BusinessValueSection() {
     return (
         <section className={styles.businessValueSection}>
-            <img src="../../../static/img/glue-impact.png"></img>
+            <div className={styles.businessDomainImpact}>
+                <img src="../../../static/img/business_domain_impact.png"></img>
+            </div>
+            <div className={styles.businessDomainList}>
+                <div>
+                    <a href={`${baseUrl}summary/`}>
+                        <img src="../../../static/img/business_domain_share.png"></img>
+                    </a>
+                    <a href={`${baseUrl}summary/`}>
+                        <img src="../../../static/img/business_domain_portfolio.png"></img>
+                    </a>
+                    <a href={`${baseUrl}summary/`}>
+                        <img src="../../../static/img/business_domain_instruments.png"></img>
+                    </a>
+                    <a href={`${baseUrl}summary/`}>
+                        <img src="../../../static/img/business_domain_proposition_transactions.png"></img>
+                    </a>
+                </div>
+            </div>
         </section>
     );
 }
