@@ -4,13 +4,9 @@ title: Glue Data Model
 ---
 
 ## Getting started
-
-[Asset Classification Node](Asset_Classification_Node) <br/>
-[DataDictionary](DataDictionary) <br/>
-[Portfolio Strategy](Portfolio_Strategy/Asset_Classification_Node) <br/>
-[BP People](BP_People/Address) <br/>
-[Instruments Classification](Instruments_Classification/Asset_Classification_Node) <br/>
-[Proposition Order Transaction](Proposition_Order_Transaction/Currency) <br/>
-
-....
+[Data Dictionary](DataDictionary)
+[Portfolio Strategy](Portfolio_Strategy/Portfolio) <br/>
+[BP People](BP_People/Business_Partner) <br/>
+[Instruments Classification](Instruments_Classification/Instrument) <br/>
+[Proposition Order Transaction](Proposition_Order_Transaction/Investment_Proposition) <br/>
 

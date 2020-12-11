@@ -1,8 +1,6 @@
 module.exports = {
     docs:  [
         "home",
-        "Asset_Classification_Node",
-        "DataDictionary",
         {
             type: 'category',
             label: 'Portfolio Strategy',
