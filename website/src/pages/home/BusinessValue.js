@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from '../../css/scss/styles.module.scss';
-import {baseUrl} from '../../../docusaurus.config';
+import { baseUrl } from '../../../docusaurus.config';
 
 function BusinessValueSection() {
     return (
         <section className={styles.businessValueSection}>
             <div className={styles.businessDomainImpact}>
-                <img src="../../../static/img/business_domain_impact.png"></img>
+                <a href={`${baseUrl}summary/`}>
+                    <img src="../../../static/img/business_domain_impact.png"></img>
+                </a>
             </div>
             <div className={styles.businessDomainList}>
                 <div>

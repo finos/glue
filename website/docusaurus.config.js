@@ -63,13 +63,7 @@ module.exports = {
       },
       items: [
         {to: 'docs/home', label: 'Getting Started', position: 'left'},
-        {to: 'docs/help', label: 'Help', position: 'left'},
-        // {
-        //   href: 'https://github.com/',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
-        // {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'docs/help', label: 'Help', position: 'left'}
       ],
     },
 
