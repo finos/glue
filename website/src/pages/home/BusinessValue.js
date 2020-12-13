@@ -12,7 +12,7 @@ function BusinessValueSection() {
             </div>
             <div className={styles.businessDomainList}>
                 <div>
-                    <a href={`${baseUrl}summary/`}>
+                    <a href={`${baseUrl}summary/businessRelationships`}>
                         <img src="../../../static/img/business_domain_share.png"></img>
                     </a>
                     <a href={`${baseUrl}summary/`}>
