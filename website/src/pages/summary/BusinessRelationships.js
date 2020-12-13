@@ -10,9 +10,32 @@ function BusinessRelationships() {
             <h1>Domain Group for Party/Business Relationships</h1>
             <RelationshipsSummary></RelationshipsSummary>
             <div className={styles.imgContainer}>
-            <img src="../../../static/img/business_.relationships.png"/>
+                <img src="../../../static/img/business_.relationships.png" />
             </div>
             <TableList tablesList={BusinessRelationshipsTableList}></TableList>
+            <h2>Party/ Business Relationships</h2>
+            <div className={styles.additionalInformation}>
+                <p>
+                    A Beneficial Owner is a person who benefits from a Business Partner that
+                    represents customers.
+                </p>
+                <p>
+                    Every business partner must have one registered owner. The Account Owner
+                    is the legal owner of the business partner.
+                </p>
+                <p>
+                    Non-legal entities such as a Trust or an Association/ shared account, have
+                    a dedicated Person ID in addition to the Person for the legal entities involved.
+                    This is clarified with the address or legal form.
+                </p>
+                <p>
+                    Special entities, such as the Issuer of instruments, employees, organisational
+                    entities within the bank are also represented by dedicated Person ID.
+                </p>
+            </div>
+            <div className={styles.imgContainer}>
+                <img src="../../../static/img/business_relationships_connections.png" />
+            </div>
         </Layout>
     );
 }
@@ -39,7 +62,7 @@ const RelationshipsSummary = () => (
 
         <p>
             The Relationship between a business partner that is connected
-            with a  person. One person can have multiple business partner 
+            with a  person. One person can have multiple business partner
             Relationships.
         </p>
     </div>

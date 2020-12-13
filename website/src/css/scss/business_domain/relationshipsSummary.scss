@@ -36,7 +36,11 @@
     }
 }
 
-.imgContainer {
+h2 {
+    text-align: center;
+}
+
+.imgContainer, .additionalInformation {
     max-width: 700px;
     margin: 20px auto;
 }
