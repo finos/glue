@@ -15,13 +15,13 @@ function BusinessValueSection() {
                     <a href={`${baseUrl}summary/businessRelationships`}>
                         <img src="../../../static/img/business_domain_share.png"></img>
                     </a>
-                    <a href={`${baseUrl}summary/`}>
+                    <a href={`${baseUrl}summary/potfolioStrategy`}>
                         <img src="../../../static/img/business_domain_portfolio.png"></img>
                     </a>
                     <a href={`${baseUrl}summary/instruments`}>
                         <img src="../../../static/img/business_domain_instruments.png"></img>
                     </a>
-                    <a href={`${baseUrl}summary/`}>
+                    <a href={`${baseUrl}summary/propositionOrderTransacition`}>
                         <img src="../../../static/img/business_domain_proposition_transactions.png"></img>
                     </a>
                 </div>
