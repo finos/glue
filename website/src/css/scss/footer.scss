@@ -68,4 +68,13 @@ footer {
             height: 40px;
         }
     }
+
+    .emailContainer {
+        width: 110px;
+        margin: 10px auto;
+        a {
+            color: $glue-white;
+            text-decoration: underline;
+        }
+    }
 }

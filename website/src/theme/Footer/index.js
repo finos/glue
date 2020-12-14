@@ -27,38 +27,8 @@ class Footer extends Component {
             </div>
           </div>
           <GithubLink></GithubLink>
-          {/* <div>
-            <h5>Docs</h5>
-            <a href={docUrl('home')}>
-              Getting Started
-              </a>
-            <a href={docUrl('team')}>
-              Team
-              </a>
-            <a href={docUrl('roadmap')}>
-              Roadmap
-              </a>
-          </div> */}
-          <div>
-            {/* <h5>FINOS</h5> */}
-            {/* <a
-              href="https://www.finos.org/"
-              target="_blank"
-              rel="noreferrer noopener">
-              FINOS Website
-              </a>
-            <a
-              href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook"
-              target="_blank"
-              rel="noreferrer noopener">
-              Community Handbook
-              </a>
-            <a
-              href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530783/Community+Governance"
-              target="_blank"
-              rel="noreferrer noopener">
-              Community Governance
-              </a> */}
+          <div className={styles.emailContainer}>
+            <Email className={styles.email}></Email>
           </div>
           {/* <div className={styles.socialContainer}>
             <TwitterLink></TwitterLink>
@@ -71,8 +41,19 @@ class Footer extends Component {
   }
 }
 
-const FooterLink = ({ children, url }) => (
-  <a href={url} className={styles.footerLink} target="_blank">{children}</a>
+const FooterLink = ({ children, url, noTarget }) => {
+  let link = null;
+  if(noTarget) {
+    link = (<a href={url} className={styles.footerLink}>{children}</a>);
+  }
+  else {
+    link = (<a href={url} className={styles.footerLink}>{children}</a>);
+  }
+  return link;
+};
+
+const Email = () => (
+  <FooterLink url={`mailto:help@finos.org?subject="Finos Contribution Question"`} noTarget={true}>help@finos.org</FooterLink>
 );
 
 const TwitterLink = () => (
