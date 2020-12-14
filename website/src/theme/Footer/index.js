@@ -53,7 +53,7 @@ const FooterLink = ({ children, url, noTarget }) => {
 };
 
 const Email = () => (
-  <FooterLink url={`mailto:glue@epam.org?subject="Contribution Question"`} noTarget={true}>glue@epam.org</FooterLink>
+  <FooterLink url={`mailto:glue@epam.com?subject="Contribution Question"`} noTarget={true}>glue@epam.com</FooterLink>
 );
 
 const TwitterLink = () => (
