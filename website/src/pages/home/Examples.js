@@ -70,7 +70,9 @@ const ExampleService = ({ service }) => (
     <div>
         <h4>{ service.title }</h4>
         <ExampleCopyRightImages>
-            {service.images.map(image => <ExampleCopyRightImage imgPath={image}></ExampleCopyRightImage>)}
+            <React.Fragment>
+            {service.images.map((image, imgIndex) => (<ExampleCopyRightImage key={imgIndex} imgPath={image}></ExampleCopyRightImage>))}
+            </React.Fragment>
         </ExampleCopyRightImages>
         <p dangerouslySetInnerHTML={{ __html: service.description }}></p>
     </div>
