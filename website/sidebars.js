@@ -1,41 +1,10 @@
 module.exports = {
-    docs:  [
+    docs: [
         "home",
+        "summary",
         {
             type: 'category',
-            label: 'Portfolio Strategy',
-            items: [
-                "Portfolio_Strategy/Asset_Classification_Node",
-                "Portfolio_Strategy/Asset_Classification_Regime",
-                "Portfolio_Strategy/Benchmark",
-                "Portfolio_Strategy/Benchmark_Constituent",
-                "Portfolio_Strategy/Book",
-                "Portfolio_Strategy/CMA_Set",
-                "Portfolio_Strategy/CMA_Set_Hierachy",
-                "Portfolio_Strategy/Currency",
-                "Portfolio_Strategy/Currency_Identifier",
-                "Portfolio_Strategy/Currency_Identifier_Type",
-                "Portfolio_Strategy/Financial_Account",
-                "Portfolio_Strategy/Financial_Account_Type",
-                "Portfolio_Strategy/Investment_Strategy",
-                "Portfolio_Strategy/Node_CMA_Covariance",
-                "Portfolio_Strategy/Node_CMA_RR",
-                "Portfolio_Strategy/Portfolio",
-                "Portfolio_Strategy/Portfolio_Structure",
-                "Portfolio_Strategy/Portfolio_Type",
-                "Portfolio_Strategy/Position",
-                "Portfolio_Strategy/Restriction",
-                "Portfolio_Strategy/Restriction_Definition",
-                "Portfolio_Strategy/Restriction_Set",
-                "Portfolio_Strategy/Restriction_Set_Hierachy",
-                "Portfolio_Strategy/Restriction_to_Set",
-                "Portfolio_Strategy/Restriction_Type",
-                "Portfolio_Strategy/Risk_Profile"
-            ]
-        },
-        {
-            type: 'category',
-            label: 'BP People',
+            label: 'People / Partner Relationships',
             items: [
                 "BP_People/Address",
                 "BP_People/Address_Type",
@@ -74,7 +43,39 @@ module.exports = {
         },
         {
             type: 'category',
-            label: 'Instruments Classification',
+            label: 'Portfolio / Financial Account / Investment Strategy',
+            items: [
+                "Portfolio_Strategy/Asset_Classification_Node",
+                "Portfolio_Strategy/Asset_Classification_Regime",
+                "Portfolio_Strategy/Benchmark",
+                "Portfolio_Strategy/Benchmark_Constituent",
+                "Portfolio_Strategy/Book",
+                "Portfolio_Strategy/CMA_Set",
+                "Portfolio_Strategy/CMA_Set_Hierachy",
+                "Portfolio_Strategy/Currency",
+                "Portfolio_Strategy/Currency_Identifier",
+                "Portfolio_Strategy/Currency_Identifier_Type",
+                "Portfolio_Strategy/Financial_Account",
+                "Portfolio_Strategy/Financial_Account_Type",
+                "Portfolio_Strategy/Investment_Strategy",
+                "Portfolio_Strategy/Node_CMA_Covariance",
+                "Portfolio_Strategy/Node_CMA_RR",
+                "Portfolio_Strategy/Portfolio",
+                "Portfolio_Strategy/Portfolio_Structure",
+                "Portfolio_Strategy/Portfolio_Type",
+                "Portfolio_Strategy/Position",
+                "Portfolio_Strategy/Restriction",
+                "Portfolio_Strategy/Restriction_Definition",
+                "Portfolio_Strategy/Restriction_Set",
+                "Portfolio_Strategy/Restriction_Set_Hierachy",
+                "Portfolio_Strategy/Restriction_to_Set",
+                "Portfolio_Strategy/Restriction_Type",
+                "Portfolio_Strategy/Risk_Profile"
+            ]
+        },
+        {
+            type: 'category',
+            label: 'Instruments / Asset Classifications',
             items: [
                 "Instruments_Classification/Asset_Classification_Node",
                 "Instruments_Classification/Asset_Classification_Regime",
@@ -88,8 +89,8 @@ module.exports = {
             ]
         },
         {
-            type:'category',
-            label: "Proposition Order Transaction",
+            type: 'category',
+            label: "Positions / Transactions / Orders/ Investment Propositions",
             items: [
                 "Proposition_Order_Transaction/Currency",
                 "Proposition_Order_Transaction/Currency_Identifier",
@@ -111,6 +112,6 @@ module.exports = {
             ]
         }
 
-        
+
     ]
 }

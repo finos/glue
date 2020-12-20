@@ -7,7 +7,7 @@ import styles from '../../css/scss/styles.module.scss';
 function PropositionOrderTransactions() {
     return (
         <Layout>
-            <h1>Domain Group for Proposal, Orders and Positions</h1>
+            <h1>Positions / Transactions / Orders/ Investment Propositions</h1>
             <PropositionOrderTransactionsSummary></PropositionOrderTransactionsSummary>
             <div className={styles.imgContainer}>
                 <img src="../../../static/img/transactions_relationships_connections.png" />

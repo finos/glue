@@ -7,7 +7,7 @@ import styles from '../../css/scss/styles.module.scss';
 function Instruments() {
     return (
         <Layout>
-            <h1>Domain Group for Asset Classifications/Instruments</h1>
+            <h1>Instruments / Asset Classifications</h1>
             <InstrumentsSummary></InstrumentsSummary>
             <div className={styles.imgContainer}>
                 <img src="../../../static/img/instruments_relationships_connections.png"/>

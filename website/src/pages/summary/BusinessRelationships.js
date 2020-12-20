@@ -7,12 +7,11 @@ import styles from '../../css/scss/styles.module.scss';
 function BusinessRelationships() {
     return (
         <Layout>
-            <h1>Domain Group for Party/Business Relationships</h1>
+            <h1>People / Partner Relationships</h1>
             <RelationshipsSummary></RelationshipsSummary>
             <div className={styles.imgContainer}>
                 <img src="../../../static/img/business_.relationships.png" />
             </div>
-            <TableList tablesList={BusinessRelationshipsTableList}></TableList>
             <h2>Party/ Business Relationships</h2>
             <div className={styles.additionalInformation}>
                 <p>
@@ -36,6 +35,7 @@ function BusinessRelationships() {
             <div className={styles.imgContainer}>
                 <img src="../../../static/img/business_relationships_connections.png" />
             </div>
+            <TableList tablesList={BusinessRelationshipsTableList}></TableList>
         </Layout>
     );
 }

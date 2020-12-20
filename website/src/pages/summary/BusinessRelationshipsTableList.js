@@ -34,7 +34,7 @@ const BusinessRelationshipsTableList = [
     {name:"Employee_To_OE", link:`${baseUrl}docs/BP_People/Employee_To_OE`}, 
     {name:"Employee_To_OE_Type", link:`${baseUrl}docs/BP_People/Employee_To_OE_Type`}, 
     {name:"Organizational_Entity", link:`${baseUrl}docs/BP_People/Organizational_Entity`}, 
-    {name:"Language", link:`${baseUrl}docs/BP_Peopleple/Languagee`}
+    {name:"Language", link:`${baseUrl}docs/BP_People/Language`}
 ];
 
 export default BusinessRelationshipsTableList;

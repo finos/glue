@@ -62,8 +62,7 @@ module.exports = {
         src: 'img/finos_wordmark_blue.svg',
       },
       items: [
-        {to: 'docs/home', label: 'Getting Started', position: 'left'},
-        {to: 'docs/help', label: 'Help', position: 'left'}
+        {to: 'docs/home', label: 'Docs', position: 'left'}
       ],
     },
 

@@ -7,7 +7,7 @@ import styles from '../../css/scss/styles.module.scss';
 function PortfolioStrategy () {
     return (
         <Layout>
-            <h1>Domain Group for Portfolio/ Investment Strategy</h1>
+            <h1>Portfolio / Financial Account / Investment Strategy</h1>
             <PortfolioStrategySummary></PortfolioStrategySummary>
             <div className={styles.imgContainer}>
                 <img src="../../../static/img/portfolio_strategy_relationship_connections.png"/>
