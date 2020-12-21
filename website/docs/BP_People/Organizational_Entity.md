@@ -1,10 +1,10 @@
 ---
-id: Organizational_Entitiy
+id: Organizational_Entity
 title: Organizational Entity
 hide_table_of_contents: true
 ---
 
-## Data Dictionary - Entity Table: Organizational_Entitiy
+## Data Dictionary - Entity Table: Organizational_Entity
 
 
 The teams/divisions in which the employees are working are represented by an OE-Organizational Entity id .

@@ -1,5 +1,5 @@
 ---
-id: Instrument__Attribute_Value
+id: Instrument_Attribute_Value
 title: Instrument__Attribute Value
 hide_table_of_contents: true
 ---

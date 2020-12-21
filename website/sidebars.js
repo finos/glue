@@ -28,7 +28,7 @@ module.exports = {
                 "BP_People/OE_To_BP",
                 "BP_People/OE_TO_BP_TYPE",
                 "BP_People/Organization_Structure",
-                "BP_People/Organizational_Entitiy",
+                "BP_People/Organizational_Entity",
                 "BP_People/Person",
                 "BP_People/Person_PII",
                 "BP_People/Person_Relation_Type",
@@ -83,8 +83,8 @@ module.exports = {
                 "Instruments_Classification/Benchmark",
                 "Instruments_Classification/Benchmark_Constituent",
                 "Instruments_Classification/Instrument",
-                "Instruments_Classification/Instrument__Attribute_Definition",
-                "Instruments_Classification/Instrument__Attribute_Value",
+                "Instruments_Classification/Instrument_Attribute_Definition",
+                "Instruments_Classification/Instrument_Attribute_Value",
                 "Instruments_Classification/Instrument_Type_Hierachy"
             ]
         },

@@ -11,7 +11,7 @@ const BusinessRelationshipsTableList = [
     {name:"Title", link:`${baseUrl}docs/BP_People/Title`}, 
     {name:"Address", link:`${baseUrl}docs/BP_People/Address`}, 
     {name:"Address_Type", link:`${baseUrl}docs/BP_People/Address_Type`}, 
-    {name:"Citizenship", link:`${baseUrl}docs/BP_People/`}, 
+    {name:"Citizenship", link:`${baseUrl}docs/BP_People/Citizenship`}, 
     {name:"Citizenship_Type", link:`${baseUrl}docs/BP_People/Citizenship_Type`}, 
     {name:"Business_Partner_To_Person", link:`${baseUrl}docs/BP_People/Business_Partner_To_Person`}, 
     {name:"OE_TO_BP_TYPE", link:`${baseUrl}docs/BP_People/OE_TO_BP_TYPE`}, 

@@ -26,7 +26,7 @@ const PortfolioStrategyRelationshipsTableList = [
     {name:"Position", link: `${baseUrl}docs/Portfolio_Strategy/Position`},
     {name:"Financial_Account", link: `${baseUrl}docs/Portfolio_Strategy/Financial_Account`},
     {name:"Financial_Account_Type", link: `${baseUrl}docs/Portfolio_Strategy/Financial_Account_Type`},
-    {name:"Investment_Strategy",link: `${baseUrl}docs/Portfolio_Strategy/Investment_Strateg`}
+    {name:"Investment_Strategy",link: `${baseUrl}docs/Portfolio_Strategy/Investment_Strategy`}
 ];
 
 export default PortfolioStrategyRelationshipsTableList;
