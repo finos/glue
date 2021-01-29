@@ -1,4 +1,3 @@
-import BusinessRelationships from "./businessRelationships";
 import {baseUrl} from "../../../docusaurus.config";
 
 const BusinessRelationshipsTableList = [
