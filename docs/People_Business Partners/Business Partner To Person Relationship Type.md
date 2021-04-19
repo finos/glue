@@ -7,7 +7,7 @@ title: Business_Partner_To_Person_Relationship_Type
 
 This table is a lookup with  the type of the relationships between business partner and person.
 
-|Primary Key ('id')|.|ENGINE = InnoDB|.|.|
+|Primary Key ('id')| |ENGINE = InnoDB| | |
 |---|---|---|---|---|
 | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
