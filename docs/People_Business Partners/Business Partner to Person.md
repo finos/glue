@@ -1,7 +1,5 @@
-
 ---
 id: Business_Partner_To_Person
-
 title: Business_Partner_To_Person
 ---
 
@@ -24,7 +22,7 @@ Example of other types of relationship are: account owner (the legal owner of th
 ||
 |`id`| BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Business_Partner`| BIGINT(12)| NULL|1|Business Partner ID|
-|Person| BIGINT(12) |NULL|1|Person ID|
+|`Person`| BIGINT(12) |NULL|1|Person ID|
 |`Relationship_Type`| BIGINT(12)| NULL |1|Relationship type id|
 ||
 | CONSTRAINT|FOREIGN KEY|REFERENCES |ON DELETE|ON UPDATE|
