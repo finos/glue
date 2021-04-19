@@ -1,11 +1,9 @@
-
 ---
 id: Citizenship
-
 title: Citizenship
 ---
 
-## Data Dictionary - Entity Table: `Citizenship`
+## Data Dictionary - Entity Table: Citizenship
 
 A Person's citizenship. Citizenship of an individual person that impacts the relationships between advisor and their clients.
 
