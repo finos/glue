@@ -1,4 +1,3 @@
-
 ---
 id: Business_Partner_Structure
 title: Business_Partner_Structure
