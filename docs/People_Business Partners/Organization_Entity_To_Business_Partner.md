@@ -1,6 +1,5 @@
 ---
 id: Organization_Entity_To_Business_Partner
-
 title: Organization_Entity_To_Business_Partner
 ---
 
@@ -23,7 +22,7 @@ Contains all the relations between Business Partners and divisions/teams within 
 |`OE_To_BP_Type`|(`Relationship_Type`)|`Organization_Entity_To_Business_Partner_Type` (`id`)| NO ACTION|NO ACTION|
 ||
 |CREATE INDEX|ON|ASC|VISABLE|.|
-|`BP_idx`|`OE_To_BP`|(`BP` ASC) | VISIBLE|.|
-|`OE_idx`|`OE_To_BP`|(`OE` ASC) | VISIBLE|.|
+|`BP_idx`|`OE_To_BP`|(`Business_Partner` ASC) | VISIBLE|.|
+|`OE_idx`|`OE_To_BP`|(`Organizational_Entity` ASC) | VISIBLE|.|
 |`Type_idx`|`OE_To_BP`|(`Relationship_Type` ASC) | VISIBLE|.|
 ||
