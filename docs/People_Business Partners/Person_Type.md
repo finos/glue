@@ -1,7 +1,5 @@
-
 ---
 id: Person_Type	
-
 title: Person_Type
 ---
 
