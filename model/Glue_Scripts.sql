@@ -1203,7 +1203,7 @@ CREATE TABLE IF NOT EXISTS `Order_Completion` (
   `TotalCharges` DECIMAL NULL,
   `ChargeCurrency` BIGINT(12) NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `Currency`
+  CONSTRAINT `OrderCurrency`
     FOREIGN KEY (`Currency`)
     REFERENCES `Currency` (`id`)
     ON DELETE NO ACTION
