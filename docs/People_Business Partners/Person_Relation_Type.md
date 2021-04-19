@@ -1,7 +1,5 @@
-
 ---
 id: Person_Relation_Type
-
 title: Person_Relation_Type
 ---
 
