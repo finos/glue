@@ -29,8 +29,8 @@ Under certain jurisdictions, this table should belong to the list of tables that
 |`Address_Type`| BIGINT(12)| NULL|2|Type of address from Address_Type Table: Home, Business, etc|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES |ON DELETE|ON UPDATE|
-|`Person_PII`|('Person')|`Person_PII` (`id`)|NO ACTION| NO ACTION|
-|`Address_type`|('Address_type`)| `Address_Type` (`Id`)|NO ACTION| NO ACTION|
+|`Person_PII`|(`Person`)|`Person_PII` (`id`)|NO ACTION| NO ACTION|
+|`Address_type`|(`Address_type`)| `Address_Type` (`Id`)|NO ACTION| NO ACTION|
 |`Country`|(`Country`)|`Country` (`id`)|NO ACTION| NO ACTION|
 |`City`|(`City`)|`City` (`id`)|NO ACTION| NO ACTION|
 |`Region`|(`Region`)|`Region` (`id`)|NO ACTION| NO ACTION|
