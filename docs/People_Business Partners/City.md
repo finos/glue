@@ -1,11 +1,9 @@
-
 ---
 id: City
-
 title: City
 ---
 
-## Data Dictionary - Entity Table: `City`
+## Data Dictionary - Entity Table: City
 
 Lookup table for the City that individual or Organization entity has in their address.
 
