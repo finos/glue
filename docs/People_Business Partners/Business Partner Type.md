@@ -1,10 +1,9 @@
-
 ---
-id: `Business_Partner_Type`
-title: `Business_Partner_Type`
+id: Business_Partner_Type
+title: Business_Partner_Type
 ---
 
-## Data Dictionary - Entity Table: `Business_Partner_Type`
+## Data Dictionary - Entity Table: Business_Partner_Type
 
 This is lookup table for the Business_Partner_Type (id) column in the table Business_Partner. It contains the names of the business partner types. 
 Three typical examples of business partner types: 
