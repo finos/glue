@@ -1,7 +1,5 @@
-
 ---
 id: Organizational_Entitiy
-
 title: Organizational_Entitiy
 ---
 
