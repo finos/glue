@@ -1,5 +1,4 @@
 
-
 ---
 id: Business_Partner_To_Person_Relationship_Type
 title: Business_Partner_To_Person_Relationship_Type
