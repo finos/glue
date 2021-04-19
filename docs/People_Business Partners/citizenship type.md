@@ -1,11 +1,9 @@
-
 ---
 id: Citizenship_Type
-
 title: Citizenship_Type
 ---
 
-## Data Dictionary - Entity Table: `Citizenship_Type
+## Data Dictionary - Entity Table: Citizenship_Type
 
 This is a lookup table for Citizenship_Type column in the table Citizenship. 
 There could be different types of citizenships. For example, by birth, naturalized, by marriage, by investment, etc. 
