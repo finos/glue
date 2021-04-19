@@ -1,4 +1,3 @@
-
 ---
 id: Business_Partner
 title: Business_Partner
