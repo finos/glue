@@ -7,7 +7,7 @@ title: City
 
 Lookup table for the City that individual or Organization entity has in their address.
 
-| Primary Key ('id')|.|ENGINE = InnoDB|.|
+| Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
 | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example|Comment|
 ||
