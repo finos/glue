@@ -401,7 +401,7 @@ CREATE TABLE IF NOT EXISTS `CMA_Set` (
     REFERENCES `Asset_Classification_Regime` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `Business_Partner`
+  CONSTRAINT `CMABusiness_Partner`
     FOREIGN KEY (`Owner`)
     REFERENCES `Business_Partner` (`id`)
     ON DELETE NO ACTION
