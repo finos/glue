@@ -15,7 +15,7 @@ from specific account owned by his parent.
 |---|---|---|---|---|
 |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|COMMENT|
 ||
-|`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID(auto creates)'Contains the person relation types'|
-|`name`|VARCHAR(32)|NOT NULL|Representative; Community; RM; Trustee; Son|'Name of person relation|
+|`id`|BIGINT(12)|PK, NN|1|Contains the person relation types|
+|`name`|VARCHAR(32)|NOT NULL|Representative; Community; RM; Trustee; Son|Name of person relation|
 ||
   
