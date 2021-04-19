@@ -1,7 +1,5 @@
-
 ---
 id: Legal_Identification
-
 title: Legal_Identification
 ---
 
@@ -24,7 +22,7 @@ Stores Legal Identification documents of the person.
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`LIPerson`|(`Person`)|`Person_PII` (`id`)| NO ACTION|NO ACTION|
-|`Issuer_Country`|('Id')|`Country `('Id')| NO ACTION|NO ACTION|
+|`Issuer_Country`|('Id')|`Country `(`id`)| NO ACTION|NO ACTION|
 |`Issuer_Place`|('Id')|`Address` (`id`)| NO ACTION|NO ACTION|
 ||
 |CREATE INDEX|ON|ASC|VISABLE|.|
