@@ -1,11 +1,9 @@
-
 ---
 id: Organization_Entity_To_Business_Partner_Type
-
 title: Organization_Entity_To_Business_Partner_Type
 ---
 
-## Data Dictionary - Entity Table: OE_TO_BP_TYPE
+## Data Dictionary - Entity Table: Organization_Entity_To_Business_Partner_Type
 
 This is a lookup table for the relationship between organizational entity (OE) to business partner (BP). 
 
