@@ -1,7 +1,5 @@
-
 ---
 id: Business_Partner_Relationship_Type
-
 title: Business_Partner_Relationship_Type
 ---
 
