@@ -1,7 +1,5 @@
-
 ---
 id: Organization_Structure
-
 title: Organization_Structure
 ---
 
