@@ -1,7 +1,5 @@
-
 ---
 id: Person_Relationship
-
 title: Person_Relationship
 ---
 
@@ -16,7 +14,7 @@ Table which describes the relationship between 2 or more Person entities.
 |`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID (auto creates)|
 |`Person`|BIGINT(12)|NOT NULL|132|'ID of person'|
 |`Associated_Person`|BIGINT(12)|NOT NULL|12|'ID of associated person'|
-|`Relation_Type`|BIGINT(12)|NOT NULL|2|ID of relation type-  see Table Person Relation_Type|
+|`Relation_Type`|BIGINT(12)|NOT NULL|2|ID of relation type- see Table Person Relation_Type|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`relation_type_id`|(`Relation_Type`)|`Person_Relation_Type` (`id`)| NO ACTION|NO ACTION|
