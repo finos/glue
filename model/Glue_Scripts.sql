@@ -934,7 +934,7 @@ CREATE TABLE IF NOT EXISTS `Investment_Proposition` (
     REFERENCES `Portfolio` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `Currency`
+  CONSTRAINT `InvestmentCurrency`
     FOREIGN KEY (`presentation_currency_id`)
     REFERENCES `Currency` (`id`)
     ON DELETE NO ACTION
