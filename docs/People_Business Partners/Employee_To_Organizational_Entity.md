@@ -1,5 +1,5 @@
 ---
-id:Employee_To_Organizational_Entity
+id: Employee_To_Organizational_Entity
 title: Employee_To_Organizational_Entity
 ---
 
