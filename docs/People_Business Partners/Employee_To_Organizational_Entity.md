@@ -7,8 +7,8 @@ title: Employee_To_Organizational_Entity
 
 This table models the Job responsibilities within the Organizational Entity. 
 Examples of Organizational Entity responibilities: 
-# Members: Several employees typically form a team. An employee is represented by a Employee and a team is represented by an Organizational Entity.
-#Supervisor: The members of a team are typically controlled by a team lead. Similarly, all other teams/divisions from higher up in the 
+**Members**: Several employees typically form a team. An employee is represented by a Employee and a team is represented by an Organizational Entity.
+**Supervisor**: The members of a team are typically controlled by a team lead. Similarly, all other teams/divisions from higher up in the 
 organizational hierarchy have a manager who is responsible for all underlying organizational entities.
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
@@ -29,5 +29,3 @@ organizational hierarchy have a manager who is responsible for all underlying or
 |`OE_idx`|`Employee_To_OE`|(`OE` ASC)|VISIBLE|.|
 |`Employee_idx`|`Employee_To_OE`|(`Employee` ASC)|VISIBLE|.|
 |`Type_idx`|`Employee_To_OE`|(`Relationship_Type` ASC)|VISIBLE|.|
-||
-
