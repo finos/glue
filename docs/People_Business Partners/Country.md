@@ -1,11 +1,9 @@
-
 ---
 id: Country
-
 title: Country
 ---
 
-## Data Dictionary - Entity Table: `Country`
+## Data Dictionary - Entity Table: Country
 Lookup table for the country that individual person or Organization entity has in their address. 
 For example any country names or country codes listed in ISO 3166 can be used or the organization can internally define convention for usage of country names.
 
