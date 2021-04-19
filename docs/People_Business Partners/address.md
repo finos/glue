@@ -10,7 +10,7 @@ One Person can hold multiple addresses. However, only one address can be marked 
 Under certain jurisdictions, this table should belong to the list of tables that contains PII- Personally Identifiable Information.
 
 
-||
+
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
 | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
