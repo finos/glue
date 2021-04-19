@@ -1,11 +1,10 @@
-
 ---
 id: Person
-
 title: Person
 ---
 
 ## Data Dictionary - Entity Table: Person
+
 The Person Table models individuals, legal persons and entities, separating personal and business relationship data for an entity. 
 The Person represents the entity behind the business relationship. The Person relates to several Person Types and Legal Forms.
 
