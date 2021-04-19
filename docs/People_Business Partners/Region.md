@@ -1,7 +1,5 @@
-
 ---
 id: Region
-
 title: Region
 ---
 
