@@ -1005,7 +1005,7 @@ CREATE TABLE IF NOT EXISTS `Investment_Strategy` (
   `Risk_Profile` BIGINT(12) NULL,
   `Service_Model` BIGINT(12) NULL,
   `Restriction_Set` BIGINT(12) NULL,
-  `StrategyBenchmark` BIGINT(12) NULL,
+  `Benchmark` BIGINT(12) NULL,
   `CMA_Set` BIGINT(12) NULL,
   `Name` VARCHAR(45) NULL,
   PRIMARY KEY (`id`),
@@ -1024,7 +1024,7 @@ CREATE TABLE IF NOT EXISTS `Investment_Strategy` (
     REFERENCES `CMA_Set` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `Benchmark`
+  CONSTRAINT `StrategyBenchmark`
     FOREIGN KEY (`Benchmark`)
     REFERENCES `Benchmark` (`id`)
     ON DELETE NO ACTION
