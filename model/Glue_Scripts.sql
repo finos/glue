@@ -1396,7 +1396,7 @@ CREATE TABLE IF NOT EXISTS `Person_Relationship` (
     REFERENCES `Person_Relation_Type` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `Person`
+  CONSTRAINT `Person_id`
     FOREIGN KEY (`Person`)
     REFERENCES `Person` (`id`)
     ON DELETE NO ACTION
