@@ -1541,7 +1541,7 @@ CREATE TABLE IF NOT EXISTS `Position` (
     REFERENCES `Financial_Account` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `Instrument`
+  CONSTRAINT `Instrument_id`
     FOREIGN KEY (`instrument_id`)
     REFERENCES `Instrument` (`id`)
     ON DELETE NO ACTION
@@ -1580,7 +1580,7 @@ CREATE TABLE IF NOT EXISTS `Restriction` (
   `Batch_Check` TINYINT NULL,
   `Overridable` TINYINT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `Owner`
+  CONSTRAINT `RestrictionOwner`
     FOREIGN KEY (`Owner`)
     REFERENCES `Business_Partner` (`id`)
     ON DELETE NO ACTION
@@ -1621,7 +1621,7 @@ CREATE TABLE IF NOT EXISTS `Restriction_Set` (
   `Name` VARCHAR(45) NULL,
   `Owner` BIGINT(12) NOT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `Owner`
+  CONSTRAINT `SetOwner`
     FOREIGN KEY (`Owner`)
     REFERENCES `Business_Partner` (`id`)
     ON DELETE NO ACTION
