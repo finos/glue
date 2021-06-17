@@ -4,7 +4,7 @@ id: Instrument_Type
 title: Instrument_Type
 ---
 
-## Data Dictionary - Entity Table: `Instrument_Type`
+## Data Dictionary - Entity Table: Instrument_Type
 
 This is a lookup table for the Instrument type column in the Instrument table. 
 The table holds the possibile Instrument types (Equity, Bond, Real Estate, etc.) and it is associated with the Instrument Attributes specific to each instrument type. 
