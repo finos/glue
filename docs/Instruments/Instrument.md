@@ -4,7 +4,7 @@ id: Instrument
 title: Instrument
 ---
 
-## Data Dictionary - Entity Table: `Instrument` 
+## Data Dictionary - Entity Table: Instrument
 Instrument table represents the security master, containing the entire universe of financial products available for investment and trading. All positions and transactions are associated with an instrument from this table. 
 Additional information for the instruments, such as identification codes (ISIN, SEDOL, CUSIP, etc.) and product specific metrics (yield, maturity, etc.) can be found in the associated tables Instrument_Attribute_Value and Instrument_Attribute_Definition.
 
