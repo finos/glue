@@ -22,7 +22,7 @@ The Asset_Classification_Node table holds the node of the asset group hierarchy,
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 | `Regime`|(`Regime`)|Asset_Classification_Regime (`id`)|NO ACTION| NO ACTION|
-| `NodeBenchmark``|(`Benchmark`)|`Benchmark` (`id`)|NO ACTION| NO ACTION|
+| `NodeBenchmark`|(`Benchmark`)|`Benchmark` (`id`)|NO ACTION| NO ACTION|
 ||
 |`Regime_idx`|Asset_Classification_Node|(`Regime` ASC)|VISIBLE|.|
 |`Benchmark_idx`|Asset_Classification_Node|(`Benchmark` ASC)|VISIBLE|.|
