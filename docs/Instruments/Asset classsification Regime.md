@@ -1,7 +1,5 @@
-
 ---
 id: Asset_Classification_Regime
-
 title: Asset_Classification_Regime
 ---
 
