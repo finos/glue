@@ -15,7 +15,7 @@ In Glue, the Asset Classification tables permit the creation of arbitrary asset 
 |---|---|---|---|---|
 |Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example|Comment|
 ||
-| id` |BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
+| `id` |BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Parent`| BIGINT(12)| NULL|1|Id for the top node of hierarchy (parent) of asset classification (from Asset_Classification_Node). Recommended is to store only the direct relationships between parent node and child node, not the indirect relationships (in case the depth > 2)|
 |`Child` |BIGINT(12)| NULL|2|Id for the underlying node in the hierarchy (child) of asset classification (from Asset_Classification_Node). More than one child node can be associated with parent node.|
 |`Level`| INT| NULL|2|Layer of asset classification depth e.g:2|
