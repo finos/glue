@@ -10,9 +10,9 @@ The CMA_Set table contains multiple scenarios/assumptions based on asset classif
 CMA plays important role in the Strategic (SAA) and Tactic Asset Allocation (TAA). The CMA set can be based on internally developed Scenario or on general Capital Market Assumption. 
 This provides flexibility for building individual Investment strategies (by adjusting the TAA)  in different market conditions.
 
-| Primary Key ('id')|.|ENGINE = InnoDB|.|.|
-|---|---|---|---|---|
-| Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
+|Primary Key ('id')|.|ENGINE = InnoDB|.|.|
+|---|---|---|-----|-----|
+|Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
 |`id`| BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Name`|VARCHAR(45)|NULL|US Treasury; UK Equity in Moderate Bull Market|Name of CMA Set/Scenario|
