@@ -22,7 +22,7 @@ This table describes these changes in terms of respective instrument market valu
 |`Order`|BIGINT(12)|NULL|1|Order id|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
-|`fk_investment_proposition_position_change_investment_proposit1`| (`investment_proposition_id`)|`Investment_Proposition` (`id`)| NO ACTION|NO ACTION|
+|`fk_investment_proposition_ position_change_investment_ proposit1`| (`investment_proposition_id`)|`Investment_Proposition` (`id`)| NO ACTION|NO ACTION|
 |`Position`|(`position_id`)|`Position` (`id`)| NO ACTION|NO ACTION|
 |`PropositionOrder`|(`Order`)|`Order` (`id`)| NO ACTION|NO ACTION|
 |`PropositionInstrument`|(`instrument_id`)|`Instrument` (`id`)| NO ACTION|NO ACTION|
