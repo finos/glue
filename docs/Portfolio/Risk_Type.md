@@ -1,4 +1,3 @@
-
 ---
 id: Risk_Type
 
