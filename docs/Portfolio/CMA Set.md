@@ -22,7 +22,7 @@ This provides flexibility for building individual Investment strategies (by adju
 |`Description`|TINYBLOB|NULL|Completing Brexit would impair growth, as domestic firms face costs of doing business with their largest trading partners in Europe, pushing up wages and inflation... |CMA Set Description can provide insight into why the specific scenario is choosen or short text containing the investor expectation for the market|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES |ON DELETE|ON UPDATE|
-|`Asset_Classification_Regime`|(`Asset_Classification_ Regime`)|`Asset_Classification_Regime` (`id`)| NO ACTION| NO ACTION|
+|`Asset_Classification_Regime`|(`Asset_Classification_ Regime`)|`Asset_Classification_ Regime` (`id`)| NO ACTION| NO ACTION|
 |`Owner`|(`Owner`)|`Business_Partner` (`id`)| NO ACTION| NO ACTION|
 ||
 | CREATE INDEX|ON|ASC|VISABLE|.|
