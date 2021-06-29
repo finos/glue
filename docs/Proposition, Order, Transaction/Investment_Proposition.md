@@ -25,14 +25,14 @@ Changes are then applied on the simulated portfolio and compared with the source
 |`Accepted_Date`|DATETIME|NULL|10/1/2020  12:30:00 PM|Date when proposal was accepted / approved by the client|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
-|`fk_investment_proposition_portfolio1`| (`real_portfolio_id`)|`Portfolio` (`id`)| NO ACTION|NO ACTION|
-|`fk_investment_proposition_portfolio2`|(`source_portfolio_id`)|`Portfolio` (`id`)| NO ACTION|NO ACTION|
-|`fk_investment_proposition_portfolio3`|(`simulated_portfolio_id`)|`Portfolio` (`id`)| NO ACTION|NO ACTION|
+|`fk_investment_proposition_ portfolio1`| (`real_portfolio_id`)|`Portfolio` (`id`)| NO ACTION|NO ACTION|
+|`fk_investment_proposition_ portfolio2`|(`source_portfolio_id`)|`Portfolio` (`id`)| NO ACTION|NO ACTION|
+|`fk_investment_proposition_ portfolio3`|(`simulated_portfolio_id`)|`Portfolio` (`id`)| NO ACTION|NO ACTION|
 |`currency`|(`presentation_currency_id`)|`Currency` (`id`)| NO ACTION|NO ACTION|
 ||
 |CREATE INDEX|ON|ASC|VISABLE|.|
-|`fk_investment_proposition_portfolio1_idx`|`Investment_Proposition`| (`real_portfolio_id` ASC)| VISIBLE|.|
-|`fk_investment_proposition_portfolio2_idx`|`Investment_Proposition`| (`source_portfolio_id` ASC)| VISIBLE|.|
-|`fk_investment_proposition_portfolio3_idx`|`Investment_Proposition`| (`simulated_portfolio_id` ASC) | VISIBLE|.|
+|`fk_investment_proposition_ portfolio1_idx`|`Investment_Proposition`| (`real_portfolio_id` ASC)| VISIBLE|.|
+|`fk_investment_proposition_ portfolio2_idx`|`Investment_Proposition`| (`source_portfolio_id` ASC)| VISIBLE|.|
+|`fk_investment_proposition_ portfolio3_idx`|`Investment_Proposition`| (`simulated_portfolio_id` ASC) | VISIBLE|.|
 |`Currency_idx`|`Investment_Proposition`| (`presentation_currency_id` ASC) | VISIBLE|.|
 ||
