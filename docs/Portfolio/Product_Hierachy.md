@@ -1,4 +1,3 @@
-
 ---
 id: Product_Hierachy
 
