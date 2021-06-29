@@ -1,4 +1,3 @@
-
 ---
 id: Restriction_Type
 
