@@ -16,7 +16,7 @@ Separate fills/transactions can be created based on limits on the traded quantit
 ||
 |`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Date`|DATETIME|NULL|10/10/2020  12:30:00 PM|Order completion date/time|
-|`Status`|VARCHAR(42)|NULL|filled;working;cancelled;rejected;completed;expired|Order status - can show only status that means that part of the order is closed. One order can be completed with one completed fill and the remaining quantity rejected|
+|`Status`|VARCHAR(42)|NULL|filled;working;cancelled;rejected; completed;expired|Order status - can show only status that means that part of the order is closed. One order can be completed with one completed fill and the remaining quantity rejected|
 |`Filled_Quantity`|DECIMAL|NULL|243|Filled quantity of the order|
 |`Remaining_Quantity`|DECIMAL|NULL|546|Remaining unfilled quantity of the order|
 |`AvgPrice`|DECIMAL|NULL|12|Average execution price|
