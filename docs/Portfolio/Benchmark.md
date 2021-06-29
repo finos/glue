@@ -1,4 +1,3 @@
-
 ---
 id: Benchmark
 
@@ -23,5 +22,5 @@ The indexes play an important role in the design, implementation and evaluation 
 || 
 |`id` |BIGINT(12) |PK,NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Name` |VARCHAR(45)| NULL|Nasdaq Composite|Name of the Benchmark|
-|`Is_Composit`| TINYINT |NN|1|Composite is a benchmark that groups together many different securities or portfolios that are managed under similar investment mandate and strategy|
+|`Is_Composite`| TINYINT |NN|1|Composite is a benchmark that groups together many different securities or portfolios that are managed under similar investment mandate and strategy|
 ||
