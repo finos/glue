@@ -1,5 +1,3 @@
-
-
 ---
 id: Node_CMA_Covariance
 
