@@ -23,7 +23,7 @@ This table defines the types of restrictions that can be enforced as well as to 
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`id`|(`Restriction`)|`Restriction` (`id`)| NO ACTION|NO ACTION|
 |`Instrument_Attribute`|(`Instrument_Attribute`)|`Instrument_Attribute_ Definition` (`id`)| NO ACTION|NO ACTION|
-|`Node`|(`Node`)|`Asset_Classification_Node` (`id`)| NO ACTION|NO ACTION|
+|`Node`|(`Node`)|`Asset_Classification_ Node` (`id`)| NO ACTION|NO ACTION|
 ||
 |CREATE INDEX|ON|ASC|VISABLE|.|
 |`id_idx`|`Restriction_Type`|(`Restriction` ASC) | VISIBLE|.|
