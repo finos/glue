@@ -19,8 +19,7 @@ This provides flexibility for building individual Investment strategies (by adju
 |`Owner`| BIGINT(12)| NULL|203|Owner signifies the provider of the evaluation for CMA in case it is external Business Partner, e.g. Market data provider, Research Analyst or external Investment Manager or Investment Bank. Such relation allows reference to methodologies and public reports.|
 |`Asset_Classification_Regime`|BIGINT(12)| NULL|1|Asset classification regime id|
 |`Type`| ENUM("Scenario", "CMA")| NULL|scenario;CMA|Only two possibilities are allowed for CMA_Set Type: Scenario (based on specific assumptions for the market) or CMA (Baseline scenario for specific asset class)|
-|`Description`| TINYBLOB| NULL|Completing Brexit would impair growth, as domestic firms face costs of doing business with their largest trading partners in Europe, pushing up wages and 
-inflation... |CMA Set Description can provide insight into why the specific scenario is choosen or short text containing the investor expectation for the market|
+|`Description`| TINYBLOB| NULL|Completing Brexit would impair growth, as domestic firms face costs of doing business with their largest trading partners in Europe, pushing up wages and inflation... |CMA Set Description can provide insight into why the specific scenario is choosen or short text containing the investor expectation for the market|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES |ON DELETE|ON UPDATE|
 |`Asset_Classification_Regime`|(`Asset_Classification_Regime`)|`Asset_Classification_Regime` (`id`)| NO ACTION| NO ACTION|
