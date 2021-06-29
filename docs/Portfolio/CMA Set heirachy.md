@@ -1,5 +1,3 @@
-
-
 ---
 id: CMA_Set_Hierarchy
 
