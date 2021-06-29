@@ -12,7 +12,7 @@ This provides flexibility for building individual Investment strategies (by adju
 
 |Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|-----|-----|
-|Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example          |Comments            |
+|Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
 |`id`| BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Name`|VARCHAR(45)|NULL|US Treasury; UK Equity in Moderate Bull Market|Name of CMA Set/Scenario|
