@@ -1,4 +1,3 @@
-
 ---
 id: Portfolio_Structure
 
