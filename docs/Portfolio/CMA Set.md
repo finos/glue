@@ -11,7 +11,7 @@ CMA plays important role in the Strategic (SAA) and Tactic Asset Allocation (TAA
 This provides flexibility for building individual Investment strategies (by adjusting the TAA)  in different market conditions.
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
-|---|---|---|---|---|
+|---|---|---|---|-----|
 | Column Name| Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
 |`id`| BIGINT(12)|PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
