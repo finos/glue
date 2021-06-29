@@ -27,15 +27,9 @@ Table represents all client positions (market values and quantities) for every p
 |`market_value_percentage_modifiable`|TINYINT|NOT NULL|1|Flag whether the market value percentage is modifiable. Determines whether user (client advisor) can modify position share (in percentages) and trigger a new proposal/trade or not.|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
-|`currency_id`|(`currency_id`)|`Currency` (`id`)| NO ACTION|NO ACTION|
-|`fk_position_financial_account1`|(`financial_account_id`)|`Financial_Account` (`id`)| NO ACTION|NO ACTION|
-|`Instrument`|(`instrument_id`)|`Instrument` (`id`)| NO ACTION|NO ACTION|
-||
-|CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`currency_id`|(`currency_id`)|`Currency` (`id`)|NO ACTION|NO ACTION|
 |`financial_account`|(`financial_account_id`)|`Financial_Account` (`id`)|NO ACTION|NO ACTION|
 |`Instrument`|(`instrument_id`)|`Instrument` (`id`)|NO ACTION|NO ACTION|
-
 ||
 |CREATE INDEX|ON|ASC|VISABLE|.|
 |`currency_id_idx`|`Position`|(`currency_id` ASC) | VISIBLE|.|
