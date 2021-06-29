@@ -15,8 +15,7 @@ There could be organization-wide restrictions and client-specific restrictions. 
 |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
 |`id`|BIGINT(12)|PK, NN|1|PrimaryKey-ID,(auto creates)|
-|`Name`|VARCHAR(45)|NULL|Portfolio Risk Class 20 Percent; Instrument Concentration 10 Percent;Risk Return Health Check;Issuer Concentration 20 Percent;
-Risk SAA EUR Conservative|Name of the restriction set|
+|`Name`|VARCHAR(45)|NULL|Portfolio Risk Class 20 Percent; Instrument Concentration 10 Percent;Risk Return Health Check;Issuer Concentration 20 Percent;Risk SAA EUR Conservative|Name of the restriction set|
 |`Owner`|BIGINT(12)|NULL|1|Related to Business partner|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
