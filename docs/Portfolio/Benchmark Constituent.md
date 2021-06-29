@@ -17,7 +17,7 @@ Relating the Contituents to Instrument Table allows scalability and the possibil
 |`id`| BIGINT(12)| PK, NN|1|PrimaryKey-ID, Not Null (auto creates)|
 |`Instrument`| BIGINT(12)| NULL|1|Instrument id from Instrument table.|
 |`Weight`| DECIMAL |NULL|0.05|Price weighted index as a decimal. Share of the instrument in the respective benchmark. Having instrument return and weight, benchmark return could be calculated and  then further compared with client portfolio return.|
-|`Benchmark_Constituent`|`Benchmark`| BIGINT(12)| NULL|1| Benchmark id of the respective Benchmark to which the Constituents belong.|
+|`Benchmark`| BIGINT(12)| NULL|1| Benchmark id of the respective Benchmark to which the Constituents belong.|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES |ON DELETE|ON UPDATE|
 |`ConstituentBenchmark`|(`Benchmark`)|`Benchmark` (`id`)|NO ACTION| NO ACTION|
