@@ -1,4 +1,3 @@
-
 ---
 id: Benchmark_Constituent
 
