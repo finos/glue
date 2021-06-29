@@ -36,15 +36,15 @@ Transaction table records all transactions affecting a client portfolio holding.
 |`position_id`|(`position_id`)|`Position`(`id`)| NO ACTION|NO ACTION|
 |`cost_price_currency_id`|(`cost_price_currency_id`)|`Currency` (`id`)| NO ACTION|NO ACTION|
 |`transaction_type_id`|(`transaction_type_id`)|`Transaction_Type`(`id`)| NO ACTION|NO ACTION|
-|`transaction_meta_type_id`|(`transaction_meta_type_id`)|`Transaction_Meta_Type` (`id`)| NO ACTION|NO ACTION|
-|`transaction_value_currency_id`|(`transaction_value_currency_id`)|`Currency` (`id`)| NO ACTION|NO ACTION|
+|`transaction_meta_ type_id`|(`transaction_meta_ type_id`)|`Transaction_Meta_Type` (`id`)| NO ACTION|NO ACTION|
+|`transaction_value_ currency_id`|(`transaction_value_ currency_id`)|`Currency` (`id`)| NO ACTION|NO ACTION|
 |`Fill`|(`Fill`)|`Fill` (`id`)| NO ACTION|NO ACTION|
 ||
 |CREATE INDEX|ON|ASC|VISABLE|.|
 |`position_id_idx`|`Transactions`|(`position_id` ASC)| VISIBLE|.|
 |`cost_price_currency_id_idx`|`Transactions`|(`cost_price_currency_id` ASC)| VISIBLE|.|
-|`transaction_type_id_idx`|`Transactions `|(`transaction_type_id` ASC)| VISIBLE|.|  
-|`transaction_meta_type_id_idx`|`Transactions `|(`transaction_meta_type_id` ASC)| VISIBLE|.|
-|`transaction_value_currency_id_idx`|`Transactions `|(`transaction_value_currency_id` ASC)| VISIBLE|.|
+|`transaction_type_ id_idx`|`Transactions `|(`transaction_type_id` ASC)| VISIBLE|.|  
+|`transaction_meta_ type_id_idx`|`Transactions `|(`transaction_meta_type_id` ASC)| VISIBLE|.|
+|`transaction_value_ currency_id_idx`|`Transactions `|(`transaction_value_currency_id` ASC)| VISIBLE|.|
 |`Fill_idx`|`Transactions `|(`Fill` ASC)| VISIBLE|.|  
 ||
