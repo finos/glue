@@ -19,10 +19,10 @@ Contains all the relations between Business Partners and divisions/teams within 
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`BP_Relationship`|(`Business_Partner`)|`Business_Partner` (`id`)| NO ACTION|NO ACTION|
 |`OE_Relationship`|(`Organizational_Entity`)|`Organizational_Entitiy` (`id`)| NO ACTION|NO ACTION|
-|`OE_To_BP_Type`|(`Relationship_Type`)|`Organization_Entity_To_Business_Partner_Type` (`id`)| NO ACTION|NO ACTION|
+|`OE_To_BP_Type`|(`Relationship_Type`)|`Organization_Entity_To_ Business_Partner_Type` (`id`)| NO ACTION|NO ACTION|
 ||
 |CREATE INDEX|ON|ASC|VISIBLE|.|
-|`BP_idx`|`Organization_Entity_To_Business_Partner`|(`Business_Partner` ASC) | VISIBLE|.|
-|`OE_idx`|`Organization_Entity_To_Business_Partner`|(`Organizational_Entity` ASC) | VISIBLE|.|
-|`Type_idx`|`Organization_Entity_To_Business_Partner`|(`Relationship_Type` ASC) | VISIBLE|.|
+|`BP_idx`|`Organization_Entity_To_ Business_Partner`|(`Business_Partner` ASC) | VISIBLE|.|
+|`OE_idx`|`Organization_Entity_To_ Business_Partner`|(`Organizational_Entity` ASC) | VISIBLE|.|
+|`Type_idx`|`Organization_Entity_To_ Business_Partner`|(`Relationship_Type` ASC) | VISIBLE|.|
 ||
