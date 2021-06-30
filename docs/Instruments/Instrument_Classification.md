@@ -23,7 +23,7 @@ E.g., instrument X can be Energy industry and Equity. This classification helps 
 |`ACNode`|(`Node`)|`Asset_Classification_Node` (`id`)| NO ACTION|NO ACTION|
 |`ACInstrument`|(`Instrument`)|`Instrument` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Node_idx`|`Instrument_Classification`| (`Node` ASC)| VISIBLE|.|
 |`Instrument_idx` |`Instrument_Classification`| (`Instrument` ASC)| VISIBLE|.|
 ||
