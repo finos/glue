@@ -7,7 +7,7 @@ title: Person_Type
 
 This is a lookup table for the Person_Type column in the Person Table. 
 
-The Person relates to several Person Types individual, Association, Corporation, Trust.			
+The Person relates to several Person Types, e.g. Individual, Association, Corporation, Trust.			
 
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
