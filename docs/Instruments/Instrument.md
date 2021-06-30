@@ -21,6 +21,7 @@ Additional information for the instruments, such as identification codes (ISIN, 
 ||
 |CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Type_idx`|`Instrument`| (`Type` ASC)| VISIBLE|.|
+||
 |CREATE UNIQUE INDEX|ON|ASC|VISIBLE|.|
 |`Name_UNIQUE`|`Instrument`| (`Name` ASC)| VISIBLE|Prevents duplication of Instruments|
 ||
