@@ -34,4 +34,4 @@ Example of other types of relationship are: account owner (the legal owner of th
 | `Business_Partner_idx`| `Business_Partner_To_Person`| (`Business_Partner` ASC)| VISIBLE|.|
 | `Relationship_Type_idx`| `Business_Partner_To_Person`| (`Relationship_Type` ASC)| VISIBLE|.|
 | `Person_idx`|`Business_Partner_To_Person`| (`Person` ASC)| VISIBLE|.|
-
+||
