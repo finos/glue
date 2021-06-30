@@ -22,7 +22,7 @@ These two transactions could be marked as related.
 |`Source`|(`Source`)|`Transactions` (`id`)| NO ACTION|NO ACTION|
 |`Associated`|(`Associated`)|`Transactions` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Source_idx` |`Transaction_Relation`|(`Source` ASC) | VISIBLE|.|
 |`Associated_idx` |`Transaction_Relation`|(`Associated` ASC)| VISIBLE|.| 
 ||
