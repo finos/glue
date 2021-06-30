@@ -25,7 +25,7 @@ Stores Legal Identification documents of the person.
 |`Issuer_Country`|('Id')|`Country `(`id`)| NO ACTION|NO ACTION|
 |`Issuer_Place`|('Id')|`Address` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Person_idx`|`Legal_Identification`|(`Person` ASC) | VISIBLE|.|
 |`Issuer_Country`|`Legal_Identification`|(`Issuer_Country` ASC) | VISIBLE|.|
 |`Issuer_Place`|`Legal_Identification`|(`Issuer_Place` ASC) | VISIBLE|.|
