@@ -21,7 +21,7 @@ If the restriction is violated by a certain position in the portfolio or by a pr
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`RestrictionType`|(`Restriction_Type`)|`Restriction_Type` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`id_idx`|`Restriction_Definition`|(`Restriction_Type` ASC)| VISIBLE|.|
 ||
 
