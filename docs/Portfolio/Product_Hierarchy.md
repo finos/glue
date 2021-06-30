@@ -1,10 +1,10 @@
 ---
 id: Product_Hierachy
 
-title: Product_Hierachy
+title: Product_Hierarchy
 ---
 
-## Data Dictionary - Entity Table: Product_Hierachy
+## Data Dictionary - Entity Table: Product_Hierarchy
 
 Product_Hierarchy allows maintenance of flexible structure for the investment products
 
@@ -20,7 +20,7 @@ Product_Hierarchy allows maintenance of flexible structure for the investment pr
 |`Parent_Product`|(`Parent`)|`Product` (`id`)| NO ACTION|NO ACTION|
 |`Child_Product`|(`Child`)|`Product` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Parent_Product_idx`|`Product_Hierachy`|(`Parent` ASC)| VISIBLE|.|
 |`Child_Product_idx`|`Product_Hierachy`|(`Child` ASC)| VISIBLE|.|
 ||
