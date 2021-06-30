@@ -29,7 +29,7 @@ Due to CID (Client Identifying Data) concerns data needs to be separated and ind
 |`Language`|(`Language`)|`Language` (`id`)| NO ACTION|NO ACTION|
 |`Person`|(`Person`)|`Person` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Title_idx`|`Person_PII`|(`Title` ASC) | VISIBLE|.|
 |`Language_idx`|`Person_PII`|(`Language` ASC) | VISIBLE|.|
 |`Person_idx`|`Person_PII`|(`Person` ASC) | VISIBLE|.|
