@@ -20,9 +20,9 @@ ISO 4217 maintaince 2 types of currency codes: alphabetic code and numeric code.
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`Identifier_Currency`|(`currency_id`)|`Currency` (`id`)|NO ACTION|NO ACTION|
-|`currency_identifier_type_id`|(`currency_identifier_type_id`)|`Currency_Identifier_Type` (`id`)|NO ACTION|NO ACTION|
+|`currency_identifier_ type_id`|(`currency_identifier_type_id`)|`Currency_Identifier_Type` (`id`)|NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`currency_id_idx`|`Currency_Identifier`|(`currency_id` ASC)|VISIBLE|.|
-|`currency_identifier_type_id_idx`|`Currency_Identifier`|(`currency_identifier_type_id` ASC)|VISIBLE|.|
+|`currency_identifier_ type_id_idx`|`Currency_Identifier`|(`currency_identifier_type_id` ASC)|VISIBLE|.|
 ||
