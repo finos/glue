@@ -19,7 +19,7 @@ The Person represents the entity behind the business relationship. The Person re
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|.|
 |`Person_Type`|(`Person_Type`)|`Person_Type` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Type_idx`|`Person`|(`Person_Type` ASC) | VISIBLE|.|
 ||
 
