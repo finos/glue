@@ -28,7 +28,7 @@ Portfolio table that contains key characteristics of every portfolio including i
 |`Strategy`|(`Investment_Strategy`)|`Investment_Strategy` (`id`)| NO ACTION|NO ACTION|
 |`Book`|(`Book`)|`Book` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`reference_currency_id_idx`|`Portfolio`|(`reference_currency_id` ASC) | VISIBLE|.|
 |`type_id_idx`|`Portfolio`|(`type_id` ASC) | VISIBLE|.|
 |`Strategy_idx`|`Portfolio`|(`Investment_Strategy` ASC) | VISIBLE|.| 
