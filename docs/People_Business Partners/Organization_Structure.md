@@ -29,6 +29,7 @@ Such mapping extends not only to individual employees but to the entire organiza
 |CREATE INDEX|ON|ASC|VISABLE|.|
 |`Parent_idx`|`Organization_Structure`|(`Parent` ASC) | VISIBLE|.|
 |`Child_idx`|`Organization_Structure`|(`Child` ASC) | VISIBLE|.|
+||
 
   
 
