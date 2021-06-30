@@ -22,7 +22,7 @@ This allows sub-portfolios to be managed entirely separately including optimizat
 |`ParentPortfolio`|(`Parent`)|`Portfolio` (`id`)| NO ACTION|NO ACTION|
 |`ChildPortfolio`|(`Child`)|`Portfolio` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Parent_idx`|`Portfolio_Structure`|(`Parent` ASC)| VISIBLE|.|
 |`Child_idx`|`Portfolio_Structure`|(`Child` ASC)  | VISIBLE|.|
 ||
