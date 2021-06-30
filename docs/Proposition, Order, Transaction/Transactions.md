@@ -40,7 +40,7 @@ Transaction table records all transactions affecting a client portfolio holding.
 |`transaction_value_ currency_id`|(`transaction_value_ currency_id`)|`Currency` (`id`)| NO ACTION|NO ACTION|
 |`Fill`|(`Fill`)|`Fill` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`position_id_idx`|`Transactions`|(`position_id` ASC)| VISIBLE|.|
 |`cost_price_currency_id_idx`|`Transactions`|(`cost_price_currency_id` ASC)| VISIBLE|.|
 |`transaction_type_ id_idx`|`Transactions `|(`transaction_type_id` ASC)| VISIBLE|.|  
