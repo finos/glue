@@ -24,7 +24,7 @@ This allows aggregation of the AUM or NNM on different levels.
 |`ChildBP`| (`Child`)| `Business_Partner` (`id`)| NO ACTION| NO ACTION|
 |`Relationship_Type`| (`Relationship_Type`)| `BP-Relationship_Type` (`id`)| NO ACTION| NO ACTION|
 ||	  
-| CREATE INDEX|ON|ASC|VISABLE|.|
+| CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Parent_idx`| `Business_Partner_Structure`| (`Parent` ASC)| VISIBLE|.|
 |`Child_idx` |`Business_Partner_Structure`| (`Child` ASC)| VISIBLE|.|
 |`Relationship_Type_idx` |`Business_Partner_Structure`| (`Relationship_Type` ASC)|VISIBLE|.|
