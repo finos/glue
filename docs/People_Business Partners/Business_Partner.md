@@ -27,7 +27,7 @@ o For internal parties these are Entities of the bank itself that own the intern
 | `BPType`| (`Business_Partner_Type`)| `Business_Partner_Type` (`id`)| NO ACTION| NO ACTION|
 | `Currency`| (`Currency`)| `Currency` (`id`)| NO ACTION| NO ACTION|
 ||
-| CREATE INDEX|ON|ASC|VISABLE|.|
+| CREATE INDEX|ON|ASC|VISIBLE|.|
 | `Type_idx`| `Business_Partner`| (`Business_Partner_Type` ASC)| VISIBLE|.|
 |`Currency_idx`|Currency|(`Currency` ASC)|VISIBLE|.|
 ||
