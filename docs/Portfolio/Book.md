@@ -19,7 +19,7 @@ Book represents a booking center which is linked to the Organizational_entity ta
 |CONSTRAINT|FOREIGN KEY|REFERENCES |ON DELETE|ON UPDATE|
 |`Organizational_Entity`|(`Organizational_Entity`)|`Organizational_Entitiy` (`id`)| NO ACTION| NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Organizational_Entity_idx`|`Book`| (`Organizational_Entity` ASC)| VISIBLE;|.|
 ||	  
 
