@@ -25,7 +25,7 @@ organizational hierarchy have a manager who is responsible for all underlying or
 |`Employee`|(`Employee`)| `Bank_Employee` (`id`)| NO ACTION|NO ACTION|
 |`EmployeetoOEType`|(`Relationship_Type`)| `Employee_To_OE_Type` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`OE_idx`|`Employee_To_Organizational_Entity`|(`OE` ASC)|VISIBLE|.|
 |`Employee_idx`|`Employee_To_Organizational_Entity`|(`Employee` ASC)|VISIBLE|.|
 |`Type_idx`|`Employee_To_Organizational_Entity`|(`Relationship_Type` ASC)|VISIBLE|.|
