@@ -20,7 +20,7 @@ This table serves to hold the values of the attributes for each individual instr
 |`Instrument`|BIGINT(12)|NULL|1|Instrument ID from the Instrument table for the specific instrument. NB! There are no constraints to enforce referential integrity across Instrument and Instrument_Attribute tables. This allows duplicate Instruments to be created. We recommend the user to establish operational process or naming conventions to minimize issues resulting from duplicates.|
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
-|`ValueInstrument_Attribute`|(`Instrument_Attribut`)|`Instrument_Attribute_ Definition` (`id`)| NO ACTION|NO ACTION|
+|`ValueInstrument_Attribute`|(`Instrument_Attribute`)|`Instrument_Attribute_ Definition` (`id`)| NO ACTION|NO ACTION|
 |`ValueInstrument`|(`Instrument`)|`Instrument` (`id`)| NO ACTION|NO ACTION|
 ||
 |CREATE INDEX|ON|ASC|VISIBLE|.|
