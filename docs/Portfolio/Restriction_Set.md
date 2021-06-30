@@ -21,6 +21,6 @@ There could be organization-wide restrictions and client-specific restrictions. 
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`Owner`|(`Owner`)|`Business_Partner` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Owner_idx`|`Restriction_Set`|(`Owner` ASC)| VISIBLE|.|
 ||
