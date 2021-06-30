@@ -22,7 +22,7 @@ The attributes applicable to one parent node should be applicable to all child n
 |`Instrument_Type_Parent`|(`Parent_Instrument_Type`)|`InstrumentType` (`id`)| NO ACTION|NO ACTION|
 |`Instrument_Type_Child`|(`Child_Instrument_Type`)|`Instrument_Type` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Child_idx`|`Instrument_Type_Hierachy`| (`Child_Instrument_Type` ASC)| VISIBLE|.|
 |`Parent_idx` |`Instrument_Type_Hierachy` |(`Parent_Instrument_Type` ASC)| VISIBLE|.|
 ||
