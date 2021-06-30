@@ -27,8 +27,9 @@ This table describes these changes in terms of respective instrument market valu
 |`PropositionOrder`|(`Order`)|`Order` (`id`)| NO ACTION|NO ACTION|
 |`PropositionInstrument`|(`instrument_id`)|`Instrument` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`fk_investment_proposition_ position_change_investment_ propos_idx`|`Investment_Proposition_ Position_Change`| (`investment_proposition_id` ASC)| VISIBLE|.|
 |`Position_idx`|`Investment_Proposition_ Position_Change`| (`position_id` ASC) | VISIBLE|.|
 |`Order_idx`|`Investment_Proposition_ Position_Change`| (`Order` ASC) | VISIBLE|.|
 |`Instrument_idx`|`Investment_Proposition_ Position_Change`| (`instrument_id` ASC)| VISIBLE|.|
+||
