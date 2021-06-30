@@ -24,7 +24,7 @@ The group of tables linked to Restrictions can be applied to check if the portfo
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`RestrictionOwner`|(`Owner`)|`Business_Partner` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Owner_idx`|`Restriction`|(`Owner` ASC)| VISIBLE|.|
 ||
 
