@@ -35,7 +35,7 @@ Under certain jurisdictions, this table should belong to the list of tables that
 |`City`|(`City`)|`City` (`id`)|NO ACTION| NO ACTION|
 |`Region`|(`Region`)|`Region` (`id`)|NO ACTION| NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Person_idx`|`Address`|(`Person` ASC)|VISIBLE|.|
 |`Address_type_idx`|`Address`|(`Address_Type` ASC)|VISIBLE|.|
 |`Country_idx`|`Address` |(`Country` ASC)|VISIBLE|.|
