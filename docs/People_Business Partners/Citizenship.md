@@ -24,7 +24,7 @@ A Person's citizenship. Citizenship of an individual person that impacts the rel
 |`CitizenshipPerson`|(`Person`)|`Person_PII` (`id`)|NO ACTION| NO ACTION|
 |`CitizenshipType`|(`Type`)| `Citizenship_Type` (`id`)|NO ACTION| NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Person_idx`|`Citizenship`|(`Person` ASC)|VISIBLE|.|
 |`Type_idx`|`Citizenship`|(`Type` ASC)|VISIBLE|.| 
 ||
