@@ -21,7 +21,7 @@ Table which describes the relationship between 2 or more Person entities.
 |`Person`|(`Person`)|`Person` (`id`)| NO ACTION|NO ACTION|
 |`Associated_Person`|(`Associated_Person`)|`Person` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`relation_type_id_idx`|`Person_Relationship`|(`Relation_Type` ASC) | VISIBLE|.|
 |`Person_idx`|`Person_Relationship`|(`Person` ASC) | VISIBLE|.|
 |`Associated_Person_idx`|`Person_Relationship`|(`Associated_Person` ASC) | VISIBLE|.|
