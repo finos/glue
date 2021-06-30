@@ -23,7 +23,7 @@ Relating the Contituents to Instrument Table allows scalability and the possibil
 |`ConstituentBenchmark`|(`Benchmark`)|`Benchmark` (`id`)|NO ACTION| NO ACTION|
 |`Instrument`|(`Instrument`)|`Instrument` (`id`)|NO ACTION| NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Benchmark_idx`|`Benchmark_Constituent`|(`Benchmark` ASC)| VISIBLE;|.|
 |`Instrument_idx`|`Benchmark_Constituent`|(`Instrument` ASC)| VISIBLE;|.|
 ||
