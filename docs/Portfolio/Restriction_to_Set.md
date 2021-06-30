@@ -21,7 +21,7 @@ Many Restriction Sets can contain multiple Restrictions and also many Restrictio
 |`Restriction_Set`|(`Restriction_Set`)|`Restriction_Set` (`id`)| NO ACTION|NO ACTION|
 |`Restriction`|(`Restriction`)|`Restriction` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Restriction_Set_idx`|`Restriction_to_Set`|(`Restriction_Set` ASC)| VISIBLE|.|
 |`Restriction_idx`|`Restriction_to_Set`|(`Restriction` ASC)| VISIBLE|.| 
 ||
