@@ -21,7 +21,7 @@ The CMA hierarchy allows flexible construction of risk assumptions based on diff
 |`Parent`|(`Parent`)|`CMA_Set` (`id`)| NO ACTION| NO ACTION|
 | `Child`|( `Child`)| `CMA_Set` (`id`)| NO ACTION| NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Parent_idx`|`CMA_Set_Hierachy`|(`Parent` ASC)|VISIBLE|.|
 |`Child_idx`|`CMA_Set_Hierachy`|(`Child` ASC)|VISIBLE|.|
 ||
