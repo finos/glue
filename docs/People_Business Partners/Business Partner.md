@@ -30,4 +30,4 @@ o For internal parties these are Entities of the bank itself that own the intern
 | CREATE INDEX|ON|ASC|VISABLE|.|
 | `Type_idx`| `Business_Partner`| (`Business_Partner_Type` ASC)| VISIBLE|.|
 |`Currency_idx`|Currency|(`Currency` ASC)|VISIBLE|.|
-
+||
