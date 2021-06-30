@@ -21,6 +21,6 @@ They show who is responsible for different client-specific relationship.
 |CONSTRAINT|FOREIGN KEY|REFERENCES |ON DELETE|ON UPDATE|
 |`BEPerson`|(`Person`)|`Person` (`id`)|NO ACTION| NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Person_idx`|`Bank_Employee`|(`Person` ASC)|VISIBLE|.|
 ||
