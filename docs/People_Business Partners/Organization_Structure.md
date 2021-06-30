@@ -26,7 +26,7 @@ Such mapping extends not only to individual employees but to the entire organiza
 |`ParentOE`|(`Parent`)|`Organizational_Entitiy` (`id`)| NO ACTION|NO ACTION|
 |`ChildOE`|(`Child`)|`Organizational_Entitiy` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Parent_idx`|`Organization_Structure`|(`Parent` ASC) | VISIBLE|.|
 |`Child_idx`|`Organization_Structure`|(`Child` ASC) | VISIBLE|.|
 ||
