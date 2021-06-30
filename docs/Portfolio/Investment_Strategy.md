@@ -28,7 +28,7 @@ The Table is related to Risk Profile, the Capital Market Assumption and the Rest
 |`CMA_Set`|(`CMA_Set`)|`CMA_Set` (`id`)| NO ACTION|NO ACTION|
 |`Benchmark`|(`Benchmark`)|`Benchmark`(`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Risk_Profile_idx`|`Investment_Strategy`|(`Risk_Profile` ASC) | VISIBLE|.|
 |`Restriction_Set_idx`|`Investment_Strategy`| (`Restriction_Set` ASC)| VISIBLE|.|
 |`CMA_Set_idx` |`Investment_Strategy`|(`CMA_Set` ASC) | VISIBLE|.|
