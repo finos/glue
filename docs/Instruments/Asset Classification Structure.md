@@ -9,7 +9,6 @@ Asset Classification represents groups of instruments with similar financial cha
 Best practice for portfolio management relies on Strategic Asset Allocation and Tactical Asset Allocation to maintain a diversified portfolio with balanced risk and reward (as defined by MPT). 
 In Glue, the Asset Classification tables permit the creation of arbitrary asset groups, e.g based on financial instrument, region, industry sector, etc, which can be hierarchicly structured.  The Asset_Classification_Structure table defines the hierarchy between different asset classification nodes (Asset_Classification_Node table).
 					
- 
 
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
@@ -24,6 +23,7 @@ In Glue, the Asset Classification tables permit the creation of arbitrary asset 
 |`ACParent`|(`Parent`)|`Asset_Classification_Node` (`id`)|NO ACTION| NO ACTION|
 |`ACChild`|(`Child`)|`Asset_Classification_Node` (`id`)|NO ACTION| NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Node_idx`|`Asset_Classification_Structure`|(`Parent` ASC)|VISIBLE|.|
 |`Child_idx`|`Asset_Classification_Structure`|(`Child` ASC)|VISIBLE|.|
+||
