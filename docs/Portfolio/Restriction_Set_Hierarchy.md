@@ -1,10 +1,10 @@
 ---
 id: Restriction_Set_Hierachy
 
-title: Restriction_Set_Hierachy
+title: Restriction_Set_Hierarchy
 ---
 
-## Data Dictionary - Entity Table: Restriction_Set_Hierachy
+## Data Dictionary - Entity Table: Restriction_Set_Hierarchy
 
 Restriction sets are hierarchical structures which provide flexibility in creating composite rule sets composed from further subgroups of restrictions. 
 They are used to define strategic and tactical investment strategies. E.g., restricting the share of issuer and instrument in the strategy: share of the instrument can be acceptable in the portfolio, however the share of the issuer can be in violation of the limits. 
@@ -22,7 +22,7 @@ Restrictions are used for portfolio construction and optimization to ensure that
 |`RestrictionSetParent`|(`Parent`)|`Restriction_Set` (`id`)| NO ACTION|NO ACTION|
 |`RestrictionSetChild`|(`Child`)|`Restriction_Set` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Parent_idx`|`Restriction_Set_Hierachy`|(`Parent` ASC)| VISIBLE|.|
 |`Child_idx`|`Restriction_Set_Hierachy`|(`Child` ASC)| VISIBLE|.|
 ||
