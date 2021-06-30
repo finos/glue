@@ -21,5 +21,7 @@ Also includes information if this is internal classification or is it based on i
 ||
 |CONSTRAINT|FOREIGN KEY|REFERENCES |ON DELETE|ON UPDATE|.|
 |`Owner`|(`id`)|`Business_Partner` (`id`)|NO ACTION| NO ACTION|
+||
 |CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Owner_idx`|`Asset_Classification_Regime`|(`Owner` ASC)| VISIBLE;|.|
+||
