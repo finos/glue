@@ -33,7 +33,7 @@ One order can have multiple fills based on the trading volumes on the market and
 |`FillCurrency`|(`Currency`)|`Currency` (`id`)| NO ACTION|NO ACTION|
 |`Fee_Currency`|( `Fee_Currency`)|`Currency` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Order_idx`|`Fill`|(`Order` ASC)|VISIBLE|.|
 |`Comission_Currency_idx`|`Fill`| (`Comission_Currency` ASC)| VISIBLE|.|
 |`Currency_idx`|`Fill`|(`Currency` ASC)|VISIBLE|
