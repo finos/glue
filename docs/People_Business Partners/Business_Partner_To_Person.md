@@ -30,7 +30,7 @@ Example of other types of relationship are: account owner (the legal owner of th
 |`BP_P_Relationship_Type`|(`Relationship_Type`)|`Business_Partner_To_Person_Relationship_Type` (`id`)| NO ACTION| NO ACTION|
 |`BP_P_Person`| (`Person`)| `Person` (`id`)| NO ACTION| NO ACTION|
 ||
-| CREATE INDEX|ON|ASC|VISABLE|.|
+| CREATE INDEX|ON|ASC|VISIBLE|.|
 | `Business_Partner_idx`| `Business_Partner_To_Person`| (`Business_Partner` ASC)| VISIBLE|.|
 | `Relationship_Type_idx`| `Business_Partner_To_Person`| (`Relationship_Type` ASC)| VISIBLE|.|
 | `Person_idx`|`Business_Partner_To_Person`| (`Person` ASC)| VISIBLE|.|
