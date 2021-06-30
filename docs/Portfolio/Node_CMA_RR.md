@@ -9,7 +9,6 @@ title: Node_CMA_RR
 Capital Market Assumptions (CMA) represent the risk and return assumptions for a distinct group of assets. CMA plays important role in the Strategic (SAA) and Tactic Asset Allocation (TAA).
 This table holds the expected Risk and Return assosiated with the selected Capital Market Assumption Set.
 
-
 | Primary Key ('id')|.|ENGINE = InnoDB|.|.|
 |---|---|---|---|---|
 |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
@@ -26,7 +25,7 @@ This table holds the expected Risk and Return assosiated with the selected Capit
 |`RRCMA_Set`|(`CMA_Set`)|`CMA_Set` (`id`)| NO ACTION|NO ACTION|
 |`RRCMANode`|(`Node`)|`Asset_Classification_Node` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`CMA_Set_idx`|`Node_CMA_RR`|(`CMA_Set` ASC) | VISIBLE|.|
 |`Node_idx`|`Node_CMA_RR`|(`Node` ASC) | VISIBLE|.|
 ||	
