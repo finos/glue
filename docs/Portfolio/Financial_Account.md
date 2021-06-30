@@ -27,7 +27,7 @@ An investor can have multiple financial accounts in their portfolio.
 |`Type`|(`Type`)|`Financial_Account_Type` (`id`)| NO ACTION|NO ACTION|
 |`Custodian`|(`Custodian`)|`Business_Partner` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Portfolio_idx`|`Financial_Account`| (`Portfolio` ASC)| VISIBLE|.|
 |`Type_idx`|`Financial_Account`| (`Type` ASC)| VISIBLE|.|
 |`Custodian_idx`|`Financial_Account`| (`Custodian` ASC)| VISIBLE|.|
