@@ -23,7 +23,7 @@ Can be email, site, IP address.
 |`EA_Person_PII`|(`Person`)|`Person_PII` (`id`)|NO ACTION|NO ACTION|
 |`EAType`|(`Type`)| `Electronic_Address_Type` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Person_idx`|`Electronic_Address`|(`Person` ASC)|VISIBLE|.|
 |`Type_idx`|`Electronic_Address`|(`Type` ASC)|VISIBLE|.|
 ||
