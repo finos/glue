@@ -19,8 +19,8 @@ Additional information for the instruments, such as identification codes (ISIN, 
 |CONSTRAINT|FOREIGN KEY|REFERENCES|ON DELETE|ON UPDATE|
 |`InstrumentType`|(`Type`)|`InstrumentType` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Type_idx`|`Instrument`| (`Type` ASC)| VISIBLE|.|
-|CREATE UNIQUE INDEX|ON|ASC|VISABLE|.|
+|CREATE UNIQUE INDEX|ON|ASC|VISIBLE|.|
 |`Name_UNIQUE`|`Instrument`| (`Name` ASC)| VISIBLE|Prevents duplication of Instruments|
 ||
