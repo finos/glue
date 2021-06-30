@@ -25,7 +25,8 @@ The information can be taken from third party provider or can be internally calc
 |`Currency_price`|(`Currency`)|`Currency`(`id`)| NO ACTION|NO ACTION|
 |`Type_price`|(`Price_quote`)|`Price_Quote`(`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Instrument_id_idx`|`Price`| (`Instrument_id` ASC)| VISIBLE|.|
 |`Currency_price_idx`|`Price`| (`Currency_id` ASC)| VISIBLE|.|
 |`Type_price_idx`|`Price`| (`Quote_type_id` ASC)| VISIBLE|.|
+||
