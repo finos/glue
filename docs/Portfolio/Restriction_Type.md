@@ -25,7 +25,7 @@ This table defines the types of restrictions that can be enforced as well as to 
 |`Instrument_Attribute`|(`Instrument_Attribute`)|`Instrument_Attribute_ Definition` (`id`)| NO ACTION|NO ACTION|
 |`Node`|(`Node`)|`Asset_Classification_ Node` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`id_idx`|`Restriction_Type`|(`Restriction` ASC) | VISIBLE|.|
 |`Instrument_Attribute_idx`|`Restriction_Type`|(`Instrument_Attribute` ASC) | VISIBLE|.|
 |`Node_idx`|`Restriction_Type `|(`Node` ASC)| VISIBLE|.|  
