@@ -14,7 +14,7 @@ ISO 4217 maintaince 2 types of currency codes: alphabetic code and numeric code.
 |---|---|---|---|---|
 |Column Name|Data Type|PK Primary Key, NN-Not Null, Null|Example|Comments|
 ||
-|`id`|BIGINT(12)|PK, NN|12|PrimaryKey-ID (auto creates)'Contains the currency identifier types'|
+|`id`|BIGINT(12)|PK, NN|12|PrimaryKey-ID (auto creates)Contains the currency identifier types|
 |`Identifier`|VARCHAR(45)|NULL|Alphabetic, Numeric|Identifier type based on ISO 4217|
 ||
 
