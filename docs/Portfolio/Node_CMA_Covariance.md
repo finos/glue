@@ -26,7 +26,7 @@ The main goal of this information is to help evaluating the risk that a portfoli
 |`Node_2`|(`Node_2`)|`Asset_Classification_Node` (`id`)| NO ACTION|NO ACTION|
 |`RRNodeCMA_Set`|(`CMA_Set`)|`CMA_Set` (`id`)| NO ACTION|NO ACTION|
 ||
-|CREATE INDEX|ON|ASC|VISABLE|.|
+|CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Node_1_idx`|`Node_CMA_Covariance`|(`Node_1` ASC) | VISIBLE|.|
 |`Node_2_idx`|`Node_CMA_Covariance`|(`Node_2` ASC) | VISIBLE|.|
 |`CMA_Set_idx`|`Node_CMA_Covariance`|(`CMA_Set` ASC) | VISIBLE|.|
