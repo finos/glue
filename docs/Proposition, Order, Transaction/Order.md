@@ -31,3 +31,4 @@ This table is a record of the orders sent to the trading system.
 ||
 |CREATE INDEX|ON|ASC|VISIBLE|.|
 |`Completion_idx`|`Order`|(`Completion` ASC)  | VISIBLE|.|
+||
