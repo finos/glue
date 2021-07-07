@@ -1,0 +1,73 @@
+@import '../primary_theme.scss';
+
+.businessValueSection {
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    background-color: $primary-background;
+
+    .businessDomainImpact,
+    .businessDomainList {
+        text-align: center;
+        flex: 1;
+    }
+
+    .businessDomainImpact img {
+        width: 100%; 
+        max-width: 350px; 
+        height: auto; 
+    }
+
+
+    .businessDomainList {
+        .businessDomainKey {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+            a {
+                display: block;
+                margin-top: 20px;
+
+                img {
+                    width: 100%; 
+                    max-width: 500px; 
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .businessDomainTitle {
+        display: flex;
+        justify-content: center;
+
+        h3 {
+            font-size: 30px;
+            text-transform: uppercase;
+            color: #fff;
+            border: 1px solid;
+            padding: 20px 30px;
+            width: 40%;
+        }
+
+        // transform: scaleX(0.85) translateZ(0);
+        // p {
+        //     font-weight: 900;
+        //     font-size: 34px;
+        //     color: transparent;
+        //     background: linear-gradient(#adadad, #fff);
+        //     -webkit-text-fill-color: transparent;
+        //     -webkit-background-clip: text;
+        //     background-clip: text;
+        //     letter-spacing: 0.25rem;
+
+        //     &::before {
+        //         position: absolute;
+        //         content: 'THE GLUE DATA MODEL COVERS THE FOLLOWING KEY ENTITY DOMAINS';
+        //         z-index: -1;
+        //         text-shadow: 0.125em 0.125em #717171;
+        //     }
+        // }
+    }
+}

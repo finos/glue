@@ -1,0 +1,16 @@
+@import 'primary_theme.scss';
+
+.navigationSlider .slidingNav ul {
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.navigationSlider .slidingNav ul li a:hover {
+  background: #0033A0; 
+
+}

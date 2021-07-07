@@ -1,0 +1,6 @@
+@import '../css/scss/primary_theme.scss';
+
+#__docusaurus .navbar__items.navbar__items--right,
+#__docusaurus .navbar-sidebar__brand .react-toggle {
+    display: none;
+  }
