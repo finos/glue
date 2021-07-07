@@ -21,8 +21,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "browserslist": {
     "production": [
       ">0.5%",
