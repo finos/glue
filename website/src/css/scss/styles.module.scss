@@ -1,0 +1,60 @@
+@import 'primary_theme.scss';
+@import 'sidebar.scss';
+@import 'navbar.scss';
+@import 'footer.scss';
+
+@import './home/landing.scss';
+@import './business_domain/summary.scss';
+@import './business_domain/relationshipsSummary.scss';
+@import './business_domain/instrumentsSummary.scss';
+
+body {
+    font-family: MuseoSans;
+    font-size: 16px;
+    line-height: 1.5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    word-wrap: break-word;
+
+    h2, h3, h4 {
+      font-family: MuseoSansHeader;
+    }
+
+    strong {
+      font-family: MuseoSansBold;
+    }
+
+    .overview-wrapper {
+      display: flex;
+
+      .overview-content {
+        flex: 2;
+        padding-right: 20px;
+      }
+
+      .overview-img {
+        flex: 1;
+      }
+    }
+
+    .overview-img-center {
+      display:block;
+      margin:auto;
+      padding-bottom: 20px;
+    }
+}
+
+@font-face {
+  font-family: MuseoSansBold;
+  src: url('../../../static/fonts/Museo_Sans/MuseoSans-700.otf') format('opentype');
+}
+
+@font-face {
+  font-family: MuseoSans;
+  src: url('../../../static/fonts/Museo_Sans/MuseoSans-300.otf') format('opentype');
+}
+
+@font-face {
+  font-family: MuseoSansHeader;
+  src: url('../../../static/fonts/Museo_Sans/MuseoSans-900.otf') format('opentype');
+}

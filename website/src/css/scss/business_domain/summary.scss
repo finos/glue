@@ -1,0 +1,25 @@
+@import '../primary_theme.scss';
+
+
+h1 {
+    text-align: center;
+}
+
+.summaryContainer {
+    width: 500px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    p {
+        color: $glue-grey-dark;
+
+        strong {
+            color: $glue-primary;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
