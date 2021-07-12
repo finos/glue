@@ -47,9 +47,9 @@ jobs:
     - name: Build Website
       run: |
         curl ${{ env.CONTRIBUTE_SCRIPT_URL }} |  bash -s
-        npm cache clean -f
-        npm install -g n
-        n stable
+        sudo npm cache clean -f
+        sudo npm install -g n
+        sudo n stable
         node --version
         npm run build --prefix website
     - name: Publish Website
