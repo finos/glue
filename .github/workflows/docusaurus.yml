@@ -47,7 +47,6 @@ jobs:
     - name: Build Website
       run: |
         curl ${{ env.CONTRIBUTE_SCRIPT_URL }} |  bash -s
-        node --version
         npm run build --prefix website
     - name: Publish Website
       run: |
