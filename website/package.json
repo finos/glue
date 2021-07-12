@@ -7,11 +7,11 @@
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "examples": "docusaurus-examples",
-    "publish-gh-pages": "docusaurus-publish",
-    "write-translations": "docusaurus-write-translations",
-    "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "examples": "docusaurus examples",
+    "publish-gh-pages": "docusaurus publish",
+    "write-translations": "docusaurus write translations",
+    "version": "docusaurus version",
+    "rename-version": "docusaurus rename version"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.69",
