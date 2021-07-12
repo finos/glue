@@ -30,9 +30,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
     - name: Install Node
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2
     - name: Install Website deps
       run: npm install --prefix website
     - name: Patch forked version
