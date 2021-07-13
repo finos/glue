@@ -15,6 +15,7 @@ hide_table_of_contents: true
 
 </div>
 
-<img width='50%' className='overview-img_src-css-scss-' src='../img/summary-diagram.png' alt='Summary Diagram'/>
-
+<div>
+    <img width='50%' className='overview-img_src-css-scss-' src='../img/summary-diagram.png' alt='Summary Diagram'/>
+</div>
 </div>

@@ -14,7 +14,7 @@ This group of 30 tables define the structure of the client’s holdings and prov
 Based on Restrictions for certain asset classes, issuers, regions, currencies and on Capital Market Assumptions regarding the risk and return of certain instrument groups, either model investment strategies can be set in the system or they can be tailored considering client’s specific needs.
 
 </div>
-
-<img className='overview-img_src-css-scss-' src="../../img/portfolio-financial-account-investment-strategy.png" alt="Portfolio / Investment Strategy"/>
-
+<div>
+    <img className='overview-img_src-css-scss-' src="../../img/portfolio-financial-account-investment-strategy.png" alt="Portfolio / Investment Strategy"/>
+</div>
 </div>

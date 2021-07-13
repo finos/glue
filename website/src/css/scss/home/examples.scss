@@ -28,6 +28,15 @@
             flex: 5;
             padding-left: 5%;
         }
+
+        @media only screen and (max-width: 1400px) {
+            display: block;
+            
+            img {
+                display: block;
+                margin: auto;
+            }
+        }
     }
 
     .imageContainer {

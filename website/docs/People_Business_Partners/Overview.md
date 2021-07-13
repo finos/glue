@@ -29,9 +29,9 @@ Individual, Legal entity (Corporation, Limited Liability Company), Trust, Intern
 **Internal:** Internal Unit, Internal Custodian, Subsidiary
 
 </div>
-
-<img className='overview-img_src-css-scss-' src="../../img/people-business-relationships-overview.png" alt="People / Business Partners"/>
-
+<div>
+    <img className='overview-img_src-css-scss-' src="../../img/people-business-relationships-overview.png" alt="People / Business Partners"/>
+</div>
 </div>
 
 <img className='overview-img-center_src-css-scss-' src="../../img/people-business-relationships-overview-2.png" alt="People / Business Partners 2"/>
