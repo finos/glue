@@ -4,11 +4,10 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "examples": "docusaurus examples",
-    "publish-gh-pages": "docusaurus publish",
+    "publish-gh-pages": "docusaurus deploy",
     "write-translations": "docusaurus write translations",
     "version": "docusaurus version",
     "rename-version": "docusaurus rename version"
