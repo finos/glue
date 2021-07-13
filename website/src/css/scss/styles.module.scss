@@ -35,6 +35,16 @@ body {
       .overview-img {
         flex: 1;
       }
+
+      @media only screen and (max-width: 1400px) {
+        display: block;
+        
+        img {
+            display: block;
+            margin: auto;
+        }
+    }
+      
     }
 
     .overview-img-center {

@@ -59,7 +59,9 @@ const Services = ({ services }) => (
                     <h4>{ service.title }</h4>
                     <p dangerouslySetInnerHTML={{ __html: service.description }}></p>
                 </div>
-                <img src={ service.image }></img>
+                <div>
+                    <img src={ service.image }></img>
+                </div>
             </div>
         ))}
     </div>
