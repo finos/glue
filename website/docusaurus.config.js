@@ -1,14 +1,13 @@
 const projectName = 'glue';
 
 module.exports = {
-  baseUrl: `/${projectName}/`,
+  baseUrl: `/`,
   tagline: `FINOS ${projectName}`,
   title: `FINOS ${projectName}`,
-  url: `https://finos.github.io/${projectName}`,
+  url: `https://finos.github.io`,
   favicon: 'img/favicon/favicon-finos.ico',
-  organizationName: 'FINOS',
+  organizationName: 'finos',
   projectName: projectName,
-  githubHost: `https://github.com/finos/${projectName}`,
   scripts: ['https://buttons.github.io/buttons.js'],
   
 
