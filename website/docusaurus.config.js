@@ -1,7 +1,7 @@
 const projectName = 'glue';
 
 module.exports = {
-  baseUrl: `/${projectName}`,
+  baseUrl: `/${projectName}/`,
   tagline: `FINOS ${projectName}`,
   title: `FINOS ${projectName}`,
   url: `https://finos.github.io`,
