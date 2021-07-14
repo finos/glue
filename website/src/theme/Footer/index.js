@@ -50,7 +50,7 @@ const GithubLink = () => (
       data-show-count="true"
       data-count-aria-label="# stargazers on GitHub"
       aria-label="Star this project on GitHub">
-      <img src={"../../../static/img/github-alt.svg"} height='100px' className={styles.githubLogo} />
+      <img src={"../../img/github-alt.svg"} height='100px' className={styles.githubLogo} />
     </FooterLink>
   </div>
 )
@@ -59,7 +59,7 @@ const FinosLink = () => (
   <div className={styles.finosLogoContainer}>
     <div className={styles.logoContainer}>
       <FooterLink url="https://www.finos.org">
-        <img id="finosicon" src={`../../../static/img/finos_wordmark.svg`} height='75px' alt="FINOS"/>
+        <img id="finosicon" src={`../../img/finos_wordmark.svg`} height='75px' alt="FINOS"/>
         <h2 id="proud">Proud member of the Fintech Open Source Foundation</h2>
       </FooterLink>
     </div>
@@ -69,7 +69,7 @@ const FinosLink = () => (
 const EpamLink = () => (
   <div className={styles.footerLogoContainer}>
     <FooterLink url="https://www.epam.com">
-      <img id="epamicon" src={`../../../static/img/epam-logo.svg`}/>
+      <img id="epamicon" src={`../../img/epam-logo.svg`}/>
     </FooterLink>
   </div>
 )

@@ -4,8 +4,8 @@ title: Overview
 hide_table_of_contents: true
 ---
 
-<div className='overview-wrapper_src-css-scss-'>
-<div className='overview-content_src-css-scss-'>
+<div className='overview-wrapper'>
+<div className='overview-content'>
 
 ### Portfolio / Investment Strategy
 
@@ -15,6 +15,6 @@ Based on Restrictions for certain asset classes, issuers, regions, currencies an
 
 </div>
 <div>
-    <img className='overview-img_src-css-scss-' src="../../img/portfolio-financial-account-investment-strategy.png" alt="Portfolio / Investment Strategy"/>
+    <img className='overview-img' src="../../img/portfolio-financial-account-investment-strategy.png" alt="Portfolio / Investment Strategy"/>
 </div>
 </div>

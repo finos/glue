@@ -4,7 +4,9 @@ footer {
     flex-direction: column;
     justify-content: center;
 
-    background-color: $primary-background;
+    section {
+        background-color: $primary-background;
+    }
 
     .footerContainer {
         display: flex;

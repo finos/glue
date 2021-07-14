@@ -12,4 +12,4 @@ An Investment Proposition is created when a client advisor wants to: modify an e
 
 Once the investment proposition is approved, it generates an order in the related trading system.
 
-<img className='overview-img-center_src-css-scss-' src="../../img/positions-transactions-orders-investment-propositions.png" alt="Proposals / Orders / Positions"/>
+<img className='overview-img-center' src="../../img/positions-transactions-orders-investment-propositions.png" alt="Proposals / Orders / Positions"/>

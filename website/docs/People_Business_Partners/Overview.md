@@ -4,8 +4,8 @@ title: Overview
 hide_table_of_contents: true
 ---
 
-<div className='overview-wrapper_src-css-scss-'>
-<div className='overview-content_src-css-scss-'>
+<div className='overview-wrapper'>
+<div className='overview-content'>
 
 ### People / Business Partners
 
@@ -30,8 +30,8 @@ Individual, Legal entity (Corporation, Limited Liability Company), Trust, Intern
 
 </div>
 <div>
-    <img className='overview-img_src-css-scss-' src="../../img/people-business-relationships-overview.png" alt="People / Business Partners"/>
+    <img className='overview-img' src="../../img/people-business-relationships-overview.png" alt="People / Business Partners"/>
 </div>
 </div>
 
-<img className='overview-img-center_src-css-scss-' src="../../img/people-business-relationships-overview-2.png" alt="People / Business Partners 2"/>
+<img className='overview-img-center' src="../../img/people-business-relationships-overview-2.png" alt="People / Business Partners 2"/>
