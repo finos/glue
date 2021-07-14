@@ -3,7 +3,7 @@ import styles from '../../css/scss/styles.module.scss';
 
 const services = [{
     title: 'Investment Management',
-    image: `../../../static/img/exampleusecases/glue_example_1.png`,
+    image: `../../img/exampleusecases/glue_example_1.png`,
     description: `
     A tool for the Chief Investment Office to manage strategies and model portfolios for discretionary and advisory mandates
     Based on vast series of market and economic risk factors (expected returns, regional biases, volatility, correlations, etc.) construct dependent strategies and portfolios under consideration of regional or client-specific requirements.
@@ -18,7 +18,7 @@ const services = [{
     `
 }, {
     title: 'Portfolio Health Monitoring Tool',
-    image: `../../../static/img/exampleusecases/glue_example_2.png`,
+    image: `../../img/exampleusecases/glue_example_2.png`,
     description: `
     A tool that alerts bank managers, client advisors and clients alike about deviations between the current client portfolio and agreed investment instructions. The flexible framework let you set up new types of restrictions easily and customize it for the bank. 
 
@@ -31,7 +31,7 @@ const services = [{
     `
 },{
     title: 'Asset Exposure Reporting Tool',
-    image: `../../../static/img/exampleusecases/glue_example_3.png`,
+    image: `../../img/exampleusecases/glue_example_3.png`,
     description: `
     Wealth Managers and Client Advisors can explore the <strong>aggregated portfolio holdings</strong> along <strong>multiple dimensions</strong> (e.g. asset class, currency, region, product type).  
     

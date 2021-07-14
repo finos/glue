@@ -5,7 +5,7 @@ function LandingSection() {
   return (
     <section className={styles.landingSection}>
       <SplashContainer>
-        <Logo img_src="../../../static/img/glue-main-logo.svg"></Logo>
+        <Logo img_src="../../img/glue-main-logo.svg"></Logo>
         <PromoSection>
           <ProjectMission><strong>Enterprise data model</strong> for <strong>buy-side firms</strong>, tailored for the needs of <strong>Wealth and Asset Managers</strong>. The model covers <strong>key entity</strong> domains such as <strong>Business Relationship</strong>, <strong>Investment Strategy</strong>, <strong>Asset Classification</strong> and <strong>Investment Propositions</strong>.</ProjectMission>
         </PromoSection>

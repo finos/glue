@@ -11,18 +11,18 @@ function BusinessValueSection() {
                 </div>
                 <div className={styles.businessDomainKey}>
                     <a href={`${baseUrl}docs/People_Business_Partners/Overview`}>
-                        <img src="../../../static/img/business_domain_share.png"></img>
+                        <img src="../../img/business_domain_share.png"></img>
                     </a>
                     <a href={`${baseUrl}docs/Portfolio/Overview`}>
-                        <img src="../../../static/img/business_domain_portfolio.png"></img>
+                        <img src="../../img/business_domain_portfolio.png"></img>
                     </a>
                 </div>
                 <div className={styles.businessDomainKey}>
                     <a href={`${baseUrl}docs/Instruments/Overview`}>
-                        <img src="../../../static/img/business_domain_instruments.png"></img>
+                        <img src="../../img/business_domain_instruments.png"></img>
                     </a>
                     <a href={`${baseUrl}docs/Proposition_Order_Transaction/Overview`}>
-                        <img src="../../../static/img/business_domain_proposition_transactions.png"></img>
+                        <img src="../../img/business_domain_proposition_transactions.png"></img>
                     </a>
                 </div>
             </div>

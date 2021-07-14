@@ -24,15 +24,16 @@ body {
       font-family: MuseoSansBold;
     }
 
-    .overview-wrapper {
+    div[class^="overview-wrapper"] {
       display: flex;
 
-      .overview-content {
+      div[class^="overview-content"] {
         flex: 2;
         padding-right: 20px;
       }
+     
 
-      .overview-img {
+      img[class^="overview-img"] {
         flex: 1;
       }
 
@@ -43,11 +44,10 @@ body {
             display: block;
             margin: auto;
         }
+      }
     }
-      
-    }
-
-    .overview-img-center {
+     
+    img[class^="overview-img-center"], img[class^="overview-img"] {
       display:block;
       margin:auto;
       padding-bottom: 20px;
