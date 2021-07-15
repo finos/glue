@@ -1,7 +1,12 @@
+<img align="right" width="40%" src="https://github.com/finos/branding/blob/master/project-logos/active-project-logos/GLUE%20Logo/Horizontal/2020_GLUE_Horizontal.png">
+
+# Glue
+
 [![FINOS - Forming](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Incubating)
 ![website build](https://github.com/finos/glue/workflows/Docusaurus-website-build/badge.svg)
 
-# Glue
+Visit the Glue microsite to learn more about the project through our fully versioned documentation.  
+- https://glue.finos.org/
 
 ## Business Problem:
 Banks are struggling to leverage their existing data residing in heterogeneous ledger systems.
