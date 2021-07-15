@@ -3,7 +3,6 @@
 # Glue
 
 [![FINOS - Forming](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Incubating)
-![website build](https://github.com/finos/glue/workflows/Docusaurus-website-build/badge.svg)
 
 Visit the Glue microsite to learn more about the project through our fully versioned documentation.  
 - https://glue.finos.org/
