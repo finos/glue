@@ -60,7 +60,7 @@ const Services = ({ services }) => (
                         service.items &&
                         <ul>
                             {
-                                service.items?.map((item, index) => (
+                                service.items.map((item, index) => (
                                     <li key={index} dangerouslySetInnerHTML={{ __html: item }}></li>
                                 ))
                             }
